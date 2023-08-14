@@ -1,0 +1,1284 @@
+{
+  "CSE 3": {
+    "name": "Computing Technology in a Changing Society",
+    "credits": 5,
+    "label": "CSE",
+    "id": "3",
+    "prerequisites": {}
+  },
+  "CSE 5J": {
+    "name": "Introduction to Programming in Java",
+    "credits": 5,
+    "label": "CSE",
+    "id": "5J",
+    "prerequisites": {}
+  },
+  "CSE 10": {
+    "name": "Introduction to Computer Science",
+    "credits": 5,
+    "label": "CSE",
+    "id": "10",
+    "prerequisites": {}
+  },
+  "CSE 12": {
+    "name": "Computer Systems and Assembly Language and Lab",
+    "credits": 7,
+    "label": "CSE",
+    "id": "12",
+    "prerequisites": {
+      "AND": [
+        "CSE 5J",
+        "CSE 20",
+        "CSE 30",
+        "BME 160",
+        "equivalent"
+      ]
+    }
+  },
+  "CSE 13S": {
+    "name": "Computer Systems and C Programming",
+    "credits": 7,
+    "label": "CSE",
+    "id": "13S",
+    "prerequisites": {
+      "AND": [
+        "CSE 12",
+        "BME 160"
+      ]
+    }
+  },
+  "CSE 16": {
+    "name": "Applied Discrete Mathematics",
+    "credits": 5,
+    "label": "CSE",
+    "id": "16",
+    "prerequisites": {
+      "AND": [
+        "MATH 19A",
+        "MATH 19B",
+        "MATH 11B",
+        "AM 11B",
+        "AM 15B",
+        "ECON 11B"
+      ]
+    }
+  },
+  "CSE 20": {
+    "name": "Beginning Programming in Python",
+    "credits": 5,
+    "label": "CSE",
+    "id": "20",
+    "prerequisites": {}
+  },
+  "CSE 30": {
+    "name": "Programming Abstractions: Python",
+    "credits": 7,
+    "label": "CSE",
+    "id": "30",
+    "prerequisites": {
+      "AND": [
+        {
+          "MPE": 3
+        },
+        {
+          "AND": [
+            "CSE 20",
+            "BME 160"
+          ]
+        },
+        {
+          "AND": [
+            "MATH 3",
+            "MATH 11A",
+            "MATH 19A",
+            "AM 3",
+            "AM 11A",
+            "ECON 11A",
+            "a sc",
+            "e of 400",
+            "higher on the mathematics placement examination (MPE)"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 40": {
+    "name": "Machine Learning Basics: Data Analysis and Empirical Methods",
+    "credits": 5,
+    "label": "CSE",
+    "id": "40",
+    "prerequisites": {
+      "AND": [
+        "MATH 19B",
+        "MATH 20B",
+        "CSE 30"
+      ]
+    }
+  },
+  "CSE 80A": {
+    "name": "Universal Access: Disability, Technology, and Society",
+    "credits": 5,
+    "label": "CSE",
+    "id": "80A",
+    "prerequisites": {}
+  },
+  "CSE 80L": {
+    "name": "Social Data Analytics and Visualization",
+    "credits": 5,
+    "label": "CSE",
+    "id": "80L",
+    "prerequisites": {}
+  },
+  "CSE 80N": {
+    "name": "Introduction to Networking and the Internet",
+    "credits": 5,
+    "label": "CSE",
+    "id": "80N",
+    "prerequisites": {}
+  },
+  "CSE 80S": {
+    "name": "Social Networks",
+    "credits": 5,
+    "label": "CSE",
+    "id": "80S",
+    "prerequisites": {
+      "AND": [
+        {
+          "MPE": 300
+        },
+        {
+          "AND": [
+            "MATH 3",
+            "MATH 11A"
+          ]
+        },
+        {
+          "AND": [
+            "AM 3",
+            "AM 6",
+            "AM 11A",
+            "AM 15A"
+          ]
+        },
+        "ECON 11A",
+        {
+          "AND": [
+            "sc",
+            "e on math placement exam of 300",
+            "higher"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 94": {
+    "name": "Group Tutorial",
+    "credits": 5,
+    "label": "CSE",
+    "id": "94",
+    "prerequisites": {}
+  },
+  "CSE 94F": {
+    "name": "Group Tutorial",
+    "credits": 2,
+    "label": "CSE",
+    "id": "94F",
+    "prerequisites": {}
+  },
+  "CSE 99": {
+    "name": "Tutorial",
+    "credits": 5,
+    "label": "CSE",
+    "id": "99",
+    "prerequisites": {}
+  },
+  "CSE 99F": {
+    "name": "Tutorial",
+    "credits": 2,
+    "label": "CSE",
+    "id": "99F",
+    "prerequisites": {}
+  },
+  "CSE 100": {
+    "name": "Logic Design",
+    "credits": 5,
+    "label": "CSE",
+    "id": "100",
+    "prerequisites": {
+      "AND": [
+        "CSE 100L",
+        "CSE 12",
+        {
+          "AND": [
+            "previous",
+            "concurrent enrollment in CSE 100L is required"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 100L": {
+    "name": "Logic Design Laboratory",
+    "credits": 2,
+    "label": "CSE",
+    "id": "100L",
+    "prerequisites": {
+      "AND": [
+        "CSE 100",
+        "CSE 12",
+        {
+          "AND": [
+            "previous",
+            "concurrent enrollment in CSE 100 is required"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 101": {
+    "name": "Introduction to Data Structures and Algorithms",
+    "credits": 5,
+    "label": "CSE",
+    "id": "101",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 12",
+            "BME 160"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 13E",
+            "ECE 13",
+            "CSE 13S"
+          ]
+        },
+        "CSE 16",
+        "CSE 30",
+        {
+          "AND": [
+            "MATH 11B",
+            "MATH 19B",
+            "MATH 20B",
+            "AM 11B"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 101M": {
+    "name": "Mathematical Thinking for Computer Science",
+    "credits": 5,
+    "label": "CSE",
+    "id": "101M",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 102": {
+    "name": "Introduction to Analysis of Algorithms",
+    "credits": 5,
+    "label": "CSE",
+    "id": "102",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 103": {
+    "name": "Computational Models",
+    "credits": 5,
+    "label": "CSE",
+    "id": "103",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 104": {
+    "name": "Computability and Computational Complexity",
+    "credits": 5,
+    "label": "CSE",
+    "id": "104",
+    "prerequisites": "CSE 103"
+  },
+  "CSE 105": {
+    "name": "Modern Algorithmic Toolbox",
+    "credits": 5,
+    "label": "CSE",
+    "id": "105",
+    "prerequisites": {
+      "AND": [
+        "CSE 102",
+        "equivalent",
+        "instruct",
+        "consent Students need a solid background in analysis of alg",
+        "ithms discrete math probability the",
+        "y graph the",
+        "y",
+        "overall mathematical maturity"
+      ]
+    }
+  },
+  "CSE 106": {
+    "name": "Applied Graph Theory and Algorithms",
+    "credits": 5,
+    "label": "CSE",
+    "id": "106",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 107": {
+    "name": "Probability and Statistics for Engineers",
+    "credits": 5,
+    "label": "CSE",
+    "id": "107",
+    "prerequisites": {
+      "AND": [
+        "CSE 16",
+        {
+          "AND": [
+            "AM 30",
+            "MATH 22",
+            "MATH 23A"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 108": {
+    "name": "Algorithmic Foundations of Cryptography",
+    "credits": 5,
+    "label": "CSE",
+    "id": "108",
+    "prerequisites": {
+      "AND": [
+        "CSE 101 Enrollment restricted to computer engineering",
+        "computer science maj",
+        "s"
+      ]
+    }
+  },
+  "CSE 110A": {
+    "name": "Fundamentals of Compiler Design I",
+    "credits": 5,
+    "label": "CSE",
+    "id": "110A",
+    "prerequisites": {
+      "AND": [
+        "CSE 12",
+        "CSE 101"
+      ]
+    }
+  },
+  "CSE 110B": {
+    "name": "Fundamentals of Compiler Design II",
+    "credits": 5,
+    "label": "CSE",
+    "id": "110B",
+    "prerequisites": "CSE 110A"
+  },
+  "CSE 111": {
+    "name": "Advanced Programming",
+    "credits": 5,
+    "label": "CSE",
+    "id": "111",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 15",
+            "CSE 15L"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 13S",
+            "CMPM 35"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 13E",
+            "CMPM 35"
+          ]
+        },
+        {
+          "AND": [
+            "ECE 13",
+            "CMPM 35"
+          ]
+        },
+        "CSE 101"
+      ]
+    }
+  },
+  "CSE 112": {
+    "name": "Comparative Programming Languages",
+    "credits": 5,
+    "label": "CSE",
+    "id": "112",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 113": {
+    "name": "Parallel and Concurrent Programming",
+    "credits": 5,
+    "label": "CSE",
+    "id": "113",
+    "prerequisites": {
+      "AND": [
+        "CSE 12",
+        "CSE 101 CSE 120 recommended"
+      ]
+    }
+  },
+  "CSE 114A": {
+    "name": "Foundations of Programming Languages",
+    "credits": 5,
+    "label": "CSE",
+    "id": "114A",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 114B": {
+    "name": "Functional Programming",
+    "credits": 5,
+    "label": "CSE",
+    "id": "114B",
+    "prerequisites": {
+      "AND": [
+        "CSE 114A Enrollment is restricted to juni",
+        "seni",
+        "computer science maj",
+        "s"
+      ]
+    }
+  },
+  "CSE 115A": {
+    "name": "Introduction to Software Engineering",
+    "credits": 5,
+    "label": "CSE",
+    "id": "115A",
+    "prerequisites": {
+      "AND": [
+        "satisfaction of the Entry Level Writing",
+        "Composition requirements",
+        "CSE 101",
+        "CSE 130"
+      ]
+    }
+  },
+  "CSE 115B": {
+    "name": "Software Design Project",
+    "credits": 5,
+    "label": "CSE",
+    "id": "115B",
+    "prerequisites": "CSE 115A"
+  },
+  "CSE 115C": {
+    "name": "Software Design Project II",
+    "credits": 5,
+    "label": "CSE",
+    "id": "115C",
+    "prerequisites": "CSE 115B"
+  },
+  "CSE 115D": {
+    "name": "Software Design Project - Accelerated",
+    "credits": 5,
+    "label": "CSE",
+    "id": "115D",
+    "prerequisites": "CSE 115A"
+  },
+  "CSE 117": {
+    "name": "Open Source Programming",
+    "credits": 5,
+    "label": "CSE",
+    "id": "117",
+    "prerequisites": {
+      "AND": [
+        "CSE 101",
+        {
+          "AND": [
+            "CSE 102",
+            "CSE 111",
+            "CSE 115A Enrollment restricted to School of Engineering maj",
+            "s"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 118": {
+    "name": "Mobile Applications",
+    "credits": 5,
+    "label": "CSE",
+    "id": "118",
+    "prerequisites": {
+      "AND": [
+        "CSE 101 Enrollment is restricted to juni",
+        "s",
+        "seni",
+        "s"
+      ]
+    }
+  },
+  "CSE 119": {
+    "name": "Software for Society",
+    "credits": 5,
+    "label": "CSE",
+    "id": "119",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 120": {
+    "name": "Computer Architecture",
+    "credits": 5,
+    "label": "CSE",
+    "id": "120",
+    "prerequisites": {
+      "AND": [
+        "CSE 12",
+        {
+          "AND": [
+            "CSE 13E",
+            "CSE 13S",
+            "ECE 13",
+            "CSE 15",
+            "CSE 15L CSE 16 recommended"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 121": {
+    "name": "Embedded System Design",
+    "credits": 7,
+    "label": "CSE",
+    "id": "121",
+    "prerequisites": {
+      "AND": [
+        "CSE 12 CSE 100 CSE 100L",
+        {
+          "AND": [
+            "CSE 13E",
+            "CSE 13S",
+            "ECE 13",
+            "CSE 15",
+            "CSE 15L"
+          ]
+        },
+        {
+          "AND": [
+            "ECE 101 ECE 101L PHYS 5C",
+            "PHYS 5N"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 122": {
+    "name": "Introduction to VLSI Digital System Design",
+    "credits": 5,
+    "label": "CSE",
+    "id": "122",
+    "prerequisites": {
+      "AND": [
+        "CSE 100 CSE 100L ECE 101",
+        "ECE 101L"
+      ]
+    }
+  },
+  "CSE 123A": {
+    "name": "Engineering Design Project I",
+    "credits": 5,
+    "label": "CSE",
+    "id": "123A",
+    "prerequisites": {
+      "AND": [
+        "CSE 185E",
+        "CSE 121",
+        {
+          "AND": [
+            "previous",
+            "concurrent enrollment in CSE 185E"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 123B": {
+    "name": "Engineering Design Project II",
+    "credits": 7,
+    "label": "CSE",
+    "id": "123B",
+    "prerequisites": {
+      "AND": [
+        "CSE 123A",
+        "CSE 185E",
+        "CSE 185S"
+      ]
+    }
+  },
+  "CSE 125": {
+    "name": "Logic Design with Verilog",
+    "credits": 7,
+    "label": "CSE",
+    "id": "125",
+    "prerequisites": {
+      "AND": [
+        "CSE 100",
+        "CSE 100L",
+        "CSE 120"
+      ]
+    }
+  },
+  "CSE 129A": {
+    "name": "Capstone Project I",
+    "credits": 2,
+    "label": "CSE",
+    "id": "129A",
+    "prerequisites": {
+      "AND": [
+        "previous",
+        "concurrent enrollment in courses CSE 121",
+        "CSE 121L Enrollment is restricted to bioengineering biomolecular engineering",
+        "bioinf",
+        "matics computer engineering",
+        "robotics engineering maj",
+        "s"
+      ]
+    }
+  },
+  "CSE 129B": {
+    "name": "Capstone Project II",
+    "credits": 5,
+    "label": "CSE",
+    "id": "129B",
+    "prerequisites": {}
+  },
+  "CSE 129C": {
+    "name": "Capstone Project III",
+    "credits": 5,
+    "label": "CSE",
+    "id": "129C",
+    "prerequisites": {}
+  },
+  "CSE 130": {
+    "name": "Principles of Computer Systems Design",
+    "credits": 5,
+    "label": "CSE",
+    "id": "130",
+    "prerequisites": {
+      "AND": [
+        "CSE 12",
+        {
+          "AND": [
+            "CSE 101",
+            "CSE 15",
+            "CSE 15L"
+          ]
+        },
+        "knowledge of C programming language"
+      ]
+    }
+  },
+  "CSE 132": {
+    "name": "Computer Security",
+    "credits": 5,
+    "label": "CSE",
+    "id": "132",
+    "prerequisites": {
+      "AND": [
+        "CSE 130",
+        "CSE 131",
+        "permission of instruct",
+        "Enrollment restricted to School of Engineering maj",
+        "s"
+      ]
+    }
+  },
+  "CSE 134": {
+    "name": "Embedded Operating Systems",
+    "credits": 5,
+    "label": "CSE",
+    "id": "134",
+    "prerequisites": {
+      "AND": [
+        "CSE 120",
+        "CSE 130"
+      ]
+    }
+  },
+  "CSE 138": {
+    "name": "Distributed Systems",
+    "credits": 5,
+    "label": "CSE",
+    "id": "138",
+    "prerequisites": {
+      "AND": [
+        "CSE 130",
+        "CSE 131"
+      ]
+    }
+  },
+  "CSE 140": {
+    "name": "Artificial Intelligence",
+    "credits": 5,
+    "label": "CSE",
+    "id": "140",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 142": {
+    "name": "Machine Learning",
+    "credits": 5,
+    "label": "CSE",
+    "id": "142",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 40",
+            "STAT 132"
+          ]
+        },
+        "CSE 101",
+        {
+          "AND": [
+            "AM 30",
+            "MATH 22",
+            "MATH 23A"
+          ]
+        },
+        {
+          "AND": [
+            "STAT 131",
+            "CSE 107"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 143": {
+    "name": "Introduction to Natural Language Processing",
+    "credits": 5,
+    "label": "CSE",
+    "id": "143",
+    "prerequisites": {
+      "AND": [
+        "CSE 101",
+        "CSE 107",
+        "STAT 131 Python competence equivalent to CSE 30 is highly recommended"
+      ]
+    }
+  },
+  "CSE 144": {
+    "name": "Applied Machine Learning: Deep Learning",
+    "credits": 5,
+    "label": "CSE",
+    "id": "144",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 40",
+            "STAT 132"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 101 Enrollment is restricted to juni",
+            "s",
+            "seni",
+            "s"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 145": {
+    "name": "Introduction to Data Mining",
+    "credits": 5,
+    "label": "CSE",
+    "id": "145",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 15",
+            "CSE 15L",
+            "CSE 30",
+            "CSE 13S"
+          ]
+        },
+        {
+          "AND": [
+            "AM 30",
+            "MATH 22",
+            "MATH 23A"
+          ]
+        },
+        {
+          "AND": [
+            "STAT 5",
+            "CSE 107",
+            "STAT 131"
+          ]
+        },
+        {
+          "AND": [
+            "AM 10",
+            "MATH 21"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 16",
+            "ECON 113 Enrollment restricted to juni",
+            "s",
+            "seni",
+            "s Graduate students by permission of instruct"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 146": {
+    "name": "Ethics and Algorithms",
+    "credits": 5,
+    "label": "CSE",
+    "id": "146",
+    "prerequisites": {
+      "AND": [
+        "CSE 101",
+        {
+          "AND": [
+            "CSE 107",
+            "STAT 131 CSE 142",
+            "CSE 140 are recommended"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 150": {
+    "name": "Introduction to Computer Networks",
+    "credits": 7,
+    "label": "CSE",
+    "id": "150",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 16",
+            "CSE 12"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 30",
+            "CSE 15",
+            "CSE 15L"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 151": {
+    "name": "Advanced Computer Networks",
+    "credits": 5,
+    "label": "CSE",
+    "id": "151",
+    "prerequisites": "CSE 150 Concurrent enrollment in CSE 151L is required"
+  },
+  "CSE 151L": {
+    "name": "Advanced Computer Networks Laboratory",
+    "credits": 2,
+    "label": "CSE",
+    "id": "151L",
+    "prerequisites": "CSE 150 Concurrent enrollment in CSE 151 is required"
+  },
+  "CSE 152": {
+    "name": "Principles of Computer Communication",
+    "credits": 5,
+    "label": "CSE",
+    "id": "152",
+    "prerequisites": {
+      "AND": [
+        "CSE 107 CSE 150",
+        "CSE 150L"
+      ]
+    }
+  },
+  "CSE 156": {
+    "name": "Network Programming",
+    "credits": 5,
+    "label": "CSE",
+    "id": "156",
+    "prerequisites": {
+      "AND": [
+        "CSE 150",
+        "CSE 101 Concurrent enrollment in course CSE 156L is required"
+      ]
+    }
+  },
+  "CSE 156L": {
+    "name": "Network Programming Laboratory",
+    "credits": 2,
+    "label": "CSE",
+    "id": "156L",
+    "prerequisites": {
+      "AND": [
+        "CSE 150",
+        "CSE 101 Concurrent enrollment in CSE 156 is required"
+      ]
+    }
+  },
+  "CSE 157": {
+    "name": "Internet of Things",
+    "credits": 7,
+    "label": "CSE",
+    "id": "157",
+    "prerequisites": {
+      "AND": [
+        "CSE 121",
+        "CSE 150"
+      ]
+    }
+  },
+  "CSE 160": {
+    "name": "Introduction to Computer Graphics",
+    "credits": 7,
+    "label": "CSE",
+    "id": "160",
+    "prerequisites": {
+      "AND": [
+        "CSE 101",
+        "MATH 21",
+        "AM 10"
+      ]
+    }
+  },
+  "CSE 161": {
+    "name": "Introduction to Data Visualization",
+    "credits": 5,
+    "label": "CSE",
+    "id": "161",
+    "prerequisites": {
+      "AND": [
+        "CSE 160",
+        "equivalent Concurrent enrollment in CSE 161L is required"
+      ]
+    }
+  },
+  "CSE 161L": {
+    "name": "Data Visualization Laboratory",
+    "credits": 2,
+    "label": "CSE",
+    "id": "161L",
+    "prerequisites": "enrollment in CSE 161 is required"
+  },
+  "CSE 162": {
+    "name": "Advanced Computer Graphics and Animation",
+    "credits": 5,
+    "label": "CSE",
+    "id": "162",
+    "prerequisites": {
+      "AND": [
+        "CSE 160",
+        "equivalent Concurrent enrollment in CSE 162L is required"
+      ]
+    }
+  },
+  "CSE 162L": {
+    "name": "Advanced Computer Graphics and Animation Laboratory",
+    "credits": 2,
+    "label": "CSE",
+    "id": "162L",
+    "prerequisites": "concurrent enrollment in CSE 162 is required"
+  },
+  "CSE 163": {
+    "name": "Data Programming for Visualization",
+    "credits": 5,
+    "label": "CSE",
+    "id": "163",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 164": {
+    "name": "Computer Vision",
+    "credits": 5,
+    "label": "CSE",
+    "id": "164",
+    "prerequisites": "CSE 144"
+  },
+  "CSE 165": {
+    "name": "Human-Computer Interaction",
+    "credits": 5,
+    "label": "CSE",
+    "id": "165",
+    "prerequisites": "CSE 15"
+  },
+  "CSE 167": {
+    "name": "Mobile Sensing and Interaction",
+    "credits": 5,
+    "label": "CSE",
+    "id": "167",
+    "prerequisites": {
+      "AND": [
+        "CSE 13S",
+        {
+          "AND": [
+            "CSE 13E",
+            "ECE 13"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 15",
+            "CSE 15L"
+          ]
+        },
+        {
+          "AND": [
+            "PHYS 5A",
+            "PHYS 6A"
+          ]
+        },
+        {
+          "AND": [
+            "AM 10",
+            "MATH 21"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 168": {
+    "name": "Introduction to Augmented Reality and Virtual Reality",
+    "credits": 7,
+    "label": "CSE",
+    "id": "168",
+    "prerequisites": {}
+  },
+  "CSE 180": {
+    "name": "Database Systems I",
+    "credits": 5,
+    "label": "CSE",
+    "id": "180",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 181": {
+    "name": "Database Systems II",
+    "credits": 5,
+    "label": "CSE",
+    "id": "181",
+    "prerequisites": {
+      "AND": [
+        "CSE 180",
+        "CSE 130"
+      ]
+    }
+  },
+  "CSE 182": {
+    "name": "Introduction to Database Management Systems",
+    "credits": 5,
+    "label": "CSE",
+    "id": "182",
+    "prerequisites": {
+      "AND": [
+        {
+          "AND": [
+            "CSE 16",
+            "BME 160"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 15",
+            "CSE 15L",
+            "CSE 13E",
+            "CSE 13S",
+            "ECE 13 Course intended f",
+            "non-maj",
+            "s"
+          ]
+        },
+        {
+          "AND": [
+            "computer science maj",
+            "s should enroll in CSE 180"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 183": {
+    "name": "Web Applications",
+    "credits": 5,
+    "label": "CSE",
+    "id": "183",
+    "prerequisites": {
+      "AND": [
+        "CSE 15",
+        "CSE 15L",
+        "CMPM 35",
+        "CSE 101"
+      ]
+    }
+  },
+  "CSE 184": {
+    "name": "Data Wrangling and Web Scraping",
+    "credits": 5,
+    "label": "CSE",
+    "id": "184",
+    "prerequisites": "CSE 101"
+  },
+  "CSE 185E": {
+    "name": "Technical Writing for Computer Science and Engineering",
+    "credits": 5,
+    "label": "CSE",
+    "id": "185E",
+    "prerequisites": {
+      "AND": [
+        "WRIT 1",
+        {
+          "AND": [
+            "satisfaction of Entry Level Writing",
+            "Composition requirements"
+          ]
+        },
+        {
+          "AND": [
+            "CSE 12",
+            "CSE 15",
+            "CSE 30",
+            "BME 160",
+            "by permission of the instruct",
+            "Enrollment is restricted to computer engineering bioengineering bioinf",
+            "matics biomolecular engineering",
+            "bioinf",
+            "matics",
+            "netw",
+            "k",
+            "digital technology maj",
+            "s"
+          ]
+        }
+      ]
+    }
+  },
+  "CSE 186": {
+    "name": "Full Stack Web Development I",
+    "credits": 5,
+    "label": "CSE",
+    "id": "186",
+    "prerequisites": {
+      "AND": [
+        "CSE 15",
+        "CSE 15L",
+        "CSE 30",
+        "CSE 101 Enrollment is restricted to juni",
+        "s",
+        "seni",
+        "s maj",
+        "ing in computer engineering computer science",
+        "computer game design"
+      ]
+    }
+  },
+  "CSE 187": {
+    "name": "Full Stack Web Development II",
+    "credits": 5,
+    "label": "CSE",
+    "id": "187",
+    "prerequisites": {
+      "AND": [
+        "CSE 186 Enrollment is restricted to juni",
+        "s",
+        "seni",
+        "s"
+      ]
+    }
+  },
+  "CSE 191": {
+    "name": "Computer Science and Technology Seminar",
+    "credits": 2,
+    "label": "CSE",
+    "id": "191",
+    "prerequisites": {}
+  },
+  "CSE 192": {
+    "name": "Supervised Student Teaching/Tutoring",
+    "credits": 5,
+    "label": "CSE",
+    "id": "192",
+    "prerequisites": {}
+  },
+  "CSE 192F": {
+    "name": "Supervised Student Teaching/Tutoring",
+    "credits": 2,
+    "label": "CSE",
+    "id": "192F",
+    "prerequisites": {}
+  },
+  "CSE 193": {
+    "name": "Field Study",
+    "credits": 5,
+    "label": "CSE",
+    "id": "193",
+    "prerequisites": {}
+  },
+  "CSE 193F": {
+    "name": "Field Study",
+    "credits": 2,
+    "label": "CSE",
+    "id": "193F",
+    "prerequisites": {}
+  },
+  "CSE 194": {
+    "name": "Group Tutorial",
+    "credits": 5,
+    "label": "CSE",
+    "id": "194",
+    "prerequisites": {}
+  },
+  "CSE 194F": {
+    "name": "Group Tutorial",
+    "credits": 2,
+    "label": "CSE",
+    "id": "194F",
+    "prerequisites": {}
+  },
+  "CSE 195": {
+    "name": "Senior Thesis Research",
+    "credits": 5,
+    "label": "CSE",
+    "id": "195",
+    "prerequisites": {}
+  },
+  "CSE 195F": {
+    "name": "Senior Thesis Research",
+    "credits": 2,
+    "label": "CSE",
+    "id": "195F",
+    "prerequisites": {}
+  },
+  "CSE 198": {
+    "name": "Individual Study or Research",
+    "credits": 5,
+    "label": "CSE",
+    "id": "198",
+    "prerequisites": {}
+  },
+  "CSE 198F": {
+    "name": "Individual Study or Research",
+    "credits": 2,
+    "label": "CSE",
+    "id": "198F",
+    "prerequisites": {}
+  },
+  "CSE 199": {
+    "name": "Tutorial",
+    "credits": 5,
+    "label": "CSE",
+    "id": "199",
+    "prerequisites": {}
+  },
+  "CSE 199F": {
+    "name": "Tutorial",
+    "credits": 2,
+    "label": "CSE",
+    "id": "199F",
+    "prerequisites": {}
+  }
+}
