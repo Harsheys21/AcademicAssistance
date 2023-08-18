@@ -1,0 +1,33 @@
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .prev-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev-button:hover {
+    background-color: #0056b3;
+  }
+  
