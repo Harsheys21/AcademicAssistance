@@ -1,0 +1,480 @@
+
+ 
+GO!
+Go To
+Harsh Jha
+Search
+Plan
+Enroll
+Grades
+My Academics
+My Academic Requirements
+UC Santa Cruz | Undergraduate
+This report last generated on
+08/19/2023 10:24AM
+📣 Students, we'd like your feedback on the Degree Progress Report (DPR).
+Take a short survey
+
+Taken
+In Progress
+Planned
+Taken
+In Progress
+Planned
+IMPORTANT INFORMATION REGARDING THE DEGREE PROGRESS REPORT Collapsible section IMPORTANT INFORMATION REGARDING THE DEGREE PROGRESS REPORT 
+Group Box
+The Degree Progress Report (DPR) is a tool to help track your progress toward graduation. Resources are available for all users to aid in the use of the DPR. Contact your major or college advisor with any questions about graduation requirements.
+
+The DPR is being updated as part of the Degree Audit Initiative. More information about the initiative, as well as the current status of each program, is available on the initiative website. (RG2398)
+
+UNIVERSITY OF CALIFORNIA REQUIREMENTS Collapsible section UNIVERSITY OF CALIFORNIA REQUIREMENTS 
+GENERAL EDUCATION REQUIREMENTS *excluding DC Collapsible section GENERAL EDUCATION REQUIREMENTS *excluding DC 
+CMPSBS - LOWER-DIVISION REQUIREMENTS (2022-23 Catalog) Collapsible section CMPSBS - LOWER-DIVISION REQUIREMENTS (2022-23 Catalog) 
+Group Box
+Computer Science B.S. Lower-Division Requirements (RG2765)
+
+All Major Courses Must be Taken for a Letter Grade
+(R2158)
+
+Computer Science and Engineering
+Satisfied:   (R2311)
+
+CSE 12 Collapsible section CSE 12 
+CSE 16 Collapsible section CSE 16 
+CSE 20 Collapsible section CSE 20 
+CSE 30 Collapsible section CSE 30 
+CSE 13S Collapsible section CSE 13S 
+Mathematics
+Satisfied:   (R483)
+
+MATH 19A or 20A Collapsible section MATH 19A or 20A 
+MATH 19B or 20B Collapsible section MATH 19B or 20B 
+Applied Mathematics
+Satisfied:   (R482)
+
+AM 10 or MATH 21 Collapsible section AM 10 or MATH 21 
+AM 30 or MATH 23A Collapsible section AM 30 or MATH 23A 
+Engineering Science
+ Not Satisfied:   (R2312)
+
+ECE 30 Collapsible section ECE 30 
+ Not Satisfied:   (R2312, L10)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CMPSBS - UPPER-DIVISION REQUIREMENTS (2022-23 Catalog) Collapsible section CMPSBS - UPPER-DIVISION REQUIREMENTS (2022-23 Catalog) 
+Group Box
+Computer Science B.S. Upper-Division Requirements (RG2766)
+
+Computer Science and Engineering
+ Not Satisfied:   (R122)
+
+CSE 101 Collapsible section CSE 101 
+CSE 102 Collapsible section CSE 102 
+CSE 103 Collapsible section CSE 103 
+ Not Satisfied:   (R122, L40)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CSE 112 or 114A Collapsible section CSE 112 or 114A 
+ Not Satisfied:   (R122, L60)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CSE 120 Collapsible section CSE 120 
+CSE 130 Collapsible section CSE 130 
+Statistics
+Satisfied:   (R123)
+
+STAT 131 or CSE 107 Collapsible section STAT 131 or CSE 107 
+Electives
+Four electives. Lecture/lab combinations count as one course. CSE 195 may be used either as an elective, or to satisfy the DC requirement, but not both. (R2150)
+
+CSE Elective - COURSE LIST DISPLAY Collapsible section CSE Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2150, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+CSE Elective (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+Non-AM/STAT/MATH Elective - COURSE LIST DISPLAY Collapsible section Non-AM/STAT/MATH Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2153, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+Elective 2 (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+Additional Elective - COURSE LIST DISPLAY Collapsible section Additional Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2157, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+Elective 3 (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+Additional Elective - COURSE LIST DISPLAY Collapsible section Additional Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2154, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+Elective 4 (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+DC: Disciplinary Communication for Computer Science B.S.
+ Not Satisfied:   The DC requirement must be taken at UCSC. Any exceptions or substitutions to this requirement must be approved by the Committee on Courses of Instruction. Complete ONE of the following options. (R867)
+
+CSE 115A, 185E, or 185S Collapsible section CSE 115A, 185E, or 185S 
+ Not Satisfied:   CSE 115A (formerly CMPS 115) or CSE 185E (formerly CMPE 185) or CSE 185S. Can also be satisfied by CMPS 195 if taken before Fall 2019. (R867, L10)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1-3 of 3 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+CSE 115A
+Intro Software Eng
+5.00
+ 
+ 
+ 	
+ 
+CSE 185E
+Tech Writ Comp Engs
+5.00
+ 
+ 
+ 	
+ 
+CSE 185S
+Tech Writ Comp Engs
+5.00
+ 
+ 
+ 	
+ 
+CSE 195 Collapsible section CSE 195 
+ Not Satisfied:   CSE 195, if taken Fall 2019 or later. (R867, L40)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+Comprehensive Requirement
+Satisfied:   Complete ONE of the following options
+Note: Lecture/Labs count as a single course. A capstone course can also count toward the upper-division electives requirement. (R55)
+
+Option 1: Capstone Course Collapsible section Option 1: Capstone Course 
+CROWN COLLEGE REQUIREMENTS Collapsible section CROWN COLLEGE REQUIREMENTS 
+Statistics Collapsible section Statistics 
+Effective Term:
+2023 Summer Quarter
+UC GPA:
+3.85
+% Graded Pass(P):*
+14.29
+UCSC Cumulative Credits:
+164.00
+The information on this page reflects earned/completed credits as of the effective term listed above.
+
+* If the percentage listed is 25% or less, you are on track to meet the graduation requirement (applies to undergraduates only).
+The % Graded Pass is the percentage of passing (P) credits earned excluding any of the following: (1) UCSC courses graded P for quarters in which the Committee on Educational Policy has excluded Pass grades from the percent calculation for graduation (Spring 2020, Summer 2020, Fall 2020, Winter 2021, Spring 2021, Summer 2021, Fall 2022), (2) UCSC courses graded P when a letter grade was requested by the student, and (3) All non-UCSC courses from special programs such as ROTC and domestic exchanges.
+UCSC courses include any credits earned in the Education Abroad Program or at another UC campus in an intercampus exchange program. Some majors require all courses in the major to be taken for a letter grade; please visit https://catalog.ucsc.edu for detailed major information.
+
+Double Counting Collapsible section Double Counting 
+
+Double Counting: Beginning fall 2008, UCSC Academic Senate Regulation 10.4.7 allows overlap or double-counting of courses at the upper-division level. However, the Regulation places a limit on the amount of such overlap. For each major a student completes, there must be at least 40 upper-division credits not used to satisfy the minimum upper-division credits of any other major or minor. For each minor there must be at least 25 upper-division credits not used to satisfy the minimum upper-division credits of any other major or minor. For more information about this policy, please refer to the Academic Senate Regulation 10.4.7.
+
+
+Computer Science BS: 25 upper-division credits
+ CSE 101 (5)	 CSE 102 (5)	 CSE 120 (5)	 CSE 130 (5)
+ STAT 131 (5)	 	 	 
+
+Non-Degree: 0 upper-division credits
+Collapse All
+UCSC Courses
+*Denotes course with multiple instructors.
+Term	Course	Title	Credits Taken	Credits Earned	Grade	Grade Points	GE	Repeat	Instructor
+2238
+CSE- 103-01
+Computational Models
+5.0
+ 
+ 
+ 
+ 
+ 
+Fremont,D.
+2238
+CSE- 115A-01
+Intro Software Eng
+5.0
+ 
+ 
+ 
+ 
+ 
+Jullig,R.
+2238
+CSE- 180-01
+Database Systems I
+5.0
+ 
+ 
+ 
+ 
+ 
+Finkelstein,S.
+2234
+CSE- 102-01
+Intro Algorthm Anyl
+5.0
+5.0
+A+
+20.00
+ 
+ 
+Lodha,S.
+2232
+CSE-  40-01
+ML Basics
+5.0
+5.0
+A-
+18.50
+SR
+ 
+Getoor,L.
+2232
+CSE- 130-01
+Prin Comp Sys Dsgn
+5.0
+5.0
+A-
+18.50
+ 
+ 
+Veenstra,K.
+2232
+WRIT-   2-24
+Rhetoric & Inquiry
+5.0
+5.0
+P
+ 
+C
+ 
+Baker,M.
+2230
+COWL- 168-01
+Social Change
+2.0
+2.0
+A
+8.00
+PR-S
+ 
+Stinneford,C.
+2230
+CSE- 101-02
+Data Structs & Algs
+5.0
+5.0
+A
+20.00
+ 
+ 
+Tantalo,P.
+2230
+CSE- 120-01
+Computer Architect
+5.0
+5.0
+A+
+20.00
+ 
+ 
+Nath,S.
+2230
+STEV-  43-01
+Nationalism Today
+5.0
+5.0
+P
+ 
+CC
+ 
+Silver,K.
+2228
+CSE-  16-01
+Appl Discrete Math
+5.0
+5.0
+A
+20.00
+MF
+ 
+Van Gelder,A.
+2228
+CSE-  80N-01
+Intro to Networking
+5.0
+5.0
+A+
+20.00
+PE-T
+ 
+Graziani,R.
+2228
+STAT- 131-01
+Intro Prob Theory
+5.0
+5.0
+A-
+18.50
+SR
+ 
+Sanso,B.
+2222
+COWL-  89-01
+Fac Research Colloq
+2.0
+2.0
+A
+8.00
+ 
+ 
+Smith,A.
+2222
+CSE-  13S-01
+Comp Sys and C Prog
+7.0
+7.0
+A-
+25.90
+ 
+ 
+Rudnick,A.
+2222
+MATH-  23A-01
+Vector Calculus
+5.0
+5.0
+A
+20.00
+MF
+ 
+Migliore,E.*
+2222
+WRIT-   1-12
+Intro to Comp
+5.0
+5.0
+P
+ 
+ 
+ 
+Lane,M.
+2220
+AM-  10-01
+Math Methods I
+5.0
+5.0
+A
+20.00
+MF
+ 
+Jonsson,V.
+2220
+CSE-  12-01
+Com Sys/Assmbly Lan
+7.0
+7.0
+A
+28.00
+ 
+ 
+Renau Ardevol,J.
+2220
+FILM-  80S-01
+Sp Top Film/Dig Med
+5.0
+5.0
+B-
+13.50
+IM
+ 
+Lyons,J.
+2218
+CRWN-   1-09
+ALE:Emerging Tech
+5.0
+5.0
+A
+20.00
+ 
+ 
+Berkley,L.
+2218
+CSE-  30-01
+Prog Abs Python
+7.0
+7.0
+A
+28.00
+ 
+ 
+De Alfaro,L.
+2218
+MATH-  19B-01
+Calc:Sci,Engin,Math
+5.0
+5.0
+A+
+20.00
+MF
+ 
+Tromba,A.*
+2214
+CRWN-   1A-01
+Univ Life & Learning
+1.0
+1.0
+P
+ 
+ 
+ 
+Miljkovic,N.*
+Expand All Transfer Credit
+Transfer Credit
+Expand All Test Credit
+Test Credit
+Go to top iconGo to top
