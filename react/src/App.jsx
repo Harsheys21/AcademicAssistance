@@ -3,31 +3,41 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Input from "./components/Input";
 import Majors from "./components/Majors";
+import Welcome from "./components/Welcome";
+import Dashboard from "./components/Dashboard";
+import PrivateRoute from "./components/PrivateRoute";
 
 function App() {
   return (
     <>
       {/* temporary style, focusing on Auth functionality */}
-      {/* 
-      <div>
-        <Login></Login>
-      </div> */}
-      {/* <Input></Input> */}
 
       <Router>
         <Routes>
-          <Route path="/jha" element={<Login />} />
-          <Route path="/oogabooga" element={<Input />} />
+          <Route path="/" element={<Welcome />} />
           <Route
-            path="/jhamaster"
+            path="/concentrations"
             element={
               <Majors
                 onSelectItem={(item) => console.log(item)}
-                heading="Majors"
-                items={["thing1", "thing2", "thing3"]}
+                heading="Concentrations"
+                items={[
+                  "Software Design and Computer Systems",
+                  "Machhine Learning and Artificial Intelligence",
+                  "Graphics and Visualization",
+                  "Web Development",
+                  "CyberSecurity",
+                ]}
               />
             }
           />
+          <Route path="/input" element={<Input />} />
+          <Route path="/login" element={<Login />} />
+          {/* TODO: Make login button on login page route to dashboard */}
+          {/* TODO: Make dashboard component accessible to logged in users only (Private Routes) */}
+          <Route element={<PrivateRoute />}>
+            <Route path="/dashboard" element={<Dashboard />} exact />
+          </Route>
         </Routes>
       </Router>
     </>

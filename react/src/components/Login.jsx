@@ -10,6 +10,9 @@ import {
 import { auth } from "../firebase-config";
 import { Form, Button, Card } from "react-bootstrap";
 import "./Login.css";
+import NavButton from "./NavButton";
+import { useNavigate } from "react-router-dom";
+import "../components/NavButton.css";
 
 function Login() {
   const [registerEmail, setRegisterEmail] = useState("");
@@ -18,6 +21,10 @@ function Login() {
   const [loginPassword, setLoginPassword] = useState("");
 
   const [user, setUser] = useState({});
+
+  const [error, setError] = useState("");
+
+  let navigate = useNavigate();
 
   useEffect(() => {
     onAuthStateChanged(auth, (currentUser) => {
@@ -35,6 +42,7 @@ function Login() {
       );
       console.log(user);
     } catch (error) {
+      setError("FAILED TO REGISTER: " + error.message);
       console.log(error.message);
     }
   };
@@ -48,6 +56,7 @@ function Login() {
       );
       console.log(user);
     } catch (error) {
+      setError("FAILED TO LOGIN: " + error.message);
       console.log(error.message);
     }
   };
@@ -61,6 +70,12 @@ function Login() {
     await signOut(auth);
   };
 
+  // const handleAdd = async (event) => {
+  //   event.preventDefault();
+  // };
+
+  // TODO: Use Context file to upload doc to firebase
+
   return (
     <>
       {/* temporary style, focusing on Auth functionality */}
@@ -68,6 +83,8 @@ function Login() {
       <div className="container">
         <div className="center">
           <div>
+            <p>If you want to save your data, login here:</p>
+            <p>{error}</p>
             <h3>Register</h3>
             <input
               id="registerEmial"
@@ -114,6 +131,11 @@ function Login() {
           <div></div>
           <button onClick={handleGoogle}>Sign In with Google</button>
         </div>
+        <NavButton
+          text="Prev"
+          className="prev-button"
+          onClick={() => navigate("/input")}
+        />
       </div>
     </>
   );

@@ -1,11 +1,19 @@
 import { useState } from "react";
 import "./Form.css"; // Import the CSS file
-import { useNavigate, useParams } from "react-router-dom";
-import "./NavButton";
-import NavButton from "./NavButton";
+
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "../firebase-config";
 
 const Form = (props) => {
   const [inputText, setInputText] = useState("");
+
+  const handleAdd = async () => {
+    await setDoc(doc(db, "cities", "LA"), {
+      name: "Los Angeles",
+      state: "CA",
+      country: "USA",
+    });
+  };
 
   const handleInputChange = (event) => {
     // console.log(event.target.value);
@@ -17,8 +25,6 @@ const Form = (props) => {
     props.onSubmit(inputText);
     setInputText("");
   };
-
-  let navigate = useNavigate();
 
   return (
     <form className="text-input-form" onSubmit={handleSubmit}>
@@ -32,11 +38,6 @@ const Form = (props) => {
         />
       </div>
       <button type="submit">Submit</button>
-      <NavButton
-        text="Next"
-        className="next-button"
-        onClick={() => navigate("/jhamaster")}
-      />
     </form>
   );
 };

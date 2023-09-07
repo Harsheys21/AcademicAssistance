@@ -20,32 +20,36 @@ function Majors(props) {
 
   return (
     <>
-      <h1>{props.heading}</h1>
-      {props.items.length === 0 && <p>No item found</p>}
-      <ul className="list-group">
-        {props.items.map((item, index) => (
-          <React.Fragment key={index}>
-            <MajorOption
-              active={selectedIndex === index}
-              text={item}
-              onClick={() => {
-                setSelectedIndex(index);
-                props.onSelectItem(item);
-              }}
-            />
-          </React.Fragment>
-        ))}
-      </ul>
-      <NavButton
-        text="Prev"
-        className="prev-button"
-        onClick={() => navigate("/oogabooga")}
-      />
-      <NavButton
-        text="Next"
-        className="next-button"
-        onClick={() => navigate("/oogabooga")}
-      />
+      <div className="container">
+        <div className="center">
+          <h1>{props.heading}</h1>
+          {props.items.length === 0 && <p>No item found</p>}
+          <ul className="list-group">
+            {props.items.map((item, index) => (
+              <React.Fragment key={index}>
+                <MajorOption
+                  active={selectedIndex === index}
+                  text={item}
+                  onClick={() => {
+                    setSelectedIndex(index);
+                    props.onSelectItem(item);
+                  }}
+                />
+              </React.Fragment>
+            ))}
+          </ul>
+          <NavButton
+            text="Prev"
+            className="prev-button"
+            onClick={() => navigate("/")}
+          />
+          <NavButton
+            text="Next"
+            className="next-button"
+            onClick={() => navigate("/input")}
+          />
+        </div>
+      </div>
     </>
   );
 }
