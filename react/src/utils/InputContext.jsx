@@ -9,11 +9,12 @@ export function InputProvider({ children }) {
     grad_quarter: "",
     grad_date: "",
     concentration: "",
-    courses_taken: "",
-    courses_not_taken: "",
-    lower_NS: "",
-    upper_NS: "",
+    courses_taken: [],
+    courses_not_taken: [],
+    lower_NotSatisfied: [],
+    upper_NotSatisfied: [],
     schedule: {},
+    raw_data: {},
     // Add more input values as needed
   });
 

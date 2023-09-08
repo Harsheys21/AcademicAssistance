@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import NavButton from "./NavButton";
+import NavButton from "../components/NavButton";
 import "./Welcome.css";
 
 const Welcome = () => {

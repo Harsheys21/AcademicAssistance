@@ -10,9 +10,13 @@ import {
 import { auth } from "../firebase-config";
 import { Form, Button, Card } from "react-bootstrap";
 import "./Login.css";
-import NavButton from "./NavButton";
+import NavButton from "../components/NavButton";
 import { useNavigate } from "react-router-dom";
 import "../components/NavButton.css";
+import { db } from "../firebase-config";
+
+import { useInput } from "../utils/InputContext";
+import { doc, setDoc } from "firebase/firestore";
 
 function Login() {
   const [registerEmail, setRegisterEmail] = useState("");
@@ -24,12 +28,37 @@ function Login() {
 
   const [error, setError] = useState("");
 
+  const { inputValues, setInputValues } = useInput();
+
   let navigate = useNavigate();
+  // TODO: SAVE DATA in Firestore with UID
+
+  const handleSaveData = async () => {
+    const {
+      email,
+      grad_quarter,
+      grad_date,
+      concentration,
+      courses_taken,
+      courses_not_taken,
+      lower_NotSatisfied,
+      upper_NotSatisfied,
+      schedule,
+    } = inputValues;
+    console.log(inputValues);
+    await setDoc(doc(db, "users", auth.currentUser.uid), {
+      inputValues,
+    });
+  };
 
   useEffect(() => {
     onAuthStateChanged(auth, (currentUser) => {
       console.log("State Changed");
       setUser(currentUser);
+      setInputValues((prevInputValues) => ({
+        ...prevInputValues,
+        ["email"]: currentUser.email,
+      }));
     });
   }, []);
 
@@ -75,11 +104,10 @@ function Login() {
   // };
 
   // TODO: Use Context file to upload doc to firebase
+  // TODO: Use Context in all input pages to track inputted user data
 
   return (
     <>
-      {/* temporary style, focusing on Auth functionality */}
-
       <div className="container">
         <div className="center">
           <div>
@@ -130,6 +158,8 @@ function Login() {
           <button onClick={logout}>Sign Out</button>
           <div></div>
           <button onClick={handleGoogle}>Sign In with Google</button>
+          <div></div>
+          <button onClick={handleSaveData}>(TEST) print context</button>
         </div>
         <NavButton
           text="Prev"

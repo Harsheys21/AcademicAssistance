@@ -1,45 +1,47 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./components/Login";
-import Input from "./components/Input";
-import Majors from "./components/Majors";
-import Welcome from "./components/Welcome";
-import Dashboard from "./components/Dashboard";
-import PrivateRoute from "./components/PrivateRoute";
+import Login from "./pages/Login";
+import Input from "./pages/Input";
+import Majors from "./pages/Majors";
+import Welcome from "./pages/Welcome";
+import Dashboard from "./pages/Dashboard";
+import PrivateRoute from "./utils/PrivateRoute";
+import { InputProvider } from "./utils/InputContext";
 
 function App() {
   return (
     <>
       {/* temporary style, focusing on Auth functionality */}
-
-      <Router>
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route
-            path="/concentrations"
-            element={
-              <Majors
-                onSelectItem={(item) => console.log(item)}
-                heading="Concentrations"
-                items={[
-                  "Software Design and Computer Systems",
-                  "Machhine Learning and Artificial Intelligence",
-                  "Graphics and Visualization",
-                  "Web Development",
-                  "CyberSecurity",
-                ]}
-              />
-            }
-          />
-          <Route path="/input" element={<Input />} />
-          <Route path="/login" element={<Login />} />
-          {/* TODO: Make login button on login page route to dashboard */}
-          {/* TODO: Make dashboard component accessible to logged in users only (Private Routes) */}
-          <Route element={<PrivateRoute />}>
-            <Route path="/dashboard" element={<Dashboard />} exact />
-          </Route>
-        </Routes>
-      </Router>
+      <InputProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Welcome />} />
+            <Route
+              path="/concentrations"
+              element={
+                <Majors
+                  onSelectItem={(item) => console.log(item)}
+                  heading="Concentrations"
+                  items={[
+                    "Software Design and Computer Systems",
+                    "Machhine Learning and Artificial Intelligence",
+                    "Graphics and Visualization",
+                    "Web Development",
+                    "CyberSecurity",
+                  ]}
+                />
+              }
+            />
+            <Route path="/input" element={<Input />} />
+            <Route path="/login" element={<Login />} />
+            {/* TODO: Make login button on login page route to dashboard */}
+            {/* TODO: Make dashboard component accessible to logged in users only (Private Routes) */}
+            <Route element={<PrivateRoute />}>
+              <Route path="/dashboard" element={<Dashboard />} exact />
+            </Route>
+          </Routes>
+        </Router>
+      </InputProvider>
     </>
   );
 }

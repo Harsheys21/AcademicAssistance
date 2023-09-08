@@ -9,7 +9,9 @@ import "./MajorOption.css";
 function MajorOption(props) {
   return (
     <button
-      onClick={props.onClick}
+      onClick={() => {
+        props.onClick(props.name, props.text);
+      }}
       className={`majorOption ${props.active && "majorOption--active"}`}
     >
       <h2>{props.text}</h2>

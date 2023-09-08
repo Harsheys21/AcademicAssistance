@@ -15,10 +15,10 @@ const Form = (props) => {
     });
   };
 
-  const handleInputChange = (event) => {
-    // console.log(event.target.value);
-    setInputText(event.target.value);
-  };
+  // const handleInputChange = (event) => {
+  //   // console.log(event.target.value);
+  //   setInputText(event.target.value);
+  // };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -32,7 +32,10 @@ const Form = (props) => {
         {/* <label htmlFor="inputText">Enter Text:</label> */}
         <textarea
           value={inputText}
-          onChange={handleInputChange}
+          onChange={(e) => {
+            setInputText(e.target.value);
+            props.handleUpdate(props.name, e.target.value);
+          }}
           cols={60}
           rows={5}
         />
