@@ -4,6 +4,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "3",
+    "genEd": "PE-T",
+    "description": "Introduction to computer hardware, software, and networking, with an emphasis on how these technologies impact society. Students learn key technical concepts and terminology and learn to modify and create programming code through making webpages and simple games. Students also gain hands-on experience using emerging technological tools such as 3D printing, laser-cutting, or 3D modeling software in virtual reality headsets. Course covers the history of computing, the early days of the internet, hardware fundamentals, accessibility tools, professional programming practices, open-source software, intellectual property concerns, networking, digital privacy, and cybersecurity. Designed for students with only basic, user-level computer experience. (Formerly offered as Personal Computer Concepts: Software and Hardware.)",
     "prerequisites": {}
   },
   "CSE 5J": {
@@ -11,6 +13,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "5J",
+    "genEd": "MF",
+    "description": "Introduces programming in Java for students who have no prior programming experience. Students learn programming and documentation skills, as well as algorithmic problem-solving, and programming methodologies. Introduces computers, compilers, and editors. Students write small to medium-sized programs. This course and CSE 5C and CSE 5P cover similar concepts, but use different programming languages. Because CSE 5J followed by\u00a0CSE 11 is a two-quarter alternative to the accelerated course CSE 12A and CSE 12L, engineering majors and students planning on continuing the programming sequence are encouraged to take CSE 5J rather than CSE 5C or CSE 5P. Students may not receive credit for CSE 5J taken concurrently or subsequently to CSE\u00a012A, CSE 12B, or Computer Engineering 13. (Formerly CMPS 5J.)",
     "prerequisites": {}
   },
   "CSE 10": {
@@ -18,6 +22,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "10",
+    "genEd": "MF",
+    "description": "An overview of the theory, foundations, and practice of computer science with emphasis on what computers can and cannot do, now and in the future. Topics include algorithms and data, correctness and efficiency of algorithms, hardware, programming languages, limitations of computation, applications, and social issues. No programming skills are required as a prerequisite. Major concepts and open problems in computer science are presented without reliance on sophisticated mathematical tools. Students cannot receive credit for this course after completing CSE 15. (Formerly CMPS 10.)",
     "prerequisites": {}
   },
   "CSE 12": {
@@ -25,13 +31,14 @@
     "credits": 7,
     "label": "CSE",
     "id": "12",
+    "genEd": null,
+    "description": "Introduction to computer systems and assembly language and how computers compute in hardware and software. Topics include digital logic, number systems, data structures, compiling/assembly process, basics of the system software, and computer architecture. Course is 7 credits with integrated laboratories illustrating concepts covered in lecture. Note that CSE 12 assumes some programming experience. Students can show programming experience by taking one of the courses listed in the prerequisite list below or by taking the CSE python Test-out Exam: https://undergrad.soe.ucsc.edu/cse-20-testout-exam\u00a0(Formerly CSE 12 and CSE 12L)",
     "prerequisites": {
-      "AND": [
+      "OR": [
         "CSE 5J",
         "CSE 20",
         "CSE 30",
-        "BME 160",
-        "equivalent"
+        "BME 160"
       ]
     }
   },
@@ -40,8 +47,10 @@
     "credits": 7,
     "label": "CSE",
     "id": "13S",
+    "genEd": null,
+    "description": "Focuses on C programming, command line, shell programming, editors, debuggers, source code control, and other tools. Examines basic computer systems, algorithm design, and development, data types, and program structures. Develops understanding of process model, compile-link-execute build cycle, language-machine interface, memory, and data representation. Students cannot receive credit for both CSE 13S and CSE 13E. Course is 7 credits with integrated laboratory.",
     "prerequisites": {
-      "AND": [
+      "OR": [
         "CSE 12",
         "BME 160"
       ]
@@ -52,8 +61,10 @@
     "credits": 5,
     "label": "CSE",
     "id": "16",
+    "genEd": "MF",
+    "description": "Introduction to applications of discrete mathematical systems. Topics include sets, functions, relations, graphs, predicate calculus, mathematical proof methods (induction, contraposition, contradiction), counting methods (permutations, combinations), and recurrences. Examples are drawn from computer science and computer engineering. Knowledge of computer programming is useful before taking this course. Students who do not have prior programming experience are strongly recommended to take CSE 20 or CSE 30 before taking this course.",
     "prerequisites": {
-      "AND": [
+      "OR": [
         "MATH 19A",
         "MATH 19B",
         "MATH 11B",
@@ -68,6 +79,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "20",
+    "genEd": "MF",
+    "description": "Provides students with Python programming skills and the ability to design programs and read Python code. Topics include data types, control flow, methods and advanced functions, built-in data structures, and introduction to OOP. No prior programming experience is required. Students may not receive credit for CSE 20 after receiving credit for CSE 30. Students with prior programming experience (especially in Python) are encouraged to take CSE Testout Exam to be evaluated for their readiness to take CSE 30 directly: https://undergrad.soe.ucsc.edu/cse-20-testout-exam.",
     "prerequisites": {}
   },
   "CSE 30": {
@@ -75,28 +88,27 @@
     "credits": 7,
     "label": "CSE",
     "id": "30",
+    "genEd": null,
+    "description": "Introduction to software development in Python focusing on structuring software in terms of objects endowed with primitive operations. Introduces concepts and techniques via a sequence of concrete case studies. Coursework consists of programming assignments and a final examination. Note that CSE 30 assumes some Python experience, students trained in a different language should self-study Python to prepare for CSE 30. See CSE Testout Exam for resources and further information.",
     "prerequisites": {
       "AND": [
         {
-          "MPE": 3
-        },
-        {
-          "AND": [
+          "OR": [
             "CSE 20",
             "BME 160"
           ]
         },
         {
-          "AND": [
+          "OR": [
+            {
+              "MPE": 400
+            },
             "MATH 3",
             "MATH 11A",
             "MATH 19A",
             "AM 3",
             "AM 11A",
-            "ECON 11A",
-            "a sc",
-            "e of 400",
-            "higher on the mathematics placement examination (MPE)"
+            "ECON 11A"
           ]
         }
       ]
@@ -107,10 +119,16 @@
     "credits": 5,
     "label": "CSE",
     "id": "40",
+    "genEd": "SR",
+    "description": "Introduction to the basic mathematical concepts and programming abstractions required for modern machine learning, data science, and empirical science. The mathematical foundations include basic probability, linear algebra, and optimization. The programming abstractions include data manipulation and visualization. The principles of empirical analysis, evaluation, critique and reproducibility are emphasized. Mathematical and programming abstractions are grounded in empirical studies including data-driven evidential reasoning, predictive modeling, and causal analysis.",
     "prerequisites": {
       "AND": [
-        "MATH 19B",
-        "MATH 20B",
+        {
+          "OR": [
+            "MATH 19B",
+            "MATH 20B"
+          ]
+        },
         "CSE 30"
       ]
     }
@@ -120,6 +138,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "80A",
+    "genEd": "PE-T",
+    "description": "Overview of human-centered technology and of its potential for increasing the quality of life and independence of disabled individuals. A substantial portion of the course is devoted to studying physical, psychological, and psychosocial aspects of disability. Topics include: diversity and integration, legislation, accessibility, and universal design. (Formerly Computer Engineering 80A.)",
     "prerequisites": {}
   },
   "CSE 80L": {
@@ -127,6 +147,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "80L",
+    "genEd": "SR",
+    "description": "Course examines: social data analytics--veracity, consistency, uncertainty, volume; statistical computation--misuse, bias, dispersion, correlation, regressions, differential scales, normal distributions, factor and cluster analysis, extrapolation, inference, simple programming; visual representations--communication, critique and design of infographics; applications--environment, energy, economics, education, empowerment. (Formerly Computer Science 80L.)",
     "prerequisites": {}
   },
   "CSE 80N": {
@@ -134,6 +156,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "80N",
+    "genEd": "PE-T",
+    "description": "Introduction to the evolution, technological basis, and services of the Internet, with descriptions of its underlying communications structure, routing algorithms, peer-to-peer hierarchy, reliability, and packet switching. Network security, mail, multimedia and data compression issues, HTML, and digital images. Students who have completed CSE\u00a0150 cannot receive credit for this course. (Formerly Computer Engineering 80N.)",
     "prerequisites": {}
   },
   "CSE 80S": {
@@ -141,33 +165,28 @@
     "credits": 5,
     "label": "CSE",
     "id": "80S",
+    "genEd": "SR",
+    "description": "Introduction to social networks and game theory. Topics include the structure of social networks; the world wide web; the flow of information and behavior through networks; and the principles behind modern web search and search-ad placement. (Formerly Computer Science 17.)",
     "prerequisites": {
-      "AND": [
+      "OR": [
         {
           "MPE": 300
         },
         {
-          "AND": [
+          "OR": [
             "MATH 3",
             "MATH 11A"
           ]
         },
         {
-          "AND": [
+          "OR": [
             "AM 3",
             "AM 6",
             "AM 11A",
             "AM 15A"
           ]
         },
-        "ECON 11A",
-        {
-          "AND": [
-            "sc",
-            "e on math placement exam of 300",
-            "higher"
-          ]
-        }
+        "ECON 11A"
       ]
     }
   },
@@ -176,6 +195,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "94",
+    "genEd": null,
+    "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 94F": {
@@ -183,6 +204,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "94F",
+    "genEd": null,
+    "description": "Provides a means for a small group  of students to study a particular topic in consultation with a faculty sponsor. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 99": {
@@ -190,6 +213,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "99",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 99F": {
@@ -197,6 +222,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "99F",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 100": {
@@ -204,16 +231,12 @@
     "credits": 5,
     "label": "CSE",
     "id": "100",
+    "genEd": null,
+    "description": "Boolean algebra, logic minimization, finite-state machine design, sequential circuits, common logic elements, programmable logic devices, and an introduction to system level design. The electrical behavior of circuits including three state outputs, propagation delay, logic levels, and fanout.",
     "prerequisites": {
       "AND": [
         "CSE 100L",
-        "CSE 12",
-        {
-          "AND": [
-            "previous",
-            "concurrent enrollment in CSE 100L is required"
-          ]
-        }
+        "CSE 12"
       ]
     }
   },
@@ -222,16 +245,12 @@
     "credits": 2,
     "label": "CSE",
     "id": "100L",
+    "genEd": null,
+    "description": "Laboratory sequence illustrating topics covered in course 100. Two 2-hour laboratory sessions per week. Weekly laboratory assignments which require the use of the oscilloscopes, TTL circuits, computer-aided design and simulation tools, and programmable logic.",
     "prerequisites": {
       "AND": [
         "CSE 100",
-        "CSE 12",
-        {
-          "AND": [
-            "previous",
-            "concurrent enrollment in CSE 100 is required"
-          ]
-        }
+        "CSE 12"
       ]
     }
   },
@@ -240,16 +259,18 @@
     "credits": 5,
     "label": "CSE",
     "id": "101",
+    "genEd": null,
+    "description": "Introduction to abstract data types and basics of algorithms. Linked lists, stacks, queues, hash tables, trees, heaps, and graphs will be covered. Students will also be taught how to derive big-Oh analysis of simple algorithms. All assignments will be in C/C++. (Formerly Computer Science 101 Algorithms and Abstract Data Types.)",
     "prerequisites": {
       "AND": [
         {
-          "AND": [
+          "OR": [
             "CSE 12",
             "BME 160"
           ]
         },
         {
-          "AND": [
+          "OR": [
             "CSE 13E",
             "ECE 13",
             "CSE 13S"
@@ -258,7 +279,7 @@
         "CSE 16",
         "CSE 30",
         {
-          "AND": [
+          "OR": [
             "MATH 11B",
             "MATH 19B",
             "MATH 20B",
@@ -273,6 +294,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "101M",
+    "genEd": null,
+    "description": "Introduction to problem-solving and proof techniques for computer science: modeling CS problems using mathematical concepts; solving problems and inventing mathematical arguments; writing rigorous, understandable proofs using LaTeX. Applications in all CS areas with focus on analyzing algorithms, programs, and protocols.",
     "prerequisites": "CSE 101"
   },
   "CSE 102": {
@@ -280,6 +303,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "102",
+    "genEd": null,
+    "description": "Methods for the systematic construction and mathematical analysis of algorithms. Order notation, the RAM model of computation, lower bounds, and recurrence relations are covered. The algorithm design techniques include divide-and-conquer, branch and bound, and dynamic programming. Applications to combinatorial, graph, string, and geometric algorithms. (Formerly Computer  Science 102.)",
     "prerequisites": "CSE 101"
   },
   "CSE 103": {
@@ -287,6 +312,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "103",
+    "genEd": null,
+    "description": "Various representations for regular languages, context-free grammars, normal forms, simple parsing, pumping lemmas, Turing machines, the Church-Turing thesis, intractable problems, the P-NP question. (Formerly CMPS 130.)",
     "prerequisites": "CSE 101"
   },
   "CSE 104": {
@@ -294,6 +321,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "104",
+    "genEd": null,
+    "description": "Turing machines, general phase-structure grammars, the Chomsky hierarchy, recursive functions, diagonalization, the Halting problem, computability and unsolvability, computational complexity, time and space bounds, NP-completeness with emphasis on reductions between problems from various areas. (Formerly CMPS 132.)",
     "prerequisites": "CSE 103"
   },
   "CSE 105": {
@@ -301,24 +330,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "105",
-    "prerequisites": {
-      "AND": [
-        "CSE 102",
-        "equivalent",
-        "instruct",
-        "consent Students need a solid background in analysis of alg",
-        "ithms discrete math probability the",
-        "y graph the",
-        "y",
-        "overall mathematical maturity"
-      ]
-    }
+    "genEd": null,
+    "description": "Undergraduate course on the modern algorithmic toolbox, meant for undergraduate students with a strong mathematical background. Students need familiarity with discrete math, analysis of algorithms, basic analysis, probability theory, and graph theory. Class is aimed at students who want to learn more about the central ideas and algorithmic techniques that are used in modern data science applications. Class focuses on the theoretical underpinnings of these algorithms as well as their practical applications and implementation details.",
+    "prerequisites": "CSE 102"
   },
   "CSE 106": {
     "name": "Applied Graph Theory and Algorithms",
     "credits": 5,
     "label": "CSE",
     "id": "106",
+    "genEd": null,
+    "description": "Basic concepts and algorithms are reviewed including trees, Eulerian and Hamiltonian graphs, and graph transversal. Algorithms are explored to solve problems in connectivity, routing, matching, and embedding of graphs. Graph theory and algorithms are developed around applications in computer engineering. (Formerly Computer Engineering 177.)",
     "prerequisites": "CSE 101"
   },
   "CSE 107": {
@@ -326,11 +348,13 @@
     "credits": 5,
     "label": "CSE",
     "id": "107",
+    "genEd": "SR",
+    "description": "Introduction to fundamental tools of stochastic analysis. Probability, conditional probability; Bayes Theorem; random variables and transforms; independence; Bernnoulli trials. Statistics, inference from limited data; outcomes of repeated experiments; applications to design; assessment of relative frequency and probability; law of large numbers; precision of measurements. Elements of stochastic processes, Poisson processes; Markov chains. Students cannot receive credit for this course and Applied Mathematics and Statistics 131. (Formerly Computer Engineering 107.)",
     "prerequisites": {
       "AND": [
         "CSE 16",
         {
-          "AND": [
+          "OR": [
             "AM 30",
             "MATH 22",
             "MATH 23A"
@@ -344,19 +368,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "108",
-    "prerequisites": {
-      "AND": [
-        "CSE 101 Enrollment restricted to computer engineering",
-        "computer science maj",
-        "s"
-      ]
-    }
+    "genEd": null,
+    "description": "Focuses on some of the foundational aspects of modern cryptography, namely, private and public key cryptography, digital signatures, pseudorandom generators and functions, message authentication codes, hash functions, and random oracles. Course also connects the formal concepts with some real-world applications, like RA, SSL, and bitcoin, exposing students to general concepts of probability theory, number theory, and rigorous proofs. (Formerly Computer Science 118.)",
+    "prerequisites": "CSE 101"
   },
   "CSE 110A": {
     "name": "Fundamentals of Compiler Design I",
     "credits": 5,
     "label": "CSE",
     "id": "110A",
+    "genEd": null,
+    "description": "An introduction to the basic techniques used in compiler design. Topics include compiler structure, symbol tables, regular expressions and languages, finite automata, lexical analysis, context-free languages, LL(1), recursive descent, LALR(1), and LR(1) parsing; and attribute grammars as a model of syntax-directed translation. Students use compiler building tools to construct a working compiler. (Formerly Computer  Science 104A.)",
     "prerequisites": {
       "AND": [
         "CSE 12",
@@ -369,6 +391,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "110B",
+    "genEd": null,
+    "description": "Advanced study of compiler implementation. Topics include compiler structure back end, run-time environments, storage management, garbage collection, register allocation, code generation, basic blocks, control flow, data flow, local and global optimization, interpretation, and machine-code generation. Students may not receive credit for this course and CSE\u00a0211. Taught in conjunction with CSE\u00a0211. (Formerly Computer Science 104B.)",
     "prerequisites": "CSE 110A"
   },
   "CSE 111": {
@@ -376,8 +400,10 @@
     "credits": 5,
     "label": "CSE",
     "id": "111",
+    "genEd": null,
+    "description": "An introduction to object-oriented techniques of software development including data abstraction, inheritance, polymorphism, and object-oriented design. Extensive practice using a computer to solve problems, including construction of graphical user interfaces and a multithreaded client/server applications.",
     "prerequisites": {
-      "AND": [
+      "OR": [
         {
           "AND": [
             "CSE 15",
@@ -411,6 +437,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "112",
+    "genEd": null,
+    "description": "Covers several programming languages and compares styles, philosophy, and design principles. Principles underlying declarative, functional, and object-oriented programming styles are studied. Students write programs emphasizing each of these techniques. (Formerly Computer Science 112.)",
     "prerequisites": "CSE 101"
   },
   "CSE 113": {
@@ -418,10 +446,12 @@
     "credits": 5,
     "label": "CSE",
     "id": "113",
+    "genEd": null,
+    "description": "Introduction to parallel and concurrent programming. Topics include: types of parallel computers and programming platforms; design, implementation, and optimization of programs for parallel and multicore processors; basic and advanced programming techniques; performance analysis and load balancing; and selected parallel algorithms.",
     "prerequisites": {
       "AND": [
         "CSE 12",
-        "CSE 101 CSE 120 recommended"
+        "CSE 101"
       ]
     }
   },
@@ -430,6 +460,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "114A",
+    "genEd": null,
+    "description": "Problem solving emphasizing recursion, data abstraction, and higher-order functions. Introduction to types and type checking, modular programming, and reasoning about program correctness. (Formerly CSE 116, Introduction to Functional Programming.)",
     "prerequisites": "CSE 101"
   },
   "CSE 114B": {
@@ -437,24 +469,20 @@
     "credits": 5,
     "label": "CSE",
     "id": "114B",
-    "prerequisites": {
-      "AND": [
-        "CSE 114A Enrollment is restricted to juni",
-        "seni",
-        "computer science maj",
-        "s"
-      ]
-    }
+    "genEd": null,
+    "description": "An in-depth study of the functional style of programming and functional abstraction, including the study of applicative functors and monads, and monadic parsers. (Formerly CSE 114.)",
+    "prerequisites": "CSE 114A"
   },
   "CSE 115A": {
     "name": "Introduction to Software Engineering",
     "credits": 5,
     "label": "CSE",
     "id": "115A",
+    "genEd": null,
+    "description": "Emphasizes the characteristics of well-engineered software systems. Topics include requirements analysis and specification, design, programming, verification and validation, maintenance, and project management. Practical and research methods are studied. Imparts an understanding of the steps used to effectively develop computer software. (Formerly Computer Science 115.)",
     "prerequisites": {
       "AND": [
-        "satisfaction of the Entry Level Writing",
-        "Composition requirements",
+        "WRIT 1",
         "CSE 101",
         "CSE 130"
       ]
@@ -465,6 +493,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "115B",
+    "genEd": "PR-E",
+    "description": "Students in teams specify, design, construct, test, and document a complete software system in a specialized application domain. Class time is spent in technical discussions and ongoing design reviews. A formal presentation and demonstration of each project is required. An organizational meeting will be held during the preceding quarter. Projects may be drawn from industry and campus research groups. (Formerly Computer Science 116.)",
     "prerequisites": "CSE 115A"
   },
   "CSE 115C": {
@@ -472,6 +502,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "115C",
+    "genEd": null,
+    "description": "Continuation of CSE 116. Students work in teams to develop, test, document, and deploy a substantial software project. Teams give a formal presentation and demonstration of each project. (Formerly Computer Science 117.)",
     "prerequisites": "CSE 115B"
   },
   "CSE 115D": {
@@ -479,6 +511,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "115D",
+    "genEd": "PR-E",
+    "description": "Accelerated version of CSE 115B and CSE 115C. Students work in teams to develop, test, document and deploy a substantial software project. Each team gives a formal presentation and demonstration of their project. Students cannot receive credit for both CSE 115D and any part of the 115B-115C sequence.",
     "prerequisites": "CSE 115A"
   },
   "CSE 117": {
@@ -486,15 +520,16 @@
     "credits": 5,
     "label": "CSE",
     "id": "117",
+    "genEd": null,
+    "description": "Teaches the principles of open source software development. By participating in diverse projects, students experience the process of developing software in a distributed, community-centric environment. Students learn about the tools, processes, and soft skills that are essential in this context.",
     "prerequisites": {
       "AND": [
         "CSE 101",
         {
-          "AND": [
+          "OR": [
             "CSE 102",
             "CSE 111",
-            "CSE 115A Enrollment restricted to School of Engineering maj",
-            "s"
+            "CSE 115A"
           ]
         }
       ]
@@ -505,20 +540,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "118",
-    "prerequisites": {
-      "AND": [
-        "CSE 101 Enrollment is restricted to juni",
-        "s",
-        "seni",
-        "s"
-      ]
-    }
+    "genEd": null,
+    "description": "Introduces the tools and techniques required to develop the sophisticated interactive mobile applications we use daily on our Android and iOS devices. Native (specific to Android or iOS devices) and cross-platform (designed to work on both Android and iOS) development is undertaken with deployment to device emulators and, optionally, personal devices. Ownership of an Android or iOS device is not required and confers no advantage. (Formerly CMPS 121.)",
+    "prerequisites": "CSE 101"
   },
   "CSE 119": {
     "name": "Software for Society",
     "credits": 5,
     "label": "CSE",
     "id": "119",
+    "genEd": "PE-T",
+    "description": "Provides experience with applying computing to social issues. Case studies on multiple issues. For example: privacy, copyright, voting, education, poverty, energy, activism. Team project in which students develop software to address a pre-identified need of a global or local non-profit. (Formerly Computer Science 119.)",
     "prerequisites": "CSE 101"
   },
   "CSE 120": {
@@ -526,16 +558,22 @@
     "credits": 5,
     "label": "CSE",
     "id": "120",
+    "genEd": null,
+    "description": "Introduction to computer architecture including examples of current approaches and the effect of technology and software. Computer performance evaluation, basic combinatorial and sequential digital components, different instruction set architectures with a focus on the MIPS ISA and RISC paradigm. Evolution of CPU microarchitecture from single-cycle to multi-cycle pipelines, with overview of super-scalar, multiple-issue and VLIW. Memory system, cache, virtual memory and relationship between memory and performance. Evolution of PC system architecture. May include advanced topics, such as parallel processing, MIMD, and SIMD.",
     "prerequisites": {
       "AND": [
         "CSE 12",
         {
-          "AND": [
+          "OR": [
             "CSE 13E",
             "CSE 13S",
             "ECE 13",
-            "CSE 15",
-            "CSE 15L CSE 16 recommended"
+            {
+              "AND": [
+                "CSE 15",
+                "CSE 15L"
+              ]
+            }
           ]
         }
       ]
@@ -546,21 +584,31 @@
     "credits": 7,
     "label": "CSE",
     "id": "121",
+    "genEd": null,
+    "description": "The design and use of microprocessor-based embedded systems. Covers microprocessor and microcontroller architecture, programming techniques, bus and memory organization, DMA, timing issues, interrupts, peripheral devices, serial and parallel communication, and interfacing to analog and digital systems. (Formerly Microprocessor System Design, and formerly offered as two courses, CMPE 121 and CMPE 121L.)",
     "prerequisites": {
       "AND": [
-        "CSE 12 CSE 100 CSE 100L",
+        "CSE 12", 
+        "CSE 100", 
+        "CSE 100L",
         {
-          "AND": [
+          "OR": [
             "CSE 13E",
             "CSE 13S",
             "ECE 13",
-            "CSE 15",
-            "CSE 15L"
+            {
+              "AND": [
+                "CSE 15",
+                "CSE 15L"
+              ]
+            }
           ]
         },
         {
           "AND": [
-            "ECE 101 ECE 101L PHYS 5C",
+            "ECE 101", 
+            "ECE 101L", 
+            "PHYS 5C",
             "PHYS 5N"
           ]
         }
@@ -572,9 +620,13 @@
     "credits": 5,
     "label": "CSE",
     "id": "122",
+    "genEd": null,
+    "description": "Introduces very large scale integrated (VLSI) custom integrated circuits. Topics include: semiconductor manufacturing, logic families, field-effect transistors (FETs), interconnect models, simulation, and circuits. Introduces the design flow from logic design to layout with a focus on high performance and low power. Students cannot receive credit for this course and CSE 222A. (Formerly Computer Engineering 122.)",
     "prerequisites": {
       "AND": [
-        "CSE 100 CSE 100L ECE 101",
+        "CSE 100", 
+        "CSE 100L", 
+        "ECE 101",
         "ECE 101L"
       ]
     }
@@ -584,16 +636,12 @@
     "credits": 5,
     "label": "CSE",
     "id": "123A",
+    "genEd": "PR-E",
+    "description": "First of a two-course sequence that is the culmination of the engineering program. Students apply knowledge and skills gained in elective track to complete a major design project. Students complete research, specification, planning, and procurement for a substantial project. Includes technical discussions, design reviews, and formal presentations; engineering design cycle, engineering teams, and professional practices. Formal technical specification of the approved project is presented to faculty.",
     "prerequisites": {
       "AND": [
         "CSE 185E",
-        "CSE 121",
-        {
-          "AND": [
-            "previous",
-            "concurrent enrollment in CSE 185E"
-          ]
-        }
+        "CSE 121"
       ]
     }
   },
@@ -602,10 +650,16 @@
     "credits": 7,
     "label": "CSE",
     "id": "123B",
+    "genEd": null,
+    "description": "Second of two-course sequence in engineering system design. Students fully implement and test system designed and specified in CSE 123A. Formal written report, oral presentation, and demonstration of successful project to review panel of engineering faculty required.",
     "prerequisites": {
-      "AND": [
-        "CSE 123A",
-        "CSE 185E",
+      "OR": [
+        {
+          "AND": [
+            "CSE 123A",
+            "CSE 185E"
+          ]
+        },
         "CSE 185S"
       ]
     }
@@ -615,6 +669,8 @@
     "credits": 7,
     "label": "CSE",
     "id": "125",
+    "genEd": null,
+    "description": "Verilog digital logic design with emphasis on ASIC and FPGA design. Students design and verify large-scale systems. Assignments and project use the Verilog Hardware Description Language with emphasis on verification and high-frequency ASIC/FPGA targets. May be taught in conjunction with CSE 225. Students cannot receive credit for both courses.",
     "prerequisites": {
       "AND": [
         "CSE 100",
@@ -628,15 +684,12 @@
     "credits": 2,
     "label": "CSE",
     "id": "129A",
+    "genEd": null,
+    "description": "First of a three-course sequence in which students apply knowledge and skills gained in elective track to complete a major design project. In this first course, students complete the specification and planning for a substantial project. Topics covered: engineering design cycle, engineering teams, and professional practices. (Formerly Computer Engineering 129A.)",
     "prerequisites": {
       "AND": [
-        "previous",
-        "concurrent enrollment in courses CSE 121",
-        "CSE 121L Enrollment is restricted to bioengineering biomolecular engineering",
-        "bioinf",
-        "matics computer engineering",
-        "robotics engineering maj",
-        "s"
+        "CSE 121",
+        "CSE 121L"
       ]
     }
   },
@@ -645,6 +698,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "129B",
+    "genEd": "PR-E",
+    "description": "Second of a three-course sequence in which students apply knowledge and skills gained in elective track to complete a major design project. In this second course, students complete the research and procurement for a substantial project and a preliminary implementation. Prerequisite(s): CSE 121, CSE 121L, and CSE 129A. Previous or concurrent enrollment in CSE 185. Enrollment by permission of instructor.",
     "prerequisites": {}
   },
   "CSE 129C": {
@@ -652,6 +707,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "129C",
+    "genEd": null,
+    "description": "Third of a three-course sequence in which students apply knowledge and skills gained in elective track to complete a major design project. In this third course, students work in teams to complete the project specified and advanced in the first two courses. A formal written report, oral presentation, and demonstration of the successful project to a review panel of engineering faculty is required. Prerequisite(s): CSE 129B and CSE 185. Enrollment by permission of instructor.",
     "prerequisites": {}
   },
   "CSE 130": {
@@ -659,17 +716,22 @@
     "credits": 5,
     "label": "CSE",
     "id": "130",
+    "genEd": null,
+    "description": "Covers the principles governing computer-systems design and complexity; familiarity with memory, storage, and networking; concurrency and synchronization; layering (abstraction and modularity); naming; client-server and virtualized system models; and performance. Requires significant programming projects demonstrating mastery of these concepts.",
     "prerequisites": {
       "AND": [
         "CSE 12",
         {
           "AND": [
             "CSE 101",
-            "CSE 15",
-            "CSE 15L"
+            {
+              "OR": [
+                "CSE 15",
+                "CSE 15L"
+              ]
+            }
           ]
-        },
-        "knowledge of C programming language"
+        }
       ]
     }
   },
@@ -678,13 +740,12 @@
     "credits": 5,
     "label": "CSE",
     "id": "132",
+    "genEd": null,
+    "description": "Introduction to computer security (including selected topics in network security). Access control. Security in programming languages. Basic cryptography. Security protocols. (Formerly CMPS 122.)",
     "prerequisites": {
       "AND": [
         "CSE 130",
-        "CSE 131",
-        "permission of instruct",
-        "Enrollment restricted to School of Engineering maj",
-        "s"
+        "CSE 131"
       ]
     }
   },
@@ -693,6 +754,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "134",
+    "genEd": null,
+    "description": "Detailed exploration of the internal design of an embedded operating systems kernel. Covers kernel structure and organization, device drivers, I/O systems, file systems, memory management, and security. Students complete significant programming projects that extend or modify existing operating systems. (Formerly Computer Engineering 114.)",
     "prerequisites": {
       "AND": [
         "CSE 120",
@@ -705,6 +768,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "138",
+    "genEd": null,
+    "description": "Covers topics in distributed computing including communication, naming, synchronization, consistency and replication, fault tolerance, and security. Examples drawn from peer-to-peer systems, online gaming, the World Wide Web; other systems also used to illustrate approaches to these topics. Students implement simple distributed systems over the course of the quarter. (Formerly CMPS 128, Distributed Systems: File Sharing, Online Gaming, and More.)",
     "prerequisites": {
       "AND": [
         "CSE 130",
@@ -717,6 +782,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "140",
+    "genEd": null,
+    "description": "Introduction to the contemporary concepts and techniques of artificial intelligence, including any or all of: machine perception and inference, machine learning, optimization problems, computational methods and models of search, game playing and theorem proving. Emphasis may be on any formal method of perceiving, learning, reasoning, and problem solving which proves to be effective. This includes both symbolic and neural network approaches to artificial intelligence. Issues discussed include symbolic versus nonsymbolic methods, local versus global methods, hierarchical organization and control, and brain modeling versus engineering approaches. Lisp or Prolog may be introduced. Involves one major project or regular programming assignments. (Formerly CMPS 140.)",
     "prerequisites": "CSE 101"
   },
   "CSE 142": {
@@ -724,24 +791,26 @@
     "credits": 5,
     "label": "CSE",
     "id": "142",
+    "genEd": null,
+    "description": "Introduction to machine learning algorithms and their applications. Topics include classification learning, density estimation and Bayesian learning regression, and online learning. Provides introduction to standard learning methods such as neural networks, decision trees, boosting, and nearest neighbor techniques.",
     "prerequisites": {
       "AND": [
         {
-          "AND": [
+          "OR": [
             "CSE 40",
             "STAT 132"
           ]
         },
         "CSE 101",
         {
-          "AND": [
+          "OR": [
             "AM 30",
             "MATH 22",
             "MATH 23A"
           ]
         },
         {
-          "AND": [
+          "OR": [
             "STAT 131",
             "CSE 107"
           ]
@@ -754,11 +823,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "143",
+    "genEd": null,
+    "description": "Introduces the theory and practice of natural language processing (NLP)--the creation of computer programs that can understand, generate, and learn natural language. Introduces the three major subfields of NLP: syntax (the structure of a sentence); semantics (the  explicit meaning of a single sentence); and pragmatics (the implicit meaning of a sentence when it is used in a specific discourse). Projects focus on the techniques useful for a particular application area, alternating in different years. Project application areas include information extraction, narrative understanding, sentiment analysis, dialogue systems, and question answering. (Formerly CMPS 143.)",
     "prerequisites": {
-      "AND": [
-        "CSE 101",
-        "CSE 107",
-        "STAT 131 Python competence equivalent to CSE 30 is highly recommended"
+      "OR": [
+        {
+          "AND": [
+            "CSE 101",
+            "CSE 107"
+          ]
+        },
+        "STAT 131"
       ]
     }
   },
@@ -767,22 +842,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "144",
+    "genEd": null,
+    "description": "Provides a practical and project-oriented introduction to deep learning techniques. Starts with a review of basic elements of machine learning: training and testing, loss function, gradient descent, linear regression, and logistic regression. Moves on to common deep learning models: feedforward networks, convolutional networks for image recognition, recurrent networks and LSTM for temporal and sequential data, attention models and transformers. Some practical concepts for deep learning, including how to find model parameters, how to train large scale models, techniques for regularization and avoid overfitting, are also covered. A very basic introduction to more complex techniques such as deep reinforcement learning, neural symbolic models and diffusion models is provided in week 9. Selected student teams present their course projects in the last week. (Formerly offered as Applied Machine Learning.)",
     "prerequisites": {
       "AND": [
         {
-          "AND": [
+          "OR": [
             "CSE 40",
             "STAT 132"
           ]
         },
-        {
-          "AND": [
-            "CSE 101 Enrollment is restricted to juni",
-            "s",
-            "seni",
-            "s"
-          ]
-        }
+        "CSE 101"
       ]
     }
   },
@@ -791,25 +861,31 @@
     "credits": 5,
     "label": "CSE",
     "id": "145",
+    "genEd": null,
+    "description": "Covers the techniques, algorithms, and applications of data mining, including data preprocessing, data exploration, classification, clustering, mining text, and sequential and social data. (Formerly TIM 145.)",
     "prerequisites": {
       "AND": [
         {
-          "AND": [
-            "CSE 15",
-            "CSE 15L",
+          "OR": [
+            {
+              "AND": [
+                "CSE 15",
+                "CSE 15L"
+              ]
+            },
             "CSE 30",
             "CSE 13S"
           ]
         },
         {
-          "AND": [
+          "OR": [
             "AM 30",
             "MATH 22",
             "MATH 23A"
           ]
         },
         {
-          "AND": [
+          "OR": [
             "STAT 5",
             "CSE 107",
             "STAT 131"
@@ -822,12 +898,9 @@
           ]
         },
         {
-          "AND": [
+          "OR": [
             "CSE 16",
-            "ECON 113 Enrollment restricted to juni",
-            "s",
-            "seni",
-            "s Graduate students by permission of instruct"
+            "ECON 113"
           ]
         }
       ]
@@ -838,14 +911,15 @@
     "credits": 5,
     "label": "CSE",
     "id": "146",
+    "genEd": null,
+    "description": "Provides an introduction to data-driven and algorithmic decision making, and ethical frameworks for evaluating automated systems. Emphasis on algorithmic literacy, critical analysis, and fundamental limitations of automated decision making. Covers concepts including predictive and causal modeling. Discusses bias, fairness, interpretability, privacy, and accountability. Finally, discusses notions of autonomy and algorithmic auditing.",
     "prerequisites": {
       "AND": [
         "CSE 101",
         {
-          "AND": [
+          "OR": [
             "CSE 107",
-            "STAT 131 CSE 142",
-            "CSE 140 are recommended"
+            "STAT 131"
           ]
         }
       ]
@@ -856,6 +930,8 @@
     "credits": 7,
     "label": "CSE",
     "id": "150",
+    "genEd": null,
+    "description": "Addresses issues arising in organizing communications among autonomous computers. Network models and conceptual layers; Internet-working; characteristics of transmission media; switching techniques (packet switching, circuit switching, cell switching); medium access control (MAC) protocols and local area networks; error-control strategies and link-level protocols; routing algorithms for bridges and routers; congestion control mechanisms; transport protocols; application of concepts to practical wireless and wireline networks and standard protocol architectures. Lab component provides students with hands-on experience in computer networks. Students who have completed CSE 80N can take this course for credit.",
     "prerequisites": {
       "AND": [
         {
@@ -865,10 +941,14 @@
           ]
         },
         {
-          "AND": [
+          "OR": [
             "CSE 30",
-            "CSE 15",
-            "CSE 15L"
+            {
+              "AND": [
+                "CSE 15",
+                "CSE 15L"
+              ]
+            }
           ]
         }
       ]
@@ -879,23 +959,40 @@
     "credits": 5,
     "label": "CSE",
     "id": "151",
-    "prerequisites": "CSE 150 Concurrent enrollment in CSE 151L is required"
+    "genEd": null,
+    "description": "Provides an in-depth coverage of fundamental topics introduced in course 150 including routing, transport, and internetworking. Also introduces advanced concepts not covered in CSE 150 including wireless, application-layer services, security, etc. (Formerly  Computer Engineering 151.)",
+    "prerequisites": {
+      "AND": [
+        "CSE 150",
+        "CSE 151L"
+      ]
+    }
   },
   "CSE 151L": {
     "name": "Advanced Computer Networks Laboratory",
     "credits": 2,
     "label": "CSE",
     "id": "151L",
-    "prerequisites": "CSE 150 Concurrent enrollment in CSE 151 is required"
+    "genEd": null,
+    "description": "Laboratory illustrating the concepts covered in CSE 151: provides students with hands-on experience in computer networks. (Formerly Computer Engineering 151L.)",
+    "prerequisites": {
+      "AND": [
+        "CSE 150",
+        "CSE 151"
+      ]
+    }
   },
   "CSE 152": {
     "name": "Principles of Computer Communication",
     "credits": 5,
     "label": "CSE",
     "id": "152",
+    "genEd": null,
+    "description": "Course focuses on the design and analysis of protocols for computer communication. Topics include: the safety, liveliness, and performance of communication protocols for medium access control (MAC); link control; routing and switching; multicasting; and end-to-end transport. Students cannot receive credit for this course and CSE 250B.",
     "prerequisites": {
       "AND": [
-        "CSE 107 CSE 150",
+        "CSE 107", 
+        "CSE 150",
         "CSE 150L"
       ]
     }
@@ -905,10 +1002,13 @@
     "credits": 5,
     "label": "CSE",
     "id": "156",
+    "genEd": null,
+    "description": "Methods and tools used for network programming. Topics include: operating system (OS) support for network protocols; inter-process communication (IPC) facilities, such as pipes, sockets, and remote procedure call (RPC); design of client and server sides of network applications; network security; and programming projects. (Formerly Computer Engineering 156.)",
     "prerequisites": {
       "AND": [
         "CSE 150",
-        "CSE 101 Concurrent enrollment in course CSE 156L is required"
+        "CSE 101", 
+        "CSE 156L"
       ]
     }
   },
@@ -917,10 +1017,13 @@
     "credits": 2,
     "label": "CSE",
     "id": "156L",
+    "genEd": null,
+    "description": "Laboratory sequence illustrating concepts taught in CSE 156. Students learn use of network programming tools and methods via programming exercises. (Formerly Computer Engineering 156L.)",
     "prerequisites": {
       "AND": [
         "CSE 150",
-        "CSE 101 Concurrent enrollment in CSE 156 is required"
+        "CSE 101", 
+        "CSE 156"
       ]
     }
   },
@@ -929,6 +1032,8 @@
     "credits": 7,
     "label": "CSE",
     "id": "157",
+    "genEd": null,
+    "description": "Introduces the key concepts and techniques in the design of Internet of Things (IoT). Topics include dominant architectures and protocols for IoT, wireless infrastructure for IoT, hardware and software development methodologies, embedded software design for IoT, cloud software for IoT, and network and system security. Students work in teams on a project to design, prototype, and test a complete IoT system.",
     "prerequisites": {
       "AND": [
         "CSE 121",
@@ -941,10 +1046,16 @@
     "credits": 7,
     "label": "CSE",
     "id": "160",
+    "genEd": null,
+    "description": "Introduces techniques of modeling, transformation, and rendering for computer-generated imagery. Topics: 2D/3D primitives, projections, matrix composition, and shading algorithms. Programming assignments and major project required. Students cannot receive credit for both this course and CSE 260 in quarters when they are offered concurrently. Mastery of materials in the prerequisite courses will be verified with a quiz or assignment during the first two weeks of the course. Lab component will help with gaining additional competence with a number of important software development tools, graphics libraries, and graphical user interfaces. Topics include OpenGL, WebGL, rubberbanding, picking, sliders, buttons, dialog, event handling, double buffering, lighting, shading, materials, and textures. The topic list may be updated to reflect technological changes. (Formerly Computer Science 160.)",
     "prerequisites": {
-      "AND": [
-        "CSE 101",
-        "MATH 21",
+      "OR": [
+        {
+          "AND": [
+            "CSE 101",
+            "MATH 21"
+          ]
+        },
         "AM 10"
       ]
     }
@@ -954,10 +1065,12 @@
     "credits": 5,
     "label": "CSE",
     "id": "161",
+    "genEd": null,
+    "description": "Concepts and methods for data analysis, information and scientific visualization, and effective communication of technical data. Topics include: mathematical foundations; scalar, vector, and tensor field visualization; multivariate visualization; and tree and graph visualizations. Applications are drawn from social-network analysis; environmental and space science; and medical imaging. Evaluation based on examinations, programming exercises, and a project. (Formerly CMPS 161.)",
     "prerequisites": {
       "AND": [
         "CSE 160",
-        "equivalent Concurrent enrollment in CSE 161L is required"
+        "CSE 161L"
       ]
     }
   },
@@ -966,17 +1079,21 @@
     "credits": 2,
     "label": "CSE",
     "id": "161L",
-    "prerequisites": "enrollment in CSE 161 is required"
+    "genEd": null,
+    "description": "Complements CSE 161. Students gain additional competence with a number of important software development tools and techniques. Included are Paraview,  Visualization Toolkit (VTK), and Insight Toolkit (ITK). Students get hands-on experience with designing transfer functions, isosurfacing, direct volume rendering, vector-field visualization techniques, as well as methods for dealing with non-spatial data. (Formerly CMPS 161L.)",
+    "prerequisites": "CSE 161"
   },
   "CSE 162": {
     "name": "Advanced Computer Graphics and Animation",
     "credits": 5,
     "label": "CSE",
     "id": "162",
+    "genEd": null,
+    "description": "Covers concepts and methods for modeling and rendering static and dynamic scenes Topics include: mathematical foundations (e.g., splines and numerical integration; global illumination models; texture mapping; morphing; physically based animation; behavioral animations; and procedural animations. Evaluation based on examinations, programming exercises, and a project. (Formerly CMPS 162.)",
     "prerequisites": {
       "AND": [
         "CSE 160",
-        "equivalent Concurrent enrollment in CSE 162L is required"
+        "CSE 162L"
       ]
     }
   },
@@ -985,13 +1102,17 @@
     "credits": 2,
     "label": "CSE",
     "id": "162L",
-    "prerequisites": "concurrent enrollment in CSE 162 is required"
+    "genEd": null,
+    "description": "Complements CSE\u00a0162. Students gain additional competence in a hands-on computational laboratory setting. Representative examples include topics, such as interactive curve and surface design; shaders for advanced effects; crowd and behavioral animation; experiments with particle systems; facial animation; and motion and planning. (Formerly CMPS 162L.)",
+    "prerequisites": "CSE 162"
   },
   "CSE 163": {
     "name": "Data Programming for Visualization",
     "credits": 5,
     "label": "CSE",
     "id": "163",
+    "genEd": null,
+    "description": "Presents the basics of open-source programming tools to perform data analysis and create interactive visualizations and maps for the web, data integrity and scraping, statistical computation, simple and novel visualizations, and geomapping. The examples are drawn from social science, public policy, and data journalism. (Formerly CMPS 165.)",
     "prerequisites": "CSE 101"
   },
   "CSE 164": {
@@ -999,6 +1120,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "164",
+    "genEd": null,
+    "description": "Introduces both the basic computer vision concepts and the advanced deep learning methods for computer vision. Topics include fundamentals of image formation, camera imaging geometry, early-/mid-/high-level vision, basics of machine learning and convolutional neural networks for vision.",
     "prerequisites": "CSE 144"
   },
   "CSE 165": {
@@ -1006,6 +1129,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "165",
+    "genEd": null,
+    "description": "Theory and hands-on practice to understand what makes user interfaces usable and accessible to diverse individuals. Covers human senses and memory and their design implications, requirement solicitation, user-centered design and prototyping techniques, and expert and user evaluations. Interdisciplinary course for social science and engineering majors. Students cannot receive credit for this course and CSE 265 or DANM 231. (Formerly Computer Engineering 131.)",
     "prerequisites": "CSE 15"
   },
   "CSE 167": {
@@ -1013,29 +1138,35 @@
     "credits": 5,
     "label": "CSE",
     "id": "167",
+    "genEd": null,
+    "description": "Provides hands-on knowledge and experience with modern mobile computing platforms for sensing and interactions tasks. Students learn how to create usable applications on a sensor-laden, mobile computing platform with adequate level of user interface.",
     "prerequisites": {
       "AND": [
-        "CSE 13S",
         {
-          "AND": [
-            "CSE 13E",
-            "ECE 13"
+          "OR": [
+            "CSE 13S",
+            {
+              "OR": [
+                "CSE 13E",
+                "ECE 13"
+              ]
+            },
+            {
+              "AND": [
+                "CSE 15",
+                "CSE 15L"
+              ]
+            }
           ]
         },
         {
-          "AND": [
-            "CSE 15",
-            "CSE 15L"
-          ]
-        },
-        {
-          "AND": [
+          "OR": [
             "PHYS 5A",
             "PHYS 6A"
           ]
         },
         {
-          "AND": [
+          "OR": [
             "AM 10",
             "MATH 21"
           ]
@@ -1048,6 +1179,8 @@
     "credits": 7,
     "label": "CSE",
     "id": "168",
+    "genEd": null,
+    "description": "Covers the concepts and methods needed to develop augmented reality (AR) and virtual reality (VR) applications. Topics include 3D modeling, graphics rendering, image compositing, occlusion handling, sensors, computer vision and image analysis, toolkits for AR, different display options, dynamics, interaction, and navigation. Prerequisite(s): CSE 160 and CSE 160L. Some knowledge of mobile platforms (e.g., CSE 118 or CSE 167) is helpful, but not required. Enrollment is by instructor permission. Enrollment is restricted to juniors and seniors. (Formerly CMPS 168.)",
     "prerequisites": {}
   },
   "CSE 180": {
@@ -1055,6 +1188,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "180",
+    "genEd": null,
+    "description": "Introduction to the concepts, approaches, tools, and methodology of database design. Covers the entity-relationship model, the relational model, relational algebra, relational calculus, commercial languages (such as SQL and QBE), functional dependencies, normal forms, and design theory. Other topics may include knowledge-bases, constraint databases, and alternative database models. Students that have taken and passed CSE 182 may not take CSE 180 for credit. (Formerly CMPS 180.)",
     "prerequisites": "CSE 101"
   },
   "CSE 181": {
@@ -1062,6 +1197,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "181",
+    "genEd": null,
+    "description": "Introduction to the architecture and implementation of database systems. Topics covered include data storage, tree and hash indexes, storage management, query evaluation and optimization, transaction management, concurrency control, recovery, and XML data management.",
     "prerequisites": {
       "AND": [
         "CSE 180",
@@ -1074,29 +1211,27 @@
     "credits": 5,
     "label": "CSE",
     "id": "182",
+    "genEd": null,
+    "description": "Concepts, approaches, tools, and methodology of database design. Topics include the entity-relationship model; the relational data model; normal forms; commercial languages such as SQL (SQL constraints, SQL triggers, and update languages); query-by-example (QBE); XML data model, and XML query language (XQuery); as well as relational database-management support for XML and object-relational features in database-management systems. Involves a database -application development project. Students that have taken and passed CSE 180 cannot receive credit for CSE 182.",
     "prerequisites": {
       "AND": [
         {
-          "AND": [
+          "OR": [
             "CSE 16",
             "BME 160"
           ]
         },
         {
-          "AND": [
-            "CSE 15",
-            "CSE 15L",
+          "OR": [
+            {
+              "AND": [     
+                "CSE 15",
+                "CSE 15L"
+              ]
+            },
             "CSE 13E",
             "CSE 13S",
-            "ECE 13 Course intended f",
-            "non-maj",
-            "s"
-          ]
-        },
-        {
-          "AND": [
-            "computer science maj",
-            "s should enroll in CSE 180"
+            "ECE 13"
           ]
         }
       ]
@@ -1107,10 +1242,16 @@
     "credits": 5,
     "label": "CSE",
     "id": "183",
+    "genEd": "PR-E",
+    "description": "The World-Wide Web is one of the main mechanisms by which computer applications are delivered to users. This course introduces the design of Web applications. Students learn the main technologies involved, and build web applications as part of homework assignments and group class projects. Students cannot receive credit for this course and CSE 186.",
     "prerequisites": {
-      "AND": [
-        "CSE 15",
-        "CSE 15L",
+      "OR": [
+        {
+          "AND": [
+            "CSE 15",
+            "CSE 15L"
+          ]
+        },
         "CMPM 35",
         "CSE 101"
       ]
@@ -1121,6 +1262,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "184",
+    "genEd": null,
+    "description": "Python basics; data extraction from CSV, JSON, XML, Excel, PDF, encoded text files; data cleaning, finding duplicates, missing data, fuzzy matching; data exploration, joining, aggregating, separating, correlation, clustering; web scraping, APIs, scraping data from social media, open data network. (Formerly CMPS 184.)",
     "prerequisites": "CSE 101"
   },
   "CSE 185E": {
@@ -1128,30 +1271,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "185E",
+    "genEd": null,
+    "description": "Writing by engineers and computer scientists to technical audiences. Writing exercises include: cover letter and resume for job application, tutorial writing, grant proposal, document specification, literature review, and a final technical report. Two oral presentations are also required, an in-class presentation and a poster presentation. Students also receive instruction in the use of UC library and journal database resources, and in the writing of a statement of purpose for graduate school application. Also offered as CSE 185S. (Formerly Computer Engineering 185, Technical Writing for Computer Engineers.)",
     "prerequisites": {
       "AND": [
         "WRIT 1",
         {
-          "AND": [
-            "satisfaction of Entry Level Writing",
-            "Composition requirements"
-          ]
-        },
-        {
-          "AND": [
+          "OR": [
             "CSE 12",
             "CSE 15",
             "CSE 30",
-            "BME 160",
-            "by permission of the instruct",
-            "Enrollment is restricted to computer engineering bioengineering bioinf",
-            "matics biomolecular engineering",
-            "bioinf",
-            "matics",
-            "netw",
-            "k",
-            "digital technology maj",
-            "s"
+            "BME 160"
           ]
         }
       ]
@@ -1162,17 +1292,18 @@
     "credits": 5,
     "label": "CSE",
     "id": "186",
+    "genEd": null,
+    "description": "Examines current uses of the World Wide Web for delivery of the sophisticated interactive applications used daily. Web applications offer several advantages over traditional, locally installable binaries including heterogeneous deployment, instantaneous access, continuous updates, and the possibility of collaboration at scale. These full stack web applications are typically more complex than their traditional counterparts, requiring the seamless integrating of numerous related technologies if end users are to have a productive experience and the system is to remain robust, performant, and secure. Students cannot receive credit for this course and CSE 183.",
     "prerequisites": {
-      "AND": [
-        "CSE 15",
-        "CSE 15L",
+      "OR": [
+        {
+          "AND": [
+            "CSE 15",
+            "CSE 15L"
+          ]
+        },
         "CSE 30",
-        "CSE 101 Enrollment is restricted to juni",
-        "s",
-        "seni",
-        "s maj",
-        "ing in computer engineering computer science",
-        "computer game design"
+        "CSE 101"
       ]
     }
   },
@@ -1181,20 +1312,17 @@
     "credits": 5,
     "label": "CSE",
     "id": "187",
-    "prerequisites": {
-      "AND": [
-        "CSE 186 Enrollment is restricted to juni",
-        "s",
-        "seni",
-        "s"
-      ]
-    }
+    "genEd": "PR-E",
+    "description": "Continues the examination of current uses of the World Wide Web for delivery of the sophisticated interactive applications we use daily. Advanced development techniques are examined with continued emphasis on automated testing. A sizable team project is undertaken to introduce topics including, but not limited to, automated build pipelines, penetration testing, API versioning, and deployment at scale.",
+    "prerequisites": "CSE 186"
   },
   "CSE 191": {
     "name": "Computer Science and Technology Seminar",
     "credits": 2,
     "label": "CSE",
     "id": "191",
+    "genEd": null,
+    "description": "Weekly talks by industry experts, university researchers, field practitioners, and video presentations provide an in-depth exposure to a specific or a broad area of computer science and technology. Topics include emerging ideas, opportunities, challenges, and future of the industry. (Formerly CMPS 191.)",
     "prerequisites": {}
   },
   "CSE 192": {
@@ -1202,6 +1330,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "192",
+    "genEd": null,
+    "description": "Students hold tutoring hours, run a lab, or lead discussion section in conjunction with a regularly offered course and under close supervision by the course's instructor. Weekly meetings with a regular faculty member to discuss teaching techniques, pedagogy, sensitivity to students' needs, maintaining a comfortable learning environment, and strategies for handling difficult situations. Students submit a report on their teaching experience. Enrollment by permission of instructor and restricted to sophomores, juniors, and seniors. (Formerly CMPS 192.)",
     "prerequisites": {}
   },
   "CSE 192F": {
@@ -1209,6 +1339,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "192F",
+    "genEd": null,
+    "description": "Students hold tutoring hours, run a lab, or lead discussion section in conjunction with a regularly offered course and under close supervision by the course's instructor. Weekly meetings with a regular faculty member to discuss teaching techniques, pedagogy, sensitivity to students' needs, maintaining a comfortable learning environment, and strategies for handling difficult situations. Students submit a report on their teaching experience. Enrollment by permission of instructor and restricted to sophomores, juniors, and seniors. (Formerly CMPS 192F.)",
     "prerequisites": {}
   },
   "CSE 193": {
@@ -1216,6 +1348,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "193",
+    "genEd": null,
+    "description": "Provides for individual programs of study with specific academic objectives carried out under the direction of a faculty member of the Computer Engineering Department and a willing sponsor at the field site using resources not normally available on campus. Credit is based on the presentation of evidence of achieving the objectives by submitting a written and oral presentation. May not be repeated for credit. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 193F": {
@@ -1223,6 +1357,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "193F",
+    "genEd": null,
+    "description": "Provides for individual programs of study with specific academic objectives carried out under the direction of a faculty member of the Computer Engineering Department and a willing sponsor at the field site using resources not normally available on campus. Credit is based on the presentation of evidence of achieving the objectives by submitting a written and oral presentation. May not be repeated for credit. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 194": {
@@ -1230,6 +1366,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "194",
+    "genEd": null,
+    "description": "A program of independent study arranged between a group of students and a faculty member. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 194F": {
@@ -1237,6 +1375,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "194F",
+    "genEd": null,
+    "description": "A program of independent study arranged between a group of students and a faculty member. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 195": {
@@ -1244,6 +1384,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "195",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.\u00a0Prerequisite(s): satisfaction of the Entry Level Writing and Composition requirements. Computer Engineering majors, CSE 123A or CSE 129A.",
     "prerequisites": {}
   },
   "CSE 195F": {
@@ -1251,6 +1393,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "195F",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency. Consent of instructor required. Prerequisite: CSE 123A.",
     "prerequisites": {}
   },
   "CSE 198": {
@@ -1258,6 +1402,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "198",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 198F": {
@@ -1265,6 +1411,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "198F",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 199": {
@@ -1272,6 +1420,8 @@
     "credits": 5,
     "label": "CSE",
     "id": "199",
+    "genEd": null,
+    "description": "For fourth-year students majoring in computer engineering. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "CSE 199F": {
@@ -1279,6 +1429,8 @@
     "credits": 2,
     "label": "CSE",
     "id": "199F",
+    "genEd": null,
+    "description": "For fourth-year students majoring in computer engineering. Students submit petition to sponsoring agency.",
     "prerequisites": {}
   }
 }
