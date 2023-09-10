@@ -4,30 +4,30 @@
     "credits": 5,
     "label": "STAT",
     "id": "5",
-    "prerequisites": {
-      "AND": [
-        "Students cannot enroll in STAT 5 after receiving a C",
-        "better in STAT 7"
-      ]
-    }
+    "genEd": "SR",
+    "description": "Introduction to statistical methods/reasoning, including descriptive methods, data-gathering (experimental design and sample surveys), probability, interval estimation, significance tests, one- and two-sample problems, categorical data analysis, correlation and regression. Emphasis on applications to the natural and social sciences. Students cannot receive credit for this course if they have already received credit for STAT\u00a07. (Formerly AMS 5.)",
+    "prerequisites": {}
   },
   "STAT 7": {
     "name": "Statistical Methods for the Biological, Environmental, and Health Sciences",
     "credits": 5,
     "label": "STAT",
     "id": "7",
+    "genEd": "SR",
+    "description": "Case-study-based introduction to statistical methods as practiced in the biological,  environmental, and health sciences. Descriptive methods, experimental design, probability, interval estimation, hypothesis testing, one- and two-sample problems, power and sample size calculations, simple correlation and simple linear regression, one-way analysis of variance, categorical data analysis. (Formerly AMS 7.)",
     "prerequisites": {
-      "AND": [
-        "sc",
-        "e of 300",
-        "higher on the mathematics placement examination (MPE)",
+      "OR": [
+        {
+          "MPE": 300
+        },
         "AM 3",
         "AM 6",
         "AM 11A",
         "AM 15A",
         "MATH 3",
         "MATH 11A",
-        "MATH 19A Concurrent enrollment in STAT 7L is required"
+        "MATH 19A", 
+        "STAT 7L"
       ]
     }
   },
@@ -36,17 +36,21 @@
     "credits": 2,
     "label": "STAT",
     "id": "7L",
+    "genEd": null,
+    "description": "Computer-based laboratory course in which students gain hands-on experience in analysis of data sets arising from statistical problem-solving in the biological, environmental, and health sciences. Descriptive methods, interval estimation, hypothesis testing, one-and two-sample problems, correlation and regression, one-way analysis of variance, categorical data analysis. (Formerly AMS 7L.)",
     "prerequisites": {
-      "AND": [
-        "sc",
-        "e of 300",
-        "higher on the mathematics placement examination (MPE) AM 3",
+      "OR": [
+        {
+          "MPE": 300
+        },
+        "AM 3",
         "AM 6",
         "AM 11A",
         "AM 15A",
         "MATH 3",
         "MATH 11A",
-        "MATH 19A  Concurrent enrollment in STAT 7 is required"
+        "MATH 19A",
+        "STAT 7"
       ]
     }
   },
@@ -55,16 +59,19 @@
     "credits": 5,
     "label": "STAT",
     "id": "17",
+    "genEd": "SR",
+    "description": "Introduction to statistical methods as practiced in business and economics. Topics include descriptive methods, probability, random variables, expected values, sampling, estimation, confidence intervals, hypothesis testing, one- and two-sample problems, power and sample size calculations, correlation, and simple linear regression.\u00a0Prerequisite(s): concurrent enrollment in STAT 17L; and score of 300 or higher on the mathematics placement examination (MPE), or AM 3 or AM 11A or MATH 3 or MATH 11A. Completion of MATH 19A is strongly recommended.",
     "prerequisites": {
-      "AND": [
-        "A sc",
-        "e of 300",
-        "higher on the mathematics placement examination (MPE)",
-        "completion of AM 3",
+      "OR": [
+        {
+          "MPE": 300
+        },
+        "AM 3",
         "AM 11A",
         "MATH 3",
         "MATH 11A",
-        "MATH 19A Concurrent enrollment in STAT 17L is required"
+        "MATH 19A", 
+        "STAT 17L"
       ]
     }
   },
@@ -73,19 +80,19 @@
     "credits": 2,
     "label": "STAT",
     "id": "17L",
+    "genEd": null,
+    "description": "Overview and basic training in statistical programs used in the economics major.\u00a0 Introduces students\u00a0to basic data analysis workflow. A workflow of data analysis is a process for managing all aspects of data analysis. Planning, documenting, and organizing\u00a0work; cleaning the data; creating, renaming, and verifying variables; creating summary statistics; and archiving what has been done are all integral parts of students' data analysis. This is an online asynchronous lab, with synchronous office hours/question and answer sessions.\u00a0Prerequisites: concurrent enrollment in STAT 17; and score of 300 or higher on (MPE), or AM 3 or AM 11A. MATH 3 or MATH 11A strongly recommended. See Economics Department to petition for exceptions to concurrent enrollment restriction.",
     "prerequisites": {
-      "AND": [
-        "A sc",
-        "e of 300",
-        "higher on (MPE)",
-        "completion of AM 3",
+      "OR": [
+        {
+          "MPE": 300
+        },
+        "AM 3",
         "AM 11A",
         "MATH 3",
         "MATH 11A",
-        "MATH 19A Concurrent enrollment in STAT 17 is required Declared",
-        "proposed maj",
-        "s in one of the economics programs who are transferring in a course equivalent to STAT 17 should contact the Economics Department to petition f",
-        "an exception to the concurrent enrollment requirement"
+        "MATH 19A", 
+        "STAT 17"
       ]
     }
   },
@@ -94,6 +101,8 @@
     "credits": 5,
     "label": "STAT",
     "id": "80A",
+    "genEd": "SR",
+    "description": "Games of chance and strategy motivated early developments in probability, statistics, and decision theory. Course uses popular games to introduce students to these concepts, which underpin recent scientific developments in economics, genetics, ecology, and physics. (Formerly AMS 80A.)",
     "prerequisites": {}
   },
   "STAT 80B": {
@@ -101,6 +110,8 @@
     "credits": 5,
     "label": "STAT",
     "id": "80B",
+    "genEd": "SR",
+    "description": "Introduces the use of complex-data graphical representations to extract information from data. Topics include: summary statistics, boxplots, histograms, dotplots, scatterplots, bubble plots, and map-creation, as well as visualization of trees and hierarchies, networks and graphs, and text. (Formerly AMS 80B.)",
     "prerequisites": {}
   },
   "STAT 108": {
@@ -108,11 +119,12 @@
     "credits": 5,
     "label": "STAT",
     "id": "108",
+    "genEd": null,
+    "description": "Covers simple linear regression, multiple regression, and analysis of variance models. Students learn to use the software package R to perform the analysis, and to construct a clear technical report on their analysis, readable by either scientists or nontechnical audiences.  (Formerly AMS 156.)",
     "prerequisites": {
       "AND": [
-        "STAT 132",
-        "satisfaction of the Entry Level Writing",
-        "Composition requirements"
+        "WRIT 1",
+        "STAT 132"
       ]
     }
   },
@@ -121,8 +133,10 @@
     "credits": 5,
     "label": "STAT",
     "id": "131",
+    "genEd": "SR",
+    "description": "Introduction to probability theory and its applications. Combinatorial analysis, axioms of probability and independence, random variables (discrete and continuous), joint probability distributions, properties of expectation, Central Limit Theorem, Law of Large Numbers, Markov chains. Students cannot receive credit for this course and STAT\u00a0203 and CMPE 107. (Formerly AMS 131.)",
     "prerequisites": {
-      "AND": [
+      "OR": [
         "AM 11B",
         "ECON 11B",
         "MATH 11B",
@@ -136,8 +150,10 @@
     "credits": 5,
     "label": "STAT",
     "id": "132",
+    "genEd": "SR",
+    "description": "Introduction to statistical inference at a calculus-based level: maximum likelihood estimation, sufficient statistics, distributions of estimators, confidence intervals, hypothesis testing, and Bayesian inference. (Formerly AMS 132.)",
     "prerequisites": {
-      "AND": [
+      "OR": [
         "STAT 131",
         "CSE 107"
       ]
@@ -148,6 +164,8 @@
     "credits": 5,
     "label": "STAT",
     "id": "198",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.",
     "prerequisites": {}
   },
   "STAT 198F": {
@@ -155,6 +173,8 @@
     "credits": 2,
     "label": "STAT",
     "id": "198F",
+    "genEd": null,
+    "description": "Students submit petition to sponsoring agency.",
     "prerequisites": {}
   }
 }
