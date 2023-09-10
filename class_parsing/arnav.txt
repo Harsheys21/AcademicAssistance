@@ -1,0 +1,264 @@
+
+ 
+GO!
+Go To
+Arnav Nepal
+Search
+Plan
+Enroll
+Grades
+My Academics
+My Academic Requirements
+UC Santa Cruz | Undergraduate
+This report last generated on
+07/31/2023  7:06PM
+Taken
+In Progress
+Planned
+Taken
+In Progress
+Planned
+IMPORTANT INFORMATION REGARDING THE DEGREE PROGRESS REPORT Collapsible section IMPORTANT INFORMATION REGARDING THE DEGREE PROGRESS REPORT 
+Group Box
+The Degree Progress Report (DPR) is a tool to help track your progress toward graduation. Resources are available for all users to aid in the use of the DPR. Contact your major or college advisor with any questions about graduation requirements. (RG2398)
+
+UNIVERSITY OF CALIFORNIA REQUIREMENTS Collapsible section UNIVERSITY OF CALIFORNIA REQUIREMENTS 
+GENERAL EDUCATION REQUIREMENTS *excluding DC Collapsible section GENERAL EDUCATION REQUIREMENTS *excluding DC 
+Group Box
+ Not Satisfied:   All general education courses must be passed with a grade of C/P or better. Search for and enroll in general education courses via Class Search (RG2395)
+
+GE CC: Cross-Cultural Analysis Collapsible section GE CC: Cross-Cultural Analysis 
+GE ER: Ethnicity and Race Collapsible section GE ER: Ethnicity and Race 
+GE IM: Interpreting Art and Media Collapsible section GE IM: Interpreting Art and Media 
+ Not Satisfied:   One 5-credit course or equivalent (R583, L10)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+GE MF: Mathematical and Formal Reasoning Collapsible section GE MF: Mathematical and Formal Reasoning 
+GE SI: Scientific Inquiry Collapsible section GE SI: Scientific Inquiry 
+GE SR: Statistical Reasoning Collapsible section GE SR: Statistical Reasoning 
+GE TA: Textual Analysis Collapsible section GE TA: Textual Analysis 
+ Not Satisfied:   One 5-credit course or equivalent (R587, L10)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+GE PE: Perspectives Collapsible section GE PE: Perspectives 
+GE PR: Practice Collapsible section GE PR: Practice 
+GE C: Composition Collapsible section GE C: Composition 
+GE DC: Disciplinary Communication
+All students must satisfy the DC requirement of each of their chosen majors. The DC requirement can be found in the Upper-Division Requirements section for each major below (R539)
+
+CMPSBS - LOWER-DIVISION REQUIREMENTS (2021-22 Catalog) Collapsible section CMPSBS - LOWER-DIVISION REQUIREMENTS (2021-22 Catalog) 
+Group Box
+Computer Science B.S. Lower-Division Requirements (RG2765)
+
+All Major Courses Must be Taken for a Letter Grade
+(R2158)
+
+Computer Science and Engineering
+Satisfied:   (R2311)
+
+CSE 12 Collapsible section CSE 12 
+CSE 16 Collapsible section CSE 16 
+CSE 20 Collapsible section CSE 20 
+CSE 30 Collapsible section CSE 30 
+CSE 13S or ECE 13 Collapsible section CSE 13S or ECE 13 
+Mathematics
+Satisfied:   (R483)
+
+MATH 19A or 20A Collapsible section MATH 19A or 20A 
+MATH 19B or 20B Collapsible section MATH 19B or 20B 
+Applied Mathematics
+Satisfied:   (R482)
+
+AM 10 or MATH 21 Collapsible section AM 10 or MATH 21 
+AM 30 or MATH 23A Collapsible section AM 30 or MATH 23A 
+Engineering Science
+ Not Satisfied:   (R2312)
+
+ECE 30 Collapsible section ECE 30 
+ Not Satisfied:   (R2312, L10)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CMPSBS - UPPER-DIVISION REQUIREMENTS (2021-22 Catalog) Collapsible section CMPSBS - UPPER-DIVISION REQUIREMENTS (2021-22 Catalog) 
+Group Box
+Computer Science B.S. Upper-Division Requirements (RG2766)
+
+Computer Science and Engineering
+ Not Satisfied:   (R122)
+
+CSE 101 Collapsible section CSE 101 
+CSE 102 Collapsible section CSE 102 
+ Not Satisfied:   (R122, L30)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CSE 103 Collapsible section CSE 103 
+ Not Satisfied:   (R122, L40)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CSE 112 or 116 (114A) Collapsible section CSE 112 or 116 (114A) 
+ Not Satisfied:   (R122, L60)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CSE 120 Collapsible section CSE 120 
+CSE 130 Collapsible section CSE 130 
+ Not Satisfied:   (R122, L80)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+Statistics
+Satisfied:   (R123)
+
+STAT 131 or CSE 107 Collapsible section STAT 131 or CSE 107 
+Electives
+Four electives. Lecture/lab combinations count as one course. CSE 195 may be used either as an elective, or to satisfy the DC requirement, but not both. (R2150)
+
+CSE Elective - COURSE LIST DISPLAY Collapsible section CSE Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2150, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+CSE Elective (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+Non-AM/STAT/MATH Elective - COURSE LIST DISPLAY Collapsible section Non-AM/STAT/MATH Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2153, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+Elective 2 (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+Additional Elective - COURSE LIST DISPLAY Collapsible section Additional Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2157, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+Elective 3 (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+Additional Elective - COURSE LIST DISPLAY Collapsible section Additional Elective - COURSE LIST DISPLAY 
+ Not Satisfied:   Note: This will always show 0 taken. See lines below for completed electives. (R2154, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+View Course List
+Elective 4 (DISPLAY ONLY)
+ 	 	
+ 
+ 	
+ 
+DC: Disciplinary Communication for Computer Science B.S.
+ Not Satisfied:   The DC requirement must be taken at UCSC. Any exceptions or substitutions to this requirement must be approved by the Committee on Courses of Instruction. Complete ONE of the following options. (R867)
+
+CSE 115A, 185E, or 185S Collapsible section CSE 115A, 185E, or 185S 
+ Not Satisfied:   CSE 115A (formerly CMPS 115) or CSE 185E (formerly CMPE 185) or CSE 185S. Can also be satisfied by CMPS 195 if taken before Fall 2019. (R867, L10)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1-3 of 3 Show next row (inactive button) Last 
+Course	Description	Units	When	Grade	Status	Course Type
+CSE 115A
+Intro Software Eng
+5.00
+ 
+ 
+ 	
+ 
+CSE 185E
+Tech Writ Comp Engs
+5.00
+ 
+ 
+ 	
+ 
+CSE 185S
+Tech Writ Comp Engs
+5.00
+ 
+ 
+ 	
+ 
+CSE 195 Collapsible section CSE 195 
+ Not Satisfied:   CSE 195, if taken Fall 2019 or later. (R867, L40)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+Comprehensive Requirement
+ Not Satisfied:   Complete ONE of the following options
+Note: Lecture/Labs count as a single course. A capstone course can also count toward the upper-division electives requirement. (R55)
+
+Option 1: Capstone Course - COURSE LIST DISPLAY Collapsible section Option 1: Capstone Course - COURSE LIST DISPLAY 
+Note: This will always show 0 taken. See lines below for completed electives. (R55, L1)
+
+Description
+Courses: 0.01 required, 0 taken, 0.01 needed
+The following courses may be used to satisfy this requirement:
+Group Box
+Personalize | View All | Zoom         First Show previous row (inactive button) 1 of 1 Show next row (inactive button) Last 
+Course	Description	Grade	Status	Course Type
+View Course List
+Capstone Course (DISPLAY ONLY)
+ 
+ 	
+ 
+Option 2: Senior Thesis Collapsible section Option 2: Senior Thesis 
+ Not Satisfied:   At least 5 credits of CSE 195 (R55, L70)
+
+Description
+Courses: 1 required, 0 taken, 1 needed
+CROWN COLLEGE REQUIREMENTS Collapsible section CROWN COLLEGE REQUIREMENTS 
+Statistics Collapsible section Statistics 
+Effective Term:
+2023 Spring Quarter
+UC GPA:
+3.43
+% Graded Pass(P):*
+4.72
+UCSC Cumulative Credits:
+111.00
+The information on this page reflects earned/completed credits as of the effective term listed above.
+
+* If the percentage listed is 25% or less, you are on track to meet the graduation requirement (applies to undergraduates only).
+The % Graded Pass is the percentage of passing (P) credits earned excluding any of the following: (1) UCSC courses graded P for quarters in which the Committee on Educational Policy has excluded Pass grades from the percent calculation for graduation (Spring 2020, Summer 2020, Fall 2020, Winter 2021, Spring 2021, Summer 2021, Fall 2022), (2) UCSC courses graded P when a letter grade was requested by the student, and (3) All non-UCSC courses from special programs such as ROTC and domestic exchanges.
+UCSC courses include any credits earned in the Education Abroad Program or at another UC campus in an intercampus exchange program. Some majors require all courses in the major to be taken for a letter grade; please visit https://catalog.ucsc.edu for detailed major information.
+
+Expand All
+UCSC Courses
+ 
+Expand All Transfer Credit
+Transfer Credit
+Expand All Test Credit
+Test Credit
+Go to top iconGo to top
