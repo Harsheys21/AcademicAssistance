@@ -54,6 +54,12 @@ class CourseManager:
                 description = course.find_next("div", class_="desc")
                 extra_fields = course.find_next("div", class_="extraFields")
                 credits = course.find_next("div", class_="credits")
+                genEd = course.find_next("div", class_="genEd")
+                
+                if not genEd or genEd.find_previous_sibling(
+                        "h2", class_="course-name").text.strip() != course.text.strip():
+                    genEd = None
+
                 # If the course has no prereqs, then the extra_fields element will be None
                 if not extra_fields or \
                     extra_fields.find_previous_sibling(
@@ -65,6 +71,9 @@ class CourseManager:
                     course_prereqs = extra_fields.find("p").text.strip()
                     course_prereqs = course_prereqs[course_prereqs.find(' ')+1:].replace(".", "")
                     course_prereqs = self._process_prerequisites(course_prereqs)
+                    
+                    if genEd:
+                        genEd = genEd.find("p").text.strip()
 
                 course_name = self.get_course_code(course.text.strip())
                 if self._is_graddiv(course_name):
@@ -76,7 +85,8 @@ class CourseManager:
                     'credits': int(credits.text.strip()),
                     'label': course_name.split(" ")[0],
                     'id': course_name.split(" ")[1],
-                    # 'description': description.text.strip(),
+                    'genEd': genEd,
+                    'description': description.text.strip(),
                     'prerequisites': course_prereqs
                 }
             return course_data
