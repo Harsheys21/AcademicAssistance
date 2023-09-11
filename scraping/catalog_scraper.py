@@ -72,8 +72,9 @@ class CourseManager:
                     course_prereqs = course_prereqs[course_prereqs.find(' ')+1:].replace(".", "")
                     course_prereqs = self._process_prerequisites(course_prereqs)
                     
-                    if genEd:
-                        genEd = genEd.find("p").text.strip()
+                if genEd:
+                    genEd = genEd.find("p").text.strip()
+                    print(genEd)
 
                 course_name = self.get_course_code(course.text.strip())
                 if self._is_graddiv(course_name):
@@ -98,11 +99,11 @@ class CourseManager:
         Takes in a path to a json file and a dictionary of data.
         Saves the data to the json file
         """
-        try:
-            with open(path, "w") as f:
-                json.dump(data, f, indent=2)
-        except:
-            print("Error: Could not save to json file")
+        # try:
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2)
+        # except:
+        #     print("Error: Could not save to json file")
 
     def _is_graddiv(self, course_code):
         try:
@@ -174,7 +175,8 @@ class CourseManager:
         return prerequisites_dict
 
 if __name__ == "__main__":
-    catalog = "https://ucsc.smartcatalogiq.com/en/current/general-catalog/courses/math-mathematics/"
+    catalog = "https://ucsc.smartcatalogiq.com/current/general-catalog/courses/cmpm-computational-media/"
     cse = CourseManager(catalog)
     course = cse.get_course_data()
-    cse.save_to_json("math.json", course)
+    # print(course)
+    cse.save_to_json("cmpm.json", course)
