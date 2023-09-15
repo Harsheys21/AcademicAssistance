@@ -79,8 +79,7 @@
     "prerequisites": {
       "OR": [
         {
-          "MPE": 200,
-          "AP Calculus AB": 3
+          "MPE": 200
         },
         "MATH 2"
       ]
@@ -97,8 +96,7 @@
     "prerequisites": {
       "OR": [
         {
-          "MPE": 300,
-          "AP Calculus AB": 3
+          "MPE": 300
         },
         {
           "OR": [
@@ -119,9 +117,6 @@
     "concurrent": null,
     "prerequisites": {
       "OR": [
-        {
-          "AP Calculus AB": 4
-        },
         "MATH 11A",
         "MATH 19A",
         "AM 15A"
@@ -139,8 +134,7 @@
     "prerequisites": {
       "OR": [
         {
-          "MPE": 400,
-          "AP Calculus AB": 3
+          "MPE": 400
         },
         "MATH 3"
       ]
@@ -156,11 +150,6 @@
     "concurrent": null,
     "prerequisites": {
       "OR": [
-        {
-          "AP Calculus AB": 4,
-          "AP Calculus BC": 3,
-          "IB Mathematics": 5
-        },
         "MATH 19A",
         "MATH 20A"
       ]
@@ -177,10 +166,7 @@
     "prerequisites": {
       "OR": [
         {
-          "MPE": 500,
-          "AP Calculus AB": 4,
-          "AP Calculus BC": 3,
-          "IB Mathematics": 5
+          "MPE": 500
         }
       ]
     }
@@ -223,9 +209,6 @@
     "concurrent": null,
     "prerequisites": {
       "OR": [
-        {
-          "AP Calculus BC": 4
-        },
         "MATH 11B",
         "MATH 19B",
         "MATH 20B",
@@ -243,9 +226,6 @@
     "concurrent": null,
     "prerequisites": {
       "AND": [
-        {
-          "AP Calculus BC": 4
-        },
         "MATH 19B",
         "MATH 20B"
       ]
