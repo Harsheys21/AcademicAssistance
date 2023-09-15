@@ -1,17 +1,42 @@
 import re
 
+ge_not_satisfied = []
+lower_not_satisfied = []
+upper_not_satisfied = []
+core_not_satisfied = []
+new_course_codes = []
+
 # Open the file using the utf-8 encoding
 with open("./class_parsing/ernest.txt", 'r', encoding='utf-8') as textfile:
     filetext = textfile.read()
 
 # Convert the content to uppercase
 filetext_upper = filetext.upper()
+regex = re.compile(r"UNIVERSITY OF CALIFORNIA REQUIREMENTS(.*?)GENERAL EDUCATION REQUIREMENTS", re.DOTALL)
+match = regex.search(filetext_upper)    
+if match:
+    extracted_content = match.group(1).strip()
+    pattern = r"([^\n]*)\n\s*NOT SATISFIED"
+    # Find matches using the pattern
+    matches = re.findall(pattern, extracted_content)
+    # Print the lines above "NOT SATISFIED"
+    if len(matches) > 0:
+        for line in matches:
+            if "COLLAPSIBLE SECTION" in line:
+                pattern = r"ELWR:"
+                class_names = re.findall(pattern, line)
+                if len(class_names) > 0:
+                    ge_not_satisfied.append("WRIT 1")
+        print("GE classes not satisfied:",ge_not_satisfied)
+    else:
+        print("All GE Classes Satisfied")
+else:
+    print("Error: Input string format is incorrect")
 print("-----------------------------------------------------------------------------------------------------------------")
 regex = re.compile(r"GENERAL EDUCATION REQUIREMENTS(.*?)LOWER-DIVISION REQUIREMENTS", re.DOTALL)
 match = regex.search(filetext_upper)
 if match:
     extracted_content = match.group(1).strip()
-    ge_not_satisfied = []
     pattern = r"([^\n]*)\n\s*NOT SATISFIED"
     # Find matches using the pattern
     matches = re.findall(pattern, extracted_content)
@@ -23,6 +48,7 @@ if match:
                 class_names = re.findall(pattern, line)
                 if len(class_names) > 0:
                     ge_not_satisfied.append(class_names[0].replace(":",""))
+        ge_not_satisfied = [item if item != 'C' else 'WRIT 2' for item in ge_not_satisfied]            
         print("GE classes not satisfied:",ge_not_satisfied)
     else:
         print("All GE Classes Satisfied")
@@ -34,7 +60,6 @@ regex = re.compile(r"-? LOWER-DIVISION REQUIREMENTS(.*?)UPPER-DIVISION REQUIREME
 match = regex.search(filetext_upper)
 if match:
     extracted_content = match.group(1).strip()
-    lower_not_satisfied = []
     pattern = r"([^\n]*)\n\s*NOT SATISFIED"
     # Find matches using the pattern
     matches = re.findall(pattern, extracted_content)
@@ -57,7 +82,6 @@ regex = re.compile(r"-? UPPER-DIVISION REQUIREMENTS(.*?)COLLEGE REQUIREMENTS", r
 match = regex.search(filetext_upper)
 if match:
     extracted_content = match.group(1).strip()
-    upper_not_satisfied = []
     pattern = r"([^\n]*)\n\s*NOT SATISFIED"
     # Find matches using the pattern
     matches = re.findall(pattern, extracted_content)
@@ -93,7 +117,6 @@ regex = re.compile(r"COLLEGE REQUIREMENTS(.*?)STATISTICS", re.DOTALL)
 match = regex.search(filetext_upper)
 if match:
     extracted_content = match.group(1).strip()
-    ge_not_satisfied = []
     pattern = r"([^\n]*)\n\s*NOT SATISFIED"
     # Find matches using the pattern
     matches = re.findall(pattern, extracted_content)
@@ -104,8 +127,8 @@ if match:
                 pattern = r"(.*?)COLLEGE CORE"
                 class_names = re.findall(pattern, line)
                 c =class_names[0].replace(":","")
-                ge_not_satisfied.append(c.strip())
-        print("Core College classes not satisfied:",ge_not_satisfied)
+                core_not_satisfied.append(c.strip())
+        print("Core College classes not satisfied:",core_not_satisfied)
     else:
         print("All Core College Classes Satisfied")
 else:
@@ -121,7 +144,6 @@ if match:
     matches = re.findall(classes_pattern, extracted_content)
     if len(matches) > 0:
         course_desc = list(matches)
-        new_course_codes = []
         for desc in course_desc:
             if((desc.count("\n") + 1) > 3):
                 course = re.findall(pattern, desc)
