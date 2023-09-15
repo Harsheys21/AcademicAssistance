@@ -23,7 +23,7 @@ class CourseManager:
         except:
             print("Error: Could not get course list")
 
-    def get_course_code(self, course_name: str | Tag):
+    def get_course_code(self, course_name):
         """
         Takes in a course name in the form of a string or bs4 Tag.
         Returns a course code from the catalog 
@@ -88,6 +88,7 @@ class CourseManager:
                     'id': course_name.split(" ")[1],
                     'genEd': genEd,
                     'description': description.text.strip(),
+                    'concurrent': None,
                     'prerequisites': course_prereqs
                 }
             return course_data
@@ -175,8 +176,8 @@ class CourseManager:
         return prerequisites_dict
 
 if __name__ == "__main__":
-    catalog = "https://ucsc.smartcatalogiq.com/current/general-catalog/courses/cmpm-computational-media/"
+    catalog = "https://ucsc.smartcatalogiq.com/en/current/general-catalog/courses/phys-physics/"
     cse = CourseManager(catalog)
     course = cse.get_course_data()
     # print(course)
-    cse.save_to_json("cmpm.json", course)
+    cse.save_to_json("phys.json", course)
