@@ -8,7 +8,7 @@ import { useInput } from "../utils/InputContext";
 
 const title = "Instructions";
 const instructions =
-  "very instructive information...blahblahblahablahalnabkajbrejkhwgcbjwrtg";
+  "Go to your academic whatever page, hit Cmd + A  or CTRL + A on your keyboard, then copy that text and paste it into this here textbox";
 
 const Input = () => {
   let navigate = useNavigate();
@@ -17,8 +17,9 @@ const Input = () => {
   // TODO: Here, since the raw data needs to be processed and converted into
   // completed and not completed classes, first there must a call to a function that does this
   // before the data is added to the context
+
+  // OR: The raw data is added and
   const handleInputChange = (id, value) => {
-    // const { id, value } = e.target;
     setInputValues((prevInputValues) => ({
       ...prevInputValues,
       [id]: value,
@@ -34,7 +35,6 @@ const Input = () => {
           name="raw_data"
           handleUpdate={(name, value) => handleInputChange(name, value)}
           onSubmit={(text) => {
-            // handleInputChange(name, text);
             console.log(text);
           }}
         />
@@ -43,7 +43,6 @@ const Input = () => {
           className="next-button"
           onClick={() => {
             navigate("/login");
-            // handleAdd();
           }}
         />
         <NavButton

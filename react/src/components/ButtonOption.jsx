@@ -1,10 +1,4 @@
-import "./MajorOption.css";
-
-// interface Props {
-//   active: boolean;
-//   text?: string;
-//   onClick: () => void;
-// }
+import "./ButtonOption.css";
 
 function MajorOption(props) {
   return (

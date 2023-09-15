@@ -31,7 +31,6 @@ function Login() {
   const { inputValues, setInputValues } = useInput();
 
   let navigate = useNavigate();
-  // TODO: SAVE DATA in Firestore with UID
 
   const handleSaveData = async () => {
     const {
@@ -103,13 +102,6 @@ function Login() {
   const logout = async () => {
     await signOut(auth);
   };
-
-  // const handleAdd = async (event) => {
-  //   event.preventDefault();
-  // };
-
-  // TODO: Use Context file to upload doc to firebase
-  // TODO: Use Context in all input pages to track inputted user data
 
   return (
     <>

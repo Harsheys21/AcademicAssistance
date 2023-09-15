@@ -1,40 +1,30 @@
 import React, { useEffect, useState } from "react";
-import "../components/MajorOption";
-import MajorOption from "../components/MajorOption";
+import "../components/ButtonOption";
+import MajorOption from "../components/ButtonOption";
 import NavButton from "../components/NavButton";
 import { useNavigate } from "react-router-dom";
 import "../components/NavButton.css";
 import { useInput } from "../utils/InputContext";
 
-// interface Props {
-//   items: string[];
-//   heading?: string;
-//   //
-//   onSelectItem: (item: string) => void; // just like onClick
-// }
-
 function Majors(props) {
-  // Hook, function that allows us to tap into built in features of React
-  // each component has its own state
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   let navigate = useNavigate();
 
   const { inputValues, setInputValues } = useInput();
 
-  const handleInputChange = (name, value) => {
-    // const { name, value } = data;
+  const handleInputChange = (name, value, index) => {
     console.log("name, value = ", name, value);
     setInputValues((prevInputValues) => ({
       ...prevInputValues,
       [name]: value,
+      concentration_index: index,
     }));
-    // console.log(inputValues);
   };
 
   useEffect(() => {
     console.log("Updated inputValues:", inputValues);
-  }, [inputValues]); // Log inputValues whenever it changes
+  }, [inputValues]);
 
   return (
     <>
@@ -47,10 +37,13 @@ function Majors(props) {
               <React.Fragment key={index}>
                 <MajorOption
                   name="concentration"
-                  active={selectedIndex === index}
+                  active={
+                    selectedIndex === index ||
+                    inputValues.concentration_index === index
+                  }
                   text={item}
                   onClick={(name, text) => {
-                    handleInputChange(name, text);
+                    handleInputChange(name, text, index);
                     setSelectedIndex(index);
                     props.onSelectItem(item);
                   }}

@@ -16,6 +16,7 @@ export function InputProvider({ children }) {
     upper_NotSatisfied: [],
     schedule: {},
     raw_data: {},
+    concentration_index: -1,
     // Add more input values as needed
   });
 
