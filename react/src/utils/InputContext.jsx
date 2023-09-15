@@ -6,6 +6,7 @@ const InputContext = createContext();
 
 export function InputProvider({ children }) {
   const [inputValues, setInputValues] = useState({
+    email: "",
     grad_quarter: "",
     grad_date: "",
     concentration: "",

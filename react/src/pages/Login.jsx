@@ -54,11 +54,16 @@ function Login() {
   useEffect(() => {
     onAuthStateChanged(auth, (currentUser) => {
       console.log("State Changed");
+
       setUser(currentUser);
-      setInputValues((prevInputValues) => ({
-        ...prevInputValues,
-        ["email"]: currentUser.email,
-      }));
+
+      if (currentUser) {
+        console.log(currentUser.email);
+        setInputValues((prevInputValues) => ({
+          ...prevInputValues,
+          ["email"]: currentUser.email,
+        }));
+      }
     });
   }, []);
 
