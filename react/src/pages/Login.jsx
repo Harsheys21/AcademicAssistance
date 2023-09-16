@@ -100,6 +100,7 @@ function Login() {
   };
 
   const logout = async () => {
+    // TODO: clear InputContext when logged out
     await signOut(auth);
   };
 
@@ -156,7 +157,9 @@ function Login() {
           <div></div>
           <button onClick={handleGoogle}>Sign In with Google</button>
           <div></div>
-          <button onClick={handleSaveData}>(TEST) print context</button>
+          <button disabled={!auth.currentUser} onClick={handleSaveData}>
+            SAVE DATA (sign in first)
+          </button>
         </div>
         <NavButton
           text="Prev"

@@ -11,7 +11,6 @@ import { InputProvider } from "./utils/InputContext";
 function App() {
   return (
     <>
-      {/* temporary style, focusing on Auth functionality */}
       <InputProvider>
         <Router>
           <Routes>
@@ -33,6 +32,7 @@ function App() {
               }
             />
             <Route path="/input" element={<Input />} />
+            {/* TODO: Input -> python script API -> loading page -> Login */}
             <Route path="/login" element={<Login />} />
             {/* TODO: Make login button on login page route to dashboard */}
             {/* TODO: Make dashboard component accessible to logged in users only (Private Routes) */}
