@@ -30,7 +30,7 @@ const Input = () => {
       .post("http://127.0.0.1:5000/process", { input: userInput })
       .then((response) => {
         setProcessedData(response.data.result);
-        console.log("Result: ", response.data.result);
+        console.log("Result: ", response.data);
         setLoading(false);
       })
       .catch((error) => {
