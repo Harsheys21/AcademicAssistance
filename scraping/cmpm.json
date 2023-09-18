@@ -453,7 +453,7 @@
     "genEd": "null",
     "description": "Students work in teams to produce fully functional games based on previously developed game subsets. Focus on production including scaling, long-term player experience, teaching mechanics through interaction, developing multi-stage narratives/scenarios, and varying gameplay as players develop new understandings and abilities. Prerequisite(s): CMPM 171, or by instructor permission. Enrollment is by permission of the instructor. Formerly offered as Game Design Studio III.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": "CMPM 171"
   },
   "CMPM 176": {
     "name": "Game Systems",
@@ -493,7 +493,12 @@
     "genEd": "PR-C",
     "description": "Provides the opportunity to practice the creation of novel computer games. Students learn a new game-making technology, then create three games  using this technology.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {
+      "AND":[
+        "CMPM 120",
+        "CMPM 80K"
+      ]
+    }
   },
   "CMPM 194": {
     "name": "Group Tutorial",
