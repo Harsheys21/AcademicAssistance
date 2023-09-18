@@ -4,9 +4,9 @@
     "credits": 1,
     "label": "CMPM",
     "id": "15",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students participate in two exploratory reading groups on topics related to ongoing research activities. Students read a selection of 8-10 papers providing a general overview and introduction to active research areas within each topic. May be repeated for credit. This class can be taken for Pass/No Pass credit only.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 17": {
@@ -16,7 +16,7 @@
     "id": "17",
     "genEd": "PR-E",
     "description": "Introduction to design thinking and the engineering design cycle via a design-build-evaluate-iterate process, resulting in a functional artifact. Students work in groups while learning discipline-specific standards of good engineering practice. Specific project details and disciplines explored vary with instructor. No prerequisites or prior learning required.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 25": {
@@ -26,7 +26,7 @@
     "id": "25",
     "genEd": "PR-C",
     "description": "Introduces theory and techniques of 3D computer graphics. Topics include: capabilities of modern graphics hardware; 3D coordinate spaces; modeling with polygons; NURBS and subdivision surfaces; applying textures and materials; lighting; and simple effects. Students develop proficiency in 3D modeling via lectures and assignments focused on the use of a 3D modeling tool.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 26": {
@@ -36,7 +36,7 @@
     "id": "26",
     "genEd": "PR-C",
     "description": "Introduces theories and techniques of 3D computer animation. Topics include: character animation; rigging; simulation of cloth, liquids, and fire; motion capture; rendering; and editing animated scenes. Students develop proficiency in 3D animation via lectures and assignments focused on the use of a 3D animation tool and use of motion-capture software.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 25"
   },
   "CMPM 27": {
@@ -44,9 +44,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "27",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to the development of physically based materials in Substance Designer and Substance Painter. These are then applied to a range of character and machine models within either the Blender or Maya 3D modeling applications.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 25"
   },
   "CMPM 35": {
@@ -54,9 +54,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "35",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to common data structures, algorithms that operate on them, and techniques for implementation. Uses digital authoring of interactive media as a frame to motivate asymptotic (big-O) analysis of design scalability. Students will program in a strongly typed language.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CSE 30"
   },
   "CMPM 80A": {
@@ -66,7 +66,7 @@
     "id": "80A",
     "genEd": "PE-T",
     "description": "Overview of the physical, psychological, cultural, and psychosocial aspects of disability and how they impact game play. Discusses implications for universal and accessible game design.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 80H": {
@@ -76,7 +76,7 @@
     "id": "80H",
     "genEd": "PE-T",
     "description": "As AI technologies start to integrate and permeate our everyday lives, we become aware of how they impact our lives and the biases inherent in these systems. Course introduces Human-Centered AI, investigating humanistic values and issues of a variety of current AI systems, including those in your car, on your phone (e.g., Siri), on public streets (delivery robots), and at different vendors. Introduces various societal, economic, and humanistic issues such as bias, trust, and accountability, and delves into methods that can be used to design more human-centered AI systems.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 80I": {
@@ -86,7 +86,7 @@
     "id": "80I",
     "genEd": "PE-T",
     "description": "Introduces students to Human Computer Interaction (HCI) as a field, using their everyday experience with technology as a starting point. Students learn key HCI concepts and concerns in lectures, and try out HCI design techniques in sections.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 80J": {
@@ -94,9 +94,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "80J",
-    "genEd": null,
+    "genEd": "null",
     "description": "Examines games as technical and cultural artifacts\u2014shaped by society and, in turn, shaping it. Core topics are traced over time, including social, technical, and artistic topics (for example: conceptions of war, platform affordances, and genre evolution).",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "WRIT 1"
   },
   "CMPM 80K": {
@@ -106,7 +106,7 @@
     "id": "80K",
     "genEd": "IM",
     "description": "Explores how video games (and games broadly) shape experiences and express ideas. Students develop novel games, interpret games, and survey related topics. No programming experience is required. All offerings support students with required synchronous section meetings and optional synchronous events.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 80L": {
@@ -116,7 +116,7 @@
     "id": "80L",
     "genEd": "PE-H",
     "description": "Provides a framework for leadership in entrepreneurial organizations. Topics include leading with authenticity, motivation and personality, storytelling, teamwork and management, organizational culture and processes. Learning is integrated with practice through deep engagement with entrepreneurial leaders and a time-intensive entrepreneurial project. (Formerly Technology and Information Management 80L.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 94": {
@@ -124,9 +124,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "94",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 94F": {
@@ -134,9 +134,9 @@
     "credits": 2,
     "label": "CMPM",
     "id": "94F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 110": {
@@ -144,9 +144,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "110",
-    "genEd": null,
+    "genEd": "null",
     "description": "Game writers create worlds, characters, and stories\u2014and also craft computational systems so players can experience these fictions interactively. This course covers the fundamentals of authoring fictions and systems that work together toward powerful player experiences. All offerings support students with required synchronous section meetings.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 120"
   },
   "CMPM 115": {
@@ -156,7 +156,7 @@
     "id": "115",
     "genEd": "PR-E",
     "description": "Students work in teams to develop a template for a 10-week-long engineering design project. Teaches teamwork, leadership skills, inclusive team practices, Agile process, engineering ethics, and identity formation in engineers.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 118": {
@@ -164,9 +164,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "118",
-    "genEd": null,
+    "genEd": "null",
     "description": "Guides small student teams through the performance of a quarter-long research project. Provides an overview of the process of performing research, research communities, and processes for finding and presenting research results.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 120": {
@@ -176,7 +176,7 @@
     "id": "120",
     "genEd": "PR-E",
     "description": "Teaches the concrete programming and collaboration skills associated with making a digital game from start to finish, including but not limited to: establishing a team, concepting, storyboarding, prototyping, producing, and testing a game for release. Students are organized into groups and work together to create and produce a playable game.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "CMPM 80K",
@@ -195,9 +195,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "121",
-    "genEd": null,
+    "genEd": "null",
     "description": "Advanced game programming focused on software design patterns and refactoring. Introduces classic software design patterns, as well as game programming patterns. Introduces software refactoring, including code smells and widely used refactoring patterns.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 120"
   },
   "CMPM 122": {
@@ -205,9 +205,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "122",
-    "genEd": null,
+    "genEd": "null",
     "description": "Ten-week course to provide instruction on important business topics for videogame creators\u2014many related to the games themselves and others for pursuing success in bringing the games to customers: publishing, distribution, marketing, funding, operations, and more.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 123": {
@@ -215,9 +215,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "123",
-    "genEd": null,
+    "genEd": "null",
     "description": "Course introduces students to current and emerging advanced programming methods used in building complex, high-performance, and networked interactive media systems. Students use tools like debuggers and profiles to inspect and resolve software performance bottlenecks in a compiled language.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "CSE 101",
@@ -230,9 +230,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "125",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to construction of games using game engine technology, using a specific game engine as a focus. Covers major game engine features: input, collision, animation, model import, lighting, camera, rendering, textures, particle systems. Introduction to a specific game scripting language, custom game logic, game programming patterns. (Formerly offered as CMPM 121.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 120"
   },
   "CMPM 130": {
@@ -240,9 +240,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "130",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students develop skills and interactive prototypes for addressing three communication challenges: first, software itself communicating with interactors; second, developers of software communicating about the design of the software's interactions and users' experiences; and third, communicating results of design processes.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "WRIT 1"
   },
   "CMPM 131": {
@@ -250,9 +250,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "131",
-    "genEd": null,
+    "genEd": "null",
     "description": "Theories and practices for approaching the design problems of interactive media holistically, beyond usability and accessibility. Includes hands-on learning, application of human-centered design and evaluation skills in group projects, and peer critique.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 132": {
@@ -260,9 +260,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "132",
-    "genEd": null,
+    "genEd": "null",
     "description": "Practice-based interaction design studio course. Students learn about design-led approaches to Human-Computer Interaction through participating in group projects. Course offers introductions to design methods and actionable strategies to do interaction design work and design-led technology research.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 146": {
@@ -270,9 +270,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "146",
-    "genEd": null,
+    "genEd": "null",
     "description": "Examines the use of artificial intelligence (AI) in games. Covers core AI technologies for search, control, and learning, and the application of AI to improve game design, development, and game play. Examines the AI content in multiple commercial games. This is an online class; most lectures are asynchronous. The weekly lab is synchronous, focused on Q&A and group discussion of work in progress.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CSE 101"
   },
   "CMPM 147": {
@@ -280,9 +280,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "147",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces generative methods for design. Uses algorithmic techniques to generate and evaluate game content (images, sounds, map designs) along with mechanics and progression systems. Search-based and learning-based techniques with connections to artificial intelligence are also covered.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 120"
   },
   "CMPM 148": {
@@ -290,9 +290,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "148",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers a range of design approaches and technologies including storytelling in games, interactive fiction, interactive drama, and artificial intelligence-based story generation. Through a mixture of readings, assignments, and project work, students explore the theoretical positions, debates, and technical and design issues arising from these approaches.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "CSE 101",
@@ -307,7 +307,7 @@
     "id": "150",
     "genEd": "PR-C",
     "description": "Introduces digital sound recording and editing technologies, sound synthesis, and concepts in sound design for media production. Covers the basics of sound capture, microphones, audio manipulation and editing, effects, sound formats, mixing and dynamics, synthesizers, audio software, and game audio.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 151": {
@@ -315,9 +315,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "151",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces compositional techniques and procedural audio as exhibited in the sound and music of video games. Surveys different styles of music implemented in video games and associated compositional approaches. Students develop skill in procedural audio via a series of workshops and assignments.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         {
@@ -335,9 +335,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "152",
-    "genEd": null,
+    "genEd": "null",
     "description": "Surveys the relationship between music and data as exhibited in industry and research implementations of sonification and music information retrieval. Students introduced to various styles and algorithms of sound analysis and modeling and develop skills to program unique approaches in this area.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "CMPM 35",
@@ -352,9 +352,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "163",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces real-time, hardware-accelerated graphics programming suitable for game development, visual effects, and interactive multimedia projects. Emphasizes  contemporary shader-programming techniques and developing custom effects using game engines and multimedia software.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 120"
   },
   "CMPM 164": {
@@ -362,7 +362,7 @@
     "credits": 5,
     "label": "CMPM",
     "id": "164",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers the graphic elements in computer games. Topics include modifying, optimizing, adding components, and building a game engine. Course evaluation based on exams and several programming projects, including a game built using the student's game engine.",
     "concurrent": "CMPM 164L",
     "prerequisites": {
@@ -381,7 +381,7 @@
     "credits": 2,
     "label": "CMPM",
     "id": "164L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides hands-on experience in using, designing, and building game engines. Students also explore different special effects, such as particle systems, spring systems, and game physics.",
     "concurrent": "CMPM 164",
     "prerequisites": {
@@ -400,9 +400,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "169",
-    "genEd": null,
+    "genEd": "null",
     "description": "Surveys seminal and contemporary artworks and interactive installations that utilize and critically analyze new media, new technologies, and new algorithms. Students introduced to creative coding practices and encouraged to emulate existing digital arts techniques and to develop their own computational arts projects.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "CMPM 35",
@@ -416,9 +416,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "170",
-    "genEd": null,
+    "genEd": "null",
     "description": "First of a three-course capstone sequence for the computer game design program. Students work in teams to develop a comprehensive game design for a substantial computer game, including detailed storyline, level design, artistic approach, implementation technologies, and art-asset pipeline. Emphasis placed on creating novel, artistic game design concepts. Includes design reviews and formal presentations. Companion lectures cover advanced topics in game design, game programming, and software project management.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "WRIT 1",
@@ -433,9 +433,9 @@
     "credits": 7,
     "label": "CMPM",
     "id": "171",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students work in teams to create a fully-functional subset (\"vertical slice\") of an interactive, playable software system. Focus is on experience design, systems design, integrating assets (visual, auditory, and written), testing, and project management. May be repeated for credit. (Formerly offered as Game Design Studio II.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "CMPM 121",
@@ -450,9 +450,9 @@
     "credits": 7,
     "label": "CMPM",
     "id": "172",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students work in teams to produce fully functional games based on previously developed game subsets. Focus on production including scaling, long-term player experience, teaching mechanics through interaction, developing multi-stage narratives/scenarios, and varying gameplay as players develop new understandings and abilities. Prerequisite(s): CMPM 171, or by instructor permission. Enrollment is by permission of the instructor. Formerly offered as Game Design Studio III.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 176": {
@@ -460,9 +460,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "176",
-    "genEd": null,
+    "genEd": "null",
     "description": "Presents game design as the interplay of multiple interacting game systems. Surveys various game systems: movement, combat, reward, economic, logistics, quest, information visibility, narrative. Students explore systems via study, design, and play of board, card, and computer games.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CMPM 80K"
   },
   "CMPM 177": {
@@ -470,9 +470,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "177",
-    "genEd": null,
+    "genEd": "null",
     "description": "Surveys tactical, structural, contextual, and other methods to enhance creativity and innovation in the design of games and other interactive media. Investigates strategies for creativity and innovation drawn from diverse fields, including interactive affordances, narrative and poetics, biology, contextual inquiry, and design research. To innovate in a field of fixed genres is challenging: the allure of modeling exemplars is strong. Although imitation can be successful in the marketplace, the most creative action occurs on the leading edge of change. Innovation benefits from strategies and methods that are directly aimed at exploring new perspectives and structures to learn through the process of discovery.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 178": {
@@ -482,7 +482,7 @@
     "id": "178",
     "genEd": "PR-C",
     "description": "Students move through a rigorous design-research process involving skills and principles in human-centered design research as well as selected formal research methods. They learn to use tools for ideation, human-centered qualitative research, domestic probes, mock-ups, and prototypes.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 179": {
@@ -492,7 +492,7 @@
     "id": "179",
     "genEd": "PR-C",
     "description": "Provides the opportunity to practice the creation of novel computer games. Students learn a new game-making technology, then create three games  using this technology.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 194": {
@@ -500,9 +500,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "194",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 194F": {
@@ -510,9 +510,9 @@
     "credits": 2,
     "label": "CMPM",
     "id": "194F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 195": {
@@ -520,9 +520,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "195",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 195F": {
@@ -530,9 +530,9 @@
     "credits": 2,
     "label": "CMPM",
     "id": "195F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Intended for majors. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 198": {
@@ -540,9 +540,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "198",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 198F": {
@@ -550,9 +550,9 @@
     "credits": 2,
     "label": "CMPM",
     "id": "198F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Intended for majors. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 199": {
@@ -560,9 +560,9 @@
     "credits": 5,
     "label": "CMPM",
     "id": "199",
-    "genEd": null,
+    "genEd": "null",
     "description": "For fourth-year students majoring in computational media. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "CMPM 199F": {
@@ -570,9 +570,9 @@
     "credits": 2,
     "label": "CMPM",
     "id": "199F",
-    "genEd": null,
+    "genEd": "null",
     "description": "For fourth-year students majoring in computational media. Students submit a petition to the sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   }
 }

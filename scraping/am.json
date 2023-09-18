@@ -6,7 +6,7 @@
     "id": "3",
     "genEd": "MF",
     "description": "Introduces mathematical functions and their uses for modeling real-life problems in the social sciences. Includes inequalities, linear and quadratic equations, functions (linear, quadratic, polynomial, rational, power, exponential, logarithmic, trigonometric), inverses, and the composition of functions. Students cannot receive credit for both this course and MATH 3. MATH 3 can substitute for this course. (Formerly Applied Mathematics and Statistics 3.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         {
@@ -23,7 +23,7 @@
     "id": "6",
     "genEd": "MF",
     "description": "Reviews and introduces mathematical methods useful in the elementary study of statistics, including logic, real numbers, inequalities, linear and quadratic equations, functions, graphs, exponential and logarithmic functions, and summation notation. (Formerly AMS 6.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         {
@@ -40,7 +40,7 @@
     "id": "10",
     "genEd": "MF",
     "description": "Applications-oriented course on complex numbers and linear algebra integrating Matlab as a computational support tool. Introduction to complex algebra. Vectors, bases and transformations, matrix algebra, solutions of linear systems, inverses and determinants, eigenvalues and eigenvectors, and geometric transformations. Students cannot receive credit for this course and MATH 21.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -57,7 +57,7 @@
     "id": "11A",
     "genEd": "MF",
     "description": "Introduction to mathematical tools and reasoning, with applications to economics. Topics are drawn from differential calculus in one variable and include limits, continuity, differentiation, elasticity, Taylor polynomials, and optimization. Students cannot receive credit for both this course and MATH 11A or MATH 19A or AM 15A. (AM 11A formerly AMS 11A.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         {
@@ -76,7 +76,7 @@
     "id": "11B",
     "genEd": "MF",
     "description": "Mathematical tools and reasoning, with applications to economics. Topics are drawn from multivariable differential calculus and single variable integral calculus, and include partial derivatives, linear and quadratic approximation, optimization with and without constraints, Lagrange multipliers, definite and indefinite integrals, and elementary differential equations. Students cannot receive credit for both this course and MATH 11B or MATH 19B or AM 15B. (AM 11B formerly AMS 11B.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "AM 11A",
@@ -93,7 +93,7 @@
     "id": "20",
     "genEd": "MF",
     "description": "Applications-oriented class on ordinary differential equations (ODEs) and systems of ODEs using Matlab as a computational support tool. Covers linear ODEs and systems of linear ODEs; nonlinear ODEs using substitution and Laplace transforms; phase-plane analysis; introduction to numerical methods. Students cannot receive credit for this course and MATH 24.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -116,9 +116,9 @@
     "credits": 5,
     "label": "AM",
     "id": "30",
-    "genEd": null,
+    "genEd": "null",
     "description": "Advanced multivariate calculus for engineering majors. Coordinate systems, parametric curves, and surfaces; partial derivatives, gradient, Taylor expansion, stationary points, constrained optimization; integrals in multiple dimensions; integrals over curves and surfaces. Applications to engineering form an integral part of the course. Students cannot receive credit for this course and for MATH 22 or MATH 23A.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -141,9 +141,9 @@
     "credits": 5,
     "label": "AM",
     "id": "100",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers important concepts in applied mathematics, including complex analysis, vector calculus, Fourier Series, and integral transforms. Applications of the methods to various problems in science and engineering are discussed.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -166,9 +166,9 @@
     "credits": 5,
     "label": "AM",
     "id": "107",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers fundamental topics in fluid dynamics: Euler and Lagrange descriptions of continuum dynamics; conservation laws for inviscid and viscous flows; potential flows; exact solutions of the Navier-Stokes equation; boundary layer theory; gravity waves. Students cannot receive credit for this course and AM 217. (AM 107 formerly AMS 107.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "AM 112",
@@ -183,9 +183,9 @@
     "credits": 5,
     "label": "AM",
     "id": "112",
-    "genEd": null,
+    "genEd": "null",
     "description": "Focuses on analytical methods for partial differential equations (PDEs) of two variables, including: the method of characteristics for first-order PDEs; classification of second-order PDEs; separation of variables; Sturm-Liouville theory; and Green's functions. Illustrates each method using applications taken from examples in physics. Students cannot receive credit for this course and AM 212A.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "AM 100"
   },
   "AM 114": {
@@ -195,7 +195,7 @@
     "id": "114",
     "genEd": "MF",
     "description": "Introduces continuous and discrete dynamical systems. Topics include: fixed points; stability; limit cycles; bifurcations; transition to and characterization of chaos; fractals. Examples are drawn from sciences and engineering. Students cannot receive credit for this course and AM 214 or MATH 145. (Formerly AMS 114.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "AM 20",
@@ -214,9 +214,9 @@
     "credits": 5,
     "label": "AM",
     "id": "115",
-    "genEd": null,
+    "genEd": "null",
     "description": "Application of differential equations, probability, and stochastic processes to problems in cell, organismal, and population biology. Topics include systems biology, cellular processes, gene-regulation, and population biology. Students may not receive credit for this course and AM 215.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -233,9 +233,9 @@
     "credits": 5,
     "label": "AM",
     "id": "129",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers fundamental aspects of scientific computing for research. Students are introduced to algorithmic development, programming (including the use of compilers, libraries, debugging, optimization, code publication), computational infrastructure, and data analysis tools, gaining hands-on experience through practical assignments. Basic programming experience is assumed.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         {
@@ -284,7 +284,7 @@
     "id": "147",
     "genEd": "MF",
     "description": "Applications of computational methods to solving mathematical problems using Matlab. Topics include solution of nonlinear equations, linear systems, differential equations, sparse matrix solver, and eigenvalue problems. Students cannot receive credit for this course and MATH 148. (Formerly AMS 147.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "AM 10",
@@ -297,9 +297,9 @@
     "credits": 5,
     "label": "AM",
     "id": "148",
-    "genEd": null,
+    "genEd": "null",
     "description": "This second course in scientific computing focuses on the use of parallel processing on GPUs with CUDA. Basic topics covered include the idea of parallelism and parallel architectures. The course then presents key parallel algorithms on GPUs such as scan, reduce, histogram and stencil, and compound algorithms. Applications to scientific computing are drawn from problems in linear algebra, curve fitting, FFTs, systems of ODEs and PDEs, and image processing. Finally, the course presents optimization strategies specific to GPUs. Basic knowledge of Unix, and C is assumed.  (Formerly AMS 148.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "AM 147",
@@ -313,9 +313,9 @@
     "credits": 5,
     "label": "AM",
     "id": "170A",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to mathematical modeling emphasizing model construction, tool selection, methods of solution, critical analysis of the results, and professional-level presentation of the results (written and oral). Focuses on problems that can be solved using only analytical tools, and simple Matlab routines. Applications are drawn from a variety of fields such as physics, biology, engineering, and economics.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "WRIT 1",
@@ -342,7 +342,7 @@
     "id": "170B",
     "genEd": "SI",
     "description": "Second course in mathematical modeling emphasizing the general process of scientific inquiry: model construction, tool selection, numerical methods of solution, critical analysis of the results, and professional-level presentation of the results (written and oral). Focuses on problems that must be solved using numerical tools. Applications are drawn from a variety of fields.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -362,9 +362,9 @@
     "credits": 5,
     "label": "AM",
     "id": "198",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "AM 198F": {
@@ -372,9 +372,9 @@
     "credits": 2,
     "label": "AM",
     "id": "198F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   }
 }

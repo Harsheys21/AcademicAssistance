@@ -4,9 +4,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "1",
-    "genEd": null,
+    "genEd": "null",
     "description": "Hands-on introduction to computer engineering practice and research, including computer hardware, robotics, and embedded systems. Encourages interaction with UCSC's School of Engineering community. Designed for students without previous background in computer engineering. (Formerly Computer Engineering 1.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 8": {
@@ -16,7 +16,7 @@
     "id": "8",
     "genEd": "MF",
     "description": "Introduction to dynamical systems, feedback control, and robotics. Fundamental concepts in dynamical systems, modeling, stability analysis, robustness to uncertainty, feedback as it occurs naturally, and the design of feedback-control laws to engineer desirable static and dynamic response. Course includes an introduction to MATLAB and programming in MATLAB.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 9": {
@@ -24,9 +24,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "9",
-    "genEd": null,
+    "genEd": "null",
     "description": "Theory and application of statics and mechanics of materials for mechanical and biomechanical systems. Covers statics of particles; equilibrium of rigid bodies; free-body diagrams; analysis of structure; friction; concepts of stress and strain; axial loading; torsion and bending; and failure criteria. (Formerly Introduction to Statics, Dynamics, and Biomechanics.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "MATH 19A",
@@ -60,9 +60,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "10",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers the theory and application of mathematical models to analyze the kinematics and dynamics of robot mechanisms or their components using vector algebra, differential equations, and computer simulations; also covers robot vehicle kinematics, robot arm kinematics, and robot dynamics with computational examples and problems. Some basic programming skills and familiarity with MATLAB are expected. (Formerly CMPE 10.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 9",
@@ -80,9 +80,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "11",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces the basics of rapid prototyping for robotics design from limiting stresses to optimal design. Discusses fast prototyping methods, advantages, and disadvantages. Introduces CAD, CAD packages, 3D printing with different materials, and 3D scanning. (Formerly CMPE 11.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "ECE 9"
   },
   "ECE 13": {
@@ -90,9 +90,9 @@
     "credits": 7,
     "label": "ECE",
     "id": "13",
-    "genEd": null,
+    "genEd": "null",
     "description": "Computer Systems and C Programming is intended to bring students up to speed on programming small and large programs in C. Originally written in 1978, C remains the most popular programming language, and the most used one in terms of numbers of computer programs written in it. The course approaches C from an embedded paradigm, and all programming assignments are on a 32-bit embedded micro, the Microchip PIC32. Students learn how to program in C, how to write modular code, and some of the tips and tricks when dealing with an embedded micro. This is a programming class and students will write lots of code. Expect to spend at least 15-20 hours outside of class playing with the code to get things to work. (Formerly CSE 13E Embedded Systems and C Programming)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "CSE 12",
@@ -112,7 +112,7 @@
     "id": "30",
     "genEd": "SI",
     "description": "Suitable for sophomores pursuing computer science and engineering careers. Aims at deriving basic engineering principles directly from examples relevant to computing and electronics: 1) Newton's Laws and related fundamental mechanics; 2) basic thermodynamics and heat/energy transfer; 3) key electromagnetic principles, including Coulomb's Law, Gauss's Law, and basic circuit analysis using Kirchoff's Laws/Rules; and 4) Ray optics for fiber optic communications and camera electronics.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "MATH 19B"
   },
   "ECE 80B": {
@@ -122,7 +122,7 @@
     "id": "80B",
     "genEd": "SI",
     "description": "Introduces to a lay audience engineering innovations that have had an impact in medicine and biology. Course is designed for non-engineering majors, or pre-med students, as well as pre-engineering to provide a broad understanding of how technology has improved and keeps on improving healthcare.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 80G": {
@@ -132,7 +132,7 @@
     "id": "80G",
     "genEd": "CC",
     "description": "Introduces students and prospective entrepreneurs to the ingredients required to successfully create and finance a sustainability-minded startup or nonprofit in the global economy. Emphasis is placed on ethical business practice, tools for understanding markets and supply chains, and building value for all stakeholders, including communities and the environment.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 80H": {
@@ -142,7 +142,7 @@
     "id": "80H",
     "genEd": "PE-H",
     "description": "Students examine the interconnectedness of natural and social systems as they evaluate, interpret, and debate evidence and explanations of climate change. Includes interviewing family members, friends, and professionals for a variety of divergent views on the climate change debate. Class sessions are devoted to student discussion of the course materials, including readings, take-home assignments and pre-recorded videos. The class culminates with a written proposal and group presentations of ideas for solutions, with the guidance of the instructor, addressing one of the grand challenges presented in the course with the goal of empowering students to emerge as critical thinkers and actors equipped with a solution-based mindset.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 80E": {
@@ -152,7 +152,7 @@
     "id": "80E",
     "genEd": "PE-T",
     "description": "Ethical theories, analysis, and their application to issues in the practice of engineering, such as safety and liability, professional responsibility to clients and employers, codes of ethics, legal obligations, environmental issues, and social issues. Emphasis on developing independent ethical analysis through the use of case studies. (Formerly CMPE 80E.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 80J": {
@@ -162,7 +162,7 @@
     "id": "80J",
     "genEd": "PE-E",
     "description": "Introduces energy sources and storage with special emphasis on renewables as part of smart grids. Fundamental energy-conversion limits based on physics and existing source properties are studied. Various sources, such as solar, wind, hydropower, geothermal, tidal energy, and fuel cells are described. Electric vehicles, sustainable microgrids, and the integration to smart grids are studied. Finally, smart meters, demand response, the energy market, and policy are covered. Students cannot receive credit for this course and course 81J. (Formerly EE 80J.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 80S": {
@@ -172,7 +172,7 @@
     "id": "80S",
     "genEd": "SR",
     "description": "Topical introduction to principles and practices of sustainability engineering and ecological design with emphasis on implementation in society. Provides an understanding of basic scientific, engineering, and social principles in the design, deployment, and operation of resource-based human systems, and how they can be maintained for this and future generations. No specialized background in engineering, science, or social sciences is assumed. (Formerly EE 80S.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 80T": {
@@ -182,7 +182,7 @@
     "id": "80T",
     "genEd": "SI",
     "description": "Basic knowledge of electricity and how things work, how technology evolves, its impact on society and history, and basic technical literacy for the non-specialist. Broad overview of professional aspects of engineering and introduction and overview of basic systems and components. Topics include electrical power, radio, television, radar, computers, robots, telecommunications, and the Internet. (Formerly EE 80T.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 94": {
@@ -190,9 +190,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "94",
-    "genEd": null,
+    "genEd": "null",
     "description": "A means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 94F": {
@@ -200,9 +200,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "94F",
-    "genEd": null,
+    "genEd": "null",
     "description": "A means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 99": {
@@ -210,9 +210,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "99",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 99F": {
@@ -220,9 +220,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "99F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 101": {
@@ -230,7 +230,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "101",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to the physical basis and mathematical models of electrical components and circuits. Topics include circuit theorems (Thevenin and Norton Equivalents, Superposition), constant and sinusoidal inputs, natural and forced response of linear circuits. Introduction to circuit/network design, maximum power transfer, analog filters, and circuit analysis using Matlab. Topics in elementary electronics including amplifiers and feedback. (Formerly EE 101.)",
     "concurrent": "ECE 101L",
     "prerequisites": {
@@ -265,7 +265,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "101L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Illustrates topics covered in ECE 101. One two-hour laboratory session per week.",
     "concurrent": "ECE 101",
     "prerequisites": {
@@ -300,7 +300,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "102",
-    "genEd": null,
+    "genEd": "null",
     "description": "The fundamental electrical, optical, and magnetic properties of materials, with emphasis on metals and semiconductors: chemical bonds, crystal structures, elementary quantum mechanics, energy bands. Electrical and thermal conduction. Optical and magnetic properties. (Formerly EE 145.)",
     "concurrent": "ECE 102L",
     "prerequisites": {
@@ -337,7 +337,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "102L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in course 145. One two-hour laboratory per week.",
     "concurrent": "ECE 102",
     "prerequisites": {
@@ -374,7 +374,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "103",
-    "genEd": null,
+    "genEd": "null",
     "description": "Course covers the following topics: characterization and analysis of continuous-time signals and linear systems, time domain analysis using convolution, frequency domain analysis using the Fourier series and the Fourier transform, the Laplace transform, transfer functions and block diagrams, continuous-time filters, sampling of continuous time signals, examples of applications to communications and control systems. (Formerly EE 103.)",
     "concurrent": "ECE 103L",
     "prerequisites": {
@@ -395,7 +395,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "103L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Use and operation of spectrum analyzers; advanced signal analysis using oscilloscopes; measuring impulse response, step response, frequency response, and computer analysis of real signals. MATLAB programming is taught and used as a tool for signal analysis. Students are billed a materials fee. (Formerly EE 103L.)",
     "concurrent": "ECE 103",
     "prerequisites": {
@@ -416,9 +416,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "104",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers selected case studies in interfacing electronic devices with biological systems. from Galvani to neuronal stimulation and electroceuticals. These studies include: the squid giant axon, the pace maker, deep brain stimulation, organic bioelectronics, bionanoelectronics and optogenetics, bioenergetics, and bioprotonics electroceuticals. Students are assessed through weekly student papers on case studies and through a final presentation. (Formerly EE 104.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 115": {
@@ -426,9 +426,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "115",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces the solid mechanics of materials. Topics include: stress and strain, torsion, bending of beams, shearing stresses in beams, compound stresses, principal stresses, deflections of beams, and statically indeterminate members and columns. (Formerly CMPE 115.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 9",
@@ -449,7 +449,7 @@
     "id": "118",
     "genEd": "PR-E",
     "description": "Technologies involved in mechatronics (intelligent electro-mechanical systems) and techniques necessary to integrate these technologies into mechatronic systems. Topics include electronics (A/D, D/A converters, opamps, filters, power devices), software program design (event-driven programming, state machine-based design), DC and stepper motors, basic sensing, and basic mechanical design (machine elements and mechanical CAD). Combines lab component of structured assignments with a large and open-ended team project. Students who enrolled in this class will learn how to solve engineering problems using the C Programming Language. Cannot receive credit for this course and ECE 218.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 101",
@@ -470,7 +470,7 @@
     "credits": 7,
     "label": "ECE",
     "id": "121",
-    "genEd": null,
+    "genEd": "null",
     "description": "Focus is on the design and use of microcontroller-based embedded systems, specifically addressing issues of low-level functionality, direct manipulation of input/output using various specialized peripheral sets, and multiple communications protocols. Covers timers, Input Capture, Output Compare, ADC, PWM, interrupts, bus and memory organization, DMA, SPI, I2C, device driver programming, serial packet communication, and clocking. Students enrolled in this class learn how to use the C programming language to solve engineering problems.",
     "concurrent": "ECE 101",
     "prerequisites": {
@@ -490,9 +490,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "122A",
-    "genEd": null,
+    "genEd": "null",
     "description": "This course is the first quarter of a three quarter series of courses that together comprise the IDEASS Program (Impact Designs: Engineering and Sustainability through Student Service), which provides students with opportunities to plan, implement, and evaluate interdisciplinary sustainable design projects in the built environment for the Monterey Bay Region. In fall quarter students are introduced to project topics and background information. In collaboration with an outside mentor project teams design, revise, and complete a project plan including project goals and deliverables, timeline of key activities and major milestones, stakeholder map, evaluation plan, and budget (as applicable). Students apply online; selected applicants complete in-person interviews. (Formerly EE 122A.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 122B": {
@@ -500,9 +500,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "122B",
-    "genEd": null,
+    "genEd": "null",
     "description": "The second of a three-quarter sequence that together comprise the IDEASS Program (Impact Designs: Engineering and Sustainability through Student Service) which provides opportunities for students to plan, implement, and evaluate interdisciplinary sustainable-design projects in the built environment for the Monterey Bay Region. In winter quarter, project teams work collaboratively to implement the project plans approved during the fall quarter. Students participate in a weekly seminary series that includes guest lectures and field trips as well as workshops in project management, public speaking, writing skills, and other professional development. Prerequisite(s): ECE 122A. Students apply online; selected applicants complete in-person interviews. Enrollment is restricted to juniors and seniors. (Formerly EE 122B.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 122C": {
@@ -510,9 +510,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "122C",
-    "genEd": null,
+    "genEd": "null",
     "description": "The third of a three-quarter sequence that together comprise the IDEASS Program (Impact Designs: Engineering and Sustainability through Student Service) which provides opportunities for students to plan, implement, and evaluate interdisciplinary sustainable-design projects in the built environment for the Monterey Bay Region. In spring quarter, project teams work collaboratively to continue implementation of project plans approved during the fall quarter, then evaluate projects impacts. Students participate in a weekly seminary series that includes guest lectures and field trips as well as workshops in project management, public speaking, writing skills, and other professional development. Students also work in the community on educational public outreach regarding project impacts. Prerequisite(s): ECE 122A. Students apply online; selected applicants complete in-person interviews. Enrollment is restricted to juniors and seniors. (Formerly EE 122C.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 129A": {
@@ -520,9 +520,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "129A",
-    "genEd": null,
+    "genEd": "null",
     "description": "First of a three-course sequence in which students apply knowledge and skills gained in elective track to complete a major design project. In this first course, students complete the specification and planning for a substantial project. Topics covered: engineering design cycle, engineering teams, and professional practices. (Formerly EE 129A.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "WRIT 1",
@@ -561,7 +561,7 @@
     "id": "129B",
     "genEd": "PR-E",
     "description": "Second of a three-course sequence in which students apply knowledge and skills gained in elective track to complete a major design project. In this second course, students complete the training, research, and procurement for a substantial project and a preliminary implementation.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "ECE 129A"
   },
   "ECE 129C": {
@@ -569,9 +569,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "129C",
-    "genEd": null,
+    "genEd": "null",
     "description": "Third of a three-course sequence in which students apply knowledge and skills gained in this elective track to complete a major design project. In this third course, students work in teams to complete the project specified and advance on the results of the work in the first two courses. A formal written report, oral presentation, and demonstration of the successful project to a review panel of engineering faculty is required.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "ECE 129B"
   },
   "ECE 130": {
@@ -579,7 +579,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "130",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to optics, photonics and optoelectronics, fiber optic devices and communication systems: Topics include: ray optics, electromagnetic optics, resonator optics, interaction between photons and atoms, dielectric waveguides and fibers, semiconductor light sources and detectors, modulators, amplifiers, switches, and optical fiber communication systems. Taught in conjunction with course 230. Students cannot receive credit for this course and ECE 230. (Formerly EE 130.)",
     "concurrent": "ECE 130L",
     "prerequisites": {
@@ -608,7 +608,7 @@
     "credits": 1,
     "label": "ECE",
     "id": "130L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Includes a series of projects to provide hands-on experience needed for basic concepts and laboratory techniques of optical fiber technology.",
     "concurrent": "ECE 130",
     "prerequisites": {
@@ -639,7 +639,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "135",
-    "genEd": null,
+    "genEd": "null",
     "description": "Vector analysis. Electrostatic fields. Magnetostatic fields. Time-varying fields and Maxwell's equations. Plane waves. (Formerly EE 135.)",
     "concurrent": "ECE 135L",
     "prerequisites": {
@@ -662,7 +662,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "135L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics in course 135. One two-hour laboratory session per week.",
     "concurrent": "ECE 135",
     "prerequisites": {
@@ -685,9 +685,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "136",
-    "genEd": null,
+    "genEd": "null",
     "description": "Course will cover electromagnetic wave propagation, transmission lines, waveguides, and antennas. (Formerly EE 136.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 135",
@@ -700,9 +700,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "141",
-    "genEd": null,
+    "genEd": "null",
     "description": "Analysis and design of continuous linear feedback control systems. Essential principles and advantages of feedback. Design by root locus, frequency response, and state space methods and comparisons of these techniques. Applications. (Formerly CMPE 141 and EE 153.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "ECE 103"
   },
   "ECE 145": {
@@ -712,7 +712,7 @@
     "id": "145",
     "genEd": "SR",
     "description": "Provides practical knowledge of Kalman filtering and introduces control theory for stochastic processes. Selected topics include: state-space modeling; discrete- and continuous-time Kalman filter; smoothing; and applications in feedback control. Students learn through hands-on experience. Students cannot receive credit for this course and course 245. Enrollment by permission of instructor. (Formerly CMPE 145.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 149": {
@@ -720,9 +720,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "149",
-    "genEd": null,
+    "genEd": "null",
     "description": "Presents the basic concepts and tools for the study of cyber-physical systems, including modeling and analysis tools for continuous-time and discrete-time systems, finite state machines, stateflow, timed and hybrid automata, concurrency, invariants, linear temporal logic, verification, and numerical simulation. Students are guided on methods for simulation and encouraged to apply them to several applications. The course is self-contained. Students are expected to have a basic background in logic circuits, programming, the mathematical modeling of dynamical systems (ECE 8 is recommended), differential equations, linear algebra, and basic calculus. Knowledge of MATLAB/Simulink is useful. Students cannot receive credit for this course and ECE 249.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -749,9 +749,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "151",
-    "genEd": null,
+    "genEd": "null",
     "description": "An introduction to communication systems. Analysis and design of communication systems based on radio, transmission lines, and fiber optics. Topics include fundamentals of analog and digital signal transmission in the context of baseband communications, including concepts such as modulation and demodulation techniques, multiplexing and multiple access, channel loss, distortion, bandwidth, signal-to-noise ratios and error control. Digital communication concepts include an introduction to sampling and quantization, transmission coding and error control. (Formerly EE 151.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 103",
@@ -771,9 +771,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "152",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to the principles of wireless communications systems. Wireless propagation channels and their impact on digital communications. Modulation techniques for wireless systems and their performance. Multi-antenna systems and diversity. Multicarrier and spread spectrum. Multi-access methods: FDMA, TDMA, CDMA. The structure of cellular systems. Students cannot receive credit for this course and course 252. (Formerly EE 152.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "CSE 107",
@@ -786,9 +786,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "153",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to the principles of signal processing, including discrete-time signals and systems, the z-transform, sampling of continuous-time signals, transform analysis of linear time-invariant systems, structures for discrete-time systems, the discrete Fourier transform, computation of the discrete Fourier transform, and filter design techniques. Taught in conjunction with Electrical Engineering 250. Students cannot receive credit for this course and Electrical Engineering 250. (Formerly EE 153 and CMPE 153.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "CSE 103"
   },
   "ECE 157": {
@@ -796,7 +796,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "157",
-    "genEd": null,
+    "genEd": "null",
     "description": "Engineering design cycle for wireless and RF systems: design, practical hardware implementation, and prototype. (Formerly EE 157.)",
     "concurrent": "ECE 157L",
     "prerequisites": {
@@ -814,7 +814,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "157L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory to accompany course 157, emphasizing hardware-design practice and principles applies to RF apparatus. Students design and implement a substantial final project during the last half of the course. Students are billed a materials fee of $112. (Formerly EE 157L.)",
     "concurrent": "ECE 157",
     "prerequisites": {
@@ -834,7 +834,7 @@
     "id": "163",
     "genEd": "MF",
     "description": "Technologies involved in the modeling and simulation of small-scale unmanned aerial vehicles (UAVs) with an emphasis on control applications, from low-level flight stabilization to higher level path planning and vision-based control. Topics include coordinate frames, aerodynamics, equations of motion, full non-linear simulation, linearized dynamics models and trim states, force and moment balances for steady flight, flight controls by successive loop closure, state space control, path planning and guidance, sensors and estimation. Students enrolled in this class learn how to use the Python programming language to solve engineering problems. Taught in conjunction with ECE 263. Students cannot receive credit for this course and ECE 263.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -860,9 +860,9 @@
     "credits": 7,
     "label": "ECE",
     "id": "167",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces fundamental issues in sensing of temperature, motion, sound, light, position, etc. Sensors are integrated into a digital system using filtering, amplification, and analog-to-digital conversion. Advanced topics may include noise, temperature, and other sources of variability. Students who enrolled in this class will learn how to solve engineering problems using the C Programming Language.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 103",
@@ -881,9 +881,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "170",
-    "genEd": null,
+    "genEd": "null",
     "description": "Advanced topics in power electronics including SCR circuits, modulation techniques, multilevel power converters, active and current-source rectifiers, magnetic circuit design, state-space averaging, power converter controller design and stability. Taught in conjunction with ECE 270. Students cannot receive credit for this course and ECE 270.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "ECE 177"
   },
   "ECE 171": {
@@ -891,7 +891,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "171",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to (semiconductor) electronic devices. Conduction of electric currents in semiconductors, the semiconductor p-n junction, the transistor. Analysis and synthesis of linear and nonlinear electronic circuits containing diodes and transistors. Biasing, small signal models, frequency response, and feedback. Operational amplifiers and integrated circuits. (Formerly EE 171.)",
     "concurrent": "ECE 171L",
     "prerequisites": {
@@ -906,7 +906,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "171L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in course 171. One two-hour laboratory session per week.",
     "concurrent": "ECE 171",
     "prerequisites": {
@@ -921,9 +921,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "172",
-    "genEd": null,
+    "genEd": "null",
     "description": "Analog circuit design covering the basic amplifier configurations, current mirrors, differential amplifiers, frequency response, feedback amplifiers, noise, bandgap references, one- and two-stage operational amplifier design, feedback amplifier stability, switched capacitor circuits and optionally the fundamentals of digital-to-analog and analog-to-digital converters. Emphasis throughout will be on the development of approximate and intuitive methods for understanding and designing circuits. Cannot receive credit for this course and course 221. (Formerly EE 172.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "ECE 171"
   },
   "ECE 173": {
@@ -931,9 +931,9 @@
     "credits": 7,
     "label": "ECE",
     "id": "173",
-    "genEd": null,
+    "genEd": "null",
     "description": "Studies of analog circuit principles relevant to high-speed digital design: signal propagation, crosstalk, and electromagnetic interference. Topics include electrical characteristics of digital circuits, interfacing different logic families, measurement techniques, distributed circuits and transmission lines, ground planes and grounding, terminations, power systems, electromagnetic compatibility and noise suppression. Laboratory sequence illustrates fundamental lecture topics and includes completion of a final design project.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 101",
@@ -947,9 +947,9 @@
     "credits": 3,
     "label": "ECE",
     "id": "174",
-    "genEd": null,
+    "genEd": "null",
     "description": "Focus on EDA tools for design of printed-circuit boards. Elements of design flow covered: schematic capture and simulation to final PCB layout. Final project is required. Students are billed a materials fee.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 101",
@@ -962,7 +962,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "175",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces electrical energy generation, sensing, and control, emphasizing the emerging smart grid. Topics include 3-phase AC power systems, voltage and transient stability, fault analysis, grid protection, power-flow analysis, economic dispatch, and high voltage DC distribution (HVDC). (Formerly EE 175.)",
     "concurrent": "ECE 175L",
     "prerequisites": "ECE 101"
@@ -972,7 +972,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "175L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Computer analysis and simulation of energy generation, components, power-flow analysis, systems, and control covering topics from course 195. Weekly computer simulations reinforce the concepts introduced in course 175. (Formerly EE 175L.)",
     "concurrent": "ECE 175",
     "prerequisites": "ECE 101"
@@ -982,7 +982,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "176",
-    "genEd": null,
+    "genEd": "null",
     "description": "AC/DC electric-machine drives for speed/position control. Integrated discussion of electric machines, power electronics, and control systems. Computer simulations. Applications in electric transportation, hybrid-car technology, robotics, process control, and energy conservation. (Formerly EE 176.)",
     "concurrent": "ECE 176L",
     "prerequisites": {
@@ -997,7 +997,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "176L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Simulink-based simulations of electric machines/drives in applications such as energy conservation and motion control in robotics and electric vehicles. (Formerly EE 176L.)",
     "concurrent": "ECE 176",
     "prerequisites": {
@@ -1012,7 +1012,7 @@
     "credits": 5,
     "label": "ECE",
     "id": "177",
-    "genEd": null,
+    "genEd": "null",
     "description": "Switch-mode power converter design and analysis. Non-switching power supplies. Electronic power-factor correction. Soft switching. Power-semiconductor devices. Use in energy conservation, renewable energy, lighting, and power transmission. (Formerly EE 177.)",
     "concurrent": "ECE 177L",
     "prerequisites": "ECE 103"
@@ -1022,7 +1022,7 @@
     "credits": 2,
     "label": "ECE",
     "id": "177L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Buck, boost, buck-boost, flyback, and forward converter design and control.",
     "concurrent": "ECE 177",
     "prerequisites": "ECE 103"
@@ -1032,9 +1032,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "178",
-    "genEd": null,
+    "genEd": "null",
     "description": "This course reviews the fundamental principles, device's materials, and design and introduces the operation of several semiconductor devices. Topics include the motion of charge carriers in solids, equilibrium statistics, the electronic structure of solids, doping, the pn junction, the junction transistor, the Schottky diode, the field-effect transistor, the light-emitting diode, and the photodiode. (Formerly EE 178.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "ECE 102",
@@ -1049,9 +1049,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "179",
-    "genEd": null,
+    "genEd": "null",
     "description": "Presents decision tools/theory with a focus on investment, finance, management, technology, and policy. Often, irreversible decisions are made without enough information to analyze the possible consequences. Course uses systematic approaches to analyze these types of situations to enable rational decisions. (CSE 174.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -1078,7 +1078,7 @@
     "id": "180J",
     "genEd": "PE-E",
     "description": "Provides a comprehensive overview of renewable energy, storage, and smart grids. Fundamental energy-conversion limits based on physics and existing material properties are discussed. Various sources and facilities, such as solar, wind, hydropower, geothermal, tidal energy, and fuel cells are described. Solar- and wind-site assessment, electric vehicles, as well as sustainable microgrids are also discussed. Finally, the latest research on smart grids and smart cities is introduced. Taught in conjunction with course 80J. Students who enroll in this class will learn how to use Matlab to solve engineering problems.(Formerly EE 180J.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "MATH 3",
@@ -1093,9 +1093,9 @@
     "credits": 7,
     "label": "ECE",
     "id": "181J",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides a comprehensive overview of renewable energy, storage, and smart grids. Fundamental energy-conversion limits based on physics and existing material properties are discussed. Various sources and facilities, such as solar, wind, hydropower, geothermal, tidal energy, and fuel cells are described. Solar- and wind-site assessment, electric vehicles, as well as sustainable microgrids are also discussed. Finally, the latest research on smart grids and smart cities is introduced. Taught in conjunction with course 80J. Students who enroll in this class will learn how to use Matlab to solve engineering problems.(Formerly EE 180J.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 183": {
@@ -1103,9 +1103,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "183",
-    "genEd": null,
+    "genEd": "null",
     "description": "Topics vary with instructor. Sample topics include smart grids, bioelectronics, antennas, etc. Enrollment by instructor permission. Approval of undergraduate adviser required for credit as an upper-division elective. (Formerly EE 183.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 185": {
@@ -1113,9 +1113,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "185",
-    "genEd": null,
+    "genEd": "null",
     "description": "Teaches students about the U.S. electricity industry. Topics include power generation costs, electric grid, power flows, retail market and tariff design, regulation and market monitoring, locational marginal pricing, risk management, market power, and contemporary issues.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 5C",
@@ -1128,9 +1128,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "193",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides for individual programs of study with specific academic objectives carried out under the direction of a faculty member of the electrical engineering program and a willing sponsor at the field site and using resources not normally available on campus. Credit is based on the presentation of evidence of achieving the objectives by submitting a written and oral presentation. May not normally be repeated for credit.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 193F": {
@@ -1138,9 +1138,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "193F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides for individual programs of study with specific academic objectives carried out under the direction of a faculty member of the electrical engineering program and a willing sponsor at the field site and using resources not normally available on campus. Credit is based on the presentation of evidence of achieving the objectives by submitting a written and oral presentation. May not normally be repeated for credit.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 195": {
@@ -1148,9 +1148,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "195",
-    "genEd": null,
+    "genEd": "null",
     "description": "Individual directed study for upper-division undergraduates. Students submit petition to sponsoring agency. If using this course to replace the capstone design requirement (ECE 129A, ECE129B, ECE 129C), students must take ECE 129A. Prerequisite(s): satisfaction",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 195F": {
@@ -1158,9 +1158,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "195F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Prerequisite(s): petition on file with sponsoring agency. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 198": {
@@ -1168,9 +1168,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "198",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides for department-sponsored individual study program off campus, for which faculty supervision is not in person, but by correspondence. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 198F": {
@@ -1178,9 +1178,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "198F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides for department-sponsored individual study program off campus for which faculty supervision is not in person, but by correspondence. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 199": {
@@ -1188,9 +1188,9 @@
     "credits": 5,
     "label": "ECE",
     "id": "199",
-    "genEd": null,
+    "genEd": "null",
     "description": "Individual directed study for upper-division undergraduates. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "ECE 199F": {
@@ -1198,9 +1198,9 @@
     "credits": 2,
     "label": "ECE",
     "id": "199F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Individual directed study for upper-division undergraduates. Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   }
 }

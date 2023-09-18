@@ -6,7 +6,7 @@
     "id": "5",
     "genEd": "SR",
     "description": "Introduction to statistical methods/reasoning, including descriptive methods, data-gathering (experimental design and sample surveys), probability, interval estimation, significance tests, one- and two-sample problems, categorical data analysis, correlation and regression. Emphasis on applications to the natural and social sciences. Students cannot receive credit for this course if they have already received credit for STAT\u00a07. (Formerly AMS 5.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "STAT 7": {
@@ -37,7 +37,7 @@
     "credits": 2,
     "label": "STAT",
     "id": "7L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Computer-based laboratory course in which students gain hands-on experience in analysis of data sets arising from statistical problem-solving in the biological, environmental, and health sciences. Descriptive methods, interval estimation, hypothesis testing, one-and two-sample problems, correlation and regression, one-way analysis of variance, categorical data analysis. (Formerly AMS 7L.)",
     "concurrent": "STAT 7",
     "prerequisites": {
@@ -81,7 +81,7 @@
     "credits": 2,
     "label": "STAT",
     "id": "17L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Overview and basic training in statistical programs used in the economics major.\u00a0 Introduces students\u00a0to basic data analysis workflow. A workflow of data analysis is a process for managing all aspects of data analysis. Planning, documenting, and organizing\u00a0work; cleaning the data; creating, renaming, and verifying variables; creating summary statistics; and archiving what has been done are all integral parts of students' data analysis. This is an online asynchronous lab, with synchronous office hours/question and answer sessions.\u00a0Prerequisites: concurrent enrollment in STAT 17; and score of 300 or higher on (MPE), or AM 3 or AM 11A. MATH 3 or MATH 11A strongly recommended. See Economics Department to petition for exceptions to concurrent enrollment restriction.",
     "concurrent": "STAT 17",
     "prerequisites": {
@@ -104,7 +104,7 @@
     "id": "80A",
     "genEd": "SR",
     "description": "Games of chance and strategy motivated early developments in probability, statistics, and decision theory. Course uses popular games to introduce students to these concepts, which underpin recent scientific developments in economics, genetics, ecology, and physics. (Formerly AMS 80A.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "STAT 80B": {
@@ -114,7 +114,7 @@
     "id": "80B",
     "genEd": "SR",
     "description": "Introduces the use of complex-data graphical representations to extract information from data. Topics include: summary statistics, boxplots, histograms, dotplots, scatterplots, bubble plots, and map-creation, as well as visualization of trees and hierarchies, networks and graphs, and text. (Formerly AMS 80B.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "STAT 108": {
@@ -122,9 +122,9 @@
     "credits": 5,
     "label": "STAT",
     "id": "108",
-    "genEd": null,
+    "genEd": "null",
     "description": "Covers simple linear regression, multiple regression, and analysis of variance models. Students learn to use the software package R to perform the analysis, and to construct a clear technical report on their analysis, readable by either scientists or nontechnical audiences.  (Formerly AMS 156.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "WRIT 1",
@@ -139,7 +139,7 @@
     "id": "131",
     "genEd": "SR",
     "description": "Introduction to probability theory and its applications. Combinatorial analysis, axioms of probability and independence, random variables (discrete and continuous), joint probability distributions, properties of expectation, Central Limit Theorem, Law of Large Numbers, Markov chains. Students cannot receive credit for this course and STAT\u00a0203 and CMPE 107. (Formerly AMS 131.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "AM 11B",
@@ -157,7 +157,7 @@
     "id": "132",
     "genEd": "SR",
     "description": "Introduction to statistical inference at a calculus-based level: maximum likelihood estimation, sufficient statistics, distributions of estimators, confidence intervals, hypothesis testing, and Bayesian inference. (Formerly AMS 132.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "STAT 131",
@@ -170,9 +170,9 @@
     "credits": 5,
     "label": "STAT",
     "id": "198",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "STAT 198F": {
@@ -180,9 +180,9 @@
     "credits": 2,
     "label": "STAT",
     "id": "198F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   }
 }

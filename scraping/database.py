@@ -104,8 +104,14 @@ for j_file in json_files:
             course_id = course_data["id"]
             course_genEd = course_data["genEd"]
             course_description = course_data["description"]
+            course_prereq = course_data["prerequisites"]
+            course_concurrent = course_data["concurrent"]
+            if isinstance(course_concurrent, dict):
+                course_concurrent = json.dumps(course_concurrent)
+            if isinstance(course_prereq, dict):
+                course_prereq = json.dumps(course_prereq)
             driver.execute_query(
-                "CREATE (n:" + j_file[1] + ":Course {code: $code, name: $name, credits: $credits, label: $label, id: $id, genEd: $genEd, description: $description})",
+                "CREATE (n:" + j_file[1] + ":Course {code: $code, name: $name, credits: $credits, label: $label, id: $id, genEd: $genEd, description: $description,concurrent: $concurrent, prerequisites: $prerequisites})",
                 code = course_code,
                 name = course_name,
                 credits=course_credits,
@@ -113,6 +119,8 @@ for j_file in json_files:
                 id=course_id,
                 genEd=course_genEd,
                 description=course_description,
+                prerequisites=course_prereq,
+                concurrent=course_concurrent,
                 database_="neo4j"
             )
 

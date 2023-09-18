@@ -6,7 +6,7 @@
     "id": "1A",
     "genEd": "SI",
     "description": "Explores some of the great topics in classical and modern physics, including relativity, and the connections to a broad range of inquiry, from daily life to cosmology. Math, mainly algebra, is used in a way that is completely accessible to everyone. No previous knowledge of physics is necessary.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 1B": {
@@ -16,7 +16,7 @@
     "id": "1B",
     "genEd": "SR",
     "description": "Explores some of the great topics in classical and modern physics, including thermal physics, quantum mechanics, and the constituents of matter, and their connections to a broad range of inquiry, from daily life to particle physics and cosmology. Probabilistic evidence, backgrounds, statistical fluctuations and systematic uncertainties, discovery significance, what we infer, and what can go wrong, are illustrated in some depth. Math is used in a way that is completely accessible to everyone. No previous knowledge of physics or statistics is necessary.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 2": {
@@ -24,9 +24,9 @@
     "credits": 2,
     "label": "PHYS",
     "id": "2",
-    "genEd": null,
+    "genEd": "null",
     "description": "Prepares students for success in subsequent classes in physics and astrophysics. Course is designed for students majoring or considering majoring in physics, applied physics, or astrophysics. Includes overview of physics and astrophysics, and their major tools: experiment, theory, observation, and computation. Provides conceptual overview of the top-level theoretical approaches including classical mechanics, quantum mechanics, and statistical mechanics. Also reviews problem-solving skills for work in subsequent classes, including the physicist's approach to calculus, working intuitively with graphs, solving simultaneous equations, and understanding equations conceptually. Examines the educational path to different physics careers, physics as a collaborative discipline, and effective methods for group work as well as individual study.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 5A": {
@@ -100,9 +100,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "5D",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduces temperature, heat, thermal conductivity, diffusion, ideal gases, laws of thermodynamics, heat engines, and kinetic theory. Introduces the special theory of relativity and the equivalence principle. Includes the photoelectric effect, the Compton effect, matter waves, atomic spectra, and the Bohr model.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -141,7 +141,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "5L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a05A. One three-hour laboratory session per week.",
     "concurrent": "PHYS 5A",
     "prerequisites": {}
@@ -151,7 +151,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "5M",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a05B. One three-hour laboratory session per week.",
     "concurrent": "PHYS 5B",
     "prerequisites": "PHYS 5L"
@@ -161,7 +161,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "5N",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a05C. One three-hour laboratory session per week.",
     "concurrent": "PHYS 5C",
     "prerequisites": {
@@ -195,7 +195,7 @@
     "id": "6B",
     "genEd": "SI",
     "description": "A continuation of PHYS 6A. Geometric optics; statics and dynamics of fluids; introduction to thermodynamics, including temperature, heat, thermal conductivity, and molecular motion; wave motion in matter, including sound waves.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -232,7 +232,7 @@
     "id": "6C",
     "genEd": "SI",
     "description": "Introduction to electricity and magnetism. Elementary circuits; Maxwell's equations; electromagnetic radiation; interference and polarization of light.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -267,7 +267,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "6L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a06A. One three-hour laboratory session per week.",
     "concurrent": {
       "OR": [
@@ -282,7 +282,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "6M",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a06B. One three-hour laboratory session per week.",
     "concurrent": "PHYS 6B",
     "prerequisites": {
@@ -309,7 +309,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "6N",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a06C. One three-hour laboratory session per week.",
     "concurrent": "PHYS 6C",
     "prerequisites": {
@@ -358,7 +358,7 @@
     "id": "7B",
     "genEd": "SI",
     "description": "Examines elementary wave motion, light polarization, reflection and refraction; elementary electricity, including electric charge, Coulomb's Law,and electric field and potential; electrostatic energy, currents, conductors, resistance, and Ohm's Law; and magnetic fields, inductors, and circuits.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 7A",
@@ -378,7 +378,7 @@
     "credits": 1,
     "label": "PHYS",
     "id": "7L",
-    "genEd": null,
+    "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a07A. One three-hour laboratory session per week.",
     "concurrent": "PHYS 7A",
     "prerequisites": {}
@@ -388,9 +388,9 @@
     "credits": 2,
     "label": "PHYS",
     "id": "11",
-    "genEd": null,
+    "genEd": "null",
     "description": "One two-hour meeting per week. Subjects include roles of the physicist in industry, the business environment in a technical company, economic considerations, job hunting, and discussions with physicists with industrial experience. Enrollment by permission of instructor. Priority given to applied physics upper-division students; other majors if space available.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 80A": {
@@ -400,7 +400,7 @@
     "id": "80A",
     "genEd": "PE-E",
     "description": "The physics of energy developed in a course accessible to non-science majors as well as science majors. Fundamental principles and elementary calculations, at the level of basic algebra, developed and applied to the understanding of the physics of energy. Topics include fossil fuels, renewable energy, solar cells and waste energy, waste-energy recovery, nuclear power, and global greenhouse effects. (Formerly offered as PHYS 2.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 80U": {
@@ -410,7 +410,7 @@
     "id": "80U",
     "genEd": "MF",
     "description": "Fundamental theory of vibration, sound waves, sound propagation, diffraction, and interference. Free, coupled, and driven oscillations. Resonance phenomena and modes of oscillation. Fourier's theorem. Anatomy and psychophysics of the ear. Musical scales and intervals. Nature of plucked and bowed strings; guitar, violin, piano. Woodwind and brass instruments. Architectural acoustics. High school algebra and basic knowledge of musical notation recommended.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 99": {
@@ -418,9 +418,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "99",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 102": {
@@ -428,9 +428,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "102",
-    "genEd": null,
+    "genEd": "null",
     "description": "Topics in quantum physics including the Schrodinger equation; angular momentum and spin; the Pauli exclusion principle; and quantum statistics. Applications in multi-electron atoms and molecules, and in solid-state, nuclear, and particle physics.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         {
@@ -463,7 +463,7 @@
     "credits": 5,
     "label": "PHYS",
     "id": "105",
-    "genEd": null,
+    "genEd": "null",
     "description": "Particle dynamics in one, two, and three dimensions. Conservation laws. Small oscillations, Fourier series and Fourier integral solutions. Phase diagrams and nonlinear motions, Lagrange's equations, and Hamiltonian dynamics.",
     "concurrent": {
       "OR": [
@@ -510,9 +510,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "110A",
-    "genEd": null,
+    "genEd": "null",
     "description": "Examines electrostatics, including the electric field, potential, solutions to Laplace's and Poisson's equations, and work and energy; electricity in matter (conductors, dielectrics); magnetostatics, including the magnetic field and vector potential, Ampere's and Faraday's laws; magnetism in matter; and Maxwell's equations.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 5C",
@@ -541,9 +541,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "110B",
-    "genEd": null,
+    "genEd": "null",
     "description": "Examines electromagnetic waves, including absorption and dispersion, reflection and transmission, and wave guides; conservation laws and gauge invariance; time-dependent vector and scalar potentials and application to radiation of charges and antennae; and electrodynamics and relativity.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 110A",
@@ -561,7 +561,7 @@
     "credits": 5,
     "label": "PHYS",
     "id": "112",
-    "genEd": null,
+    "genEd": "null",
     "description": "Consequences of the first and second laws of thermodynamics, elementary statistical mechanics, thermodynamics of irreversible processes.",
     "concurrent": "PHYS 102",
     "prerequisites": {
@@ -576,9 +576,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "115",
-    "genEd": null,
+    "genEd": "null",
     "description": "This course applies efficient numerical methods to the solutions of problems in the physical sciences which are otherwise intractable. Examples will be drawn from classical mechanics, quantum mechanics, statistical mechanics, and electrodynamics. Students apply a high-level programming language, such as Python, to the solution of physical problems and develop appropriate error and stability estimates.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -612,9 +612,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "116A",
-    "genEd": null,
+    "genEd": "null",
     "description": "Infinite series. Topics in linear algebra including vector spaces, matrices and determinants, systems of linear equations, eigenvalue problems and matrix diagonalization. Ordinary differential equations and Laplace transforms.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "MATH 23A"
   },
   "PHYS 116C": {
@@ -622,9 +622,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "116C",
-    "genEd": null,
+    "genEd": "null",
     "description": "Fourier series and transforms, Dirac-delta function, Green's functions, series solutions of ordinary equations, Legendre polynomials, Bessel functions, sets of orthogonal functions, and partial differential equations.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -652,9 +652,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "116D",
-    "genEd": null,
+    "genEd": "null",
     "description": "Complex functions, complex analysis, asymptotic series and expansions, special functions defined by integrals, and probability and statistics. (Formerly offered as PHYS 116B.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -677,9 +677,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "120",
-    "genEd": null,
+    "genEd": "null",
     "description": "Statistical properties polymers; scaling behavior, fractal dimensions; random walks, self avoidance; single chains and concentrated solutions; dynamics and topological effects in melts; polymer networks; sol-gel transitions; polymer blends; application to biological systems; computer simulations will demonstrate much of the above. Students cannot receive credit for this course and PHYS\u00a0240.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "PHYS 112"
   },
   "PHYS 129": {
@@ -687,9 +687,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "129",
-    "genEd": null,
+    "genEd": "null",
     "description": "The standard model of particle physics; physics beyond the standard model; neutrino physics; the early universe; dark matter and dark energy; selected topics in general relativistic cosmology and high-energy astrophysics. (Formerly Nuclear and Particle Astrophysics.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -713,9 +713,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "130",
-    "genEd": null,
+    "genEd": "null",
     "description": "Survey of observational astronomy across the electromagnetic spectrum and including multi-messenger probes. Covers the physics of light detection and instrumentation in different wavelength bands as well as astrophysical sources of emission and the relevant radiative processes associated to them. Aspects of statistics and statistical inference relevant for astronomical data analysis are also covered.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 102",
@@ -737,7 +737,7 @@
     "id": "133",
     "genEd": "SR",
     "description": "Demonstration of phenomena of classical and modern physics. Development of a familiarity with experimental methods. Special experimental projects may be undertaken by students in this laboratory.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 5C",
@@ -758,9 +758,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "134",
-    "genEd": null,
+    "genEd": "null",
     "description": "Individual experimental investigations of basic phenomena in atomic, nuclear, and solid state physics.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 133",
@@ -773,9 +773,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "135",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to the techniques of modern observational astrophysics at optical and radio wavelengths through hands-on experiments. Offered in some academic years as a multiple-term course: PHYS 135A in fall and PHYS 135B in winter, depending on astronomical conditions.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "PHYS 133"
   },
   "PHYS 135A": {
@@ -783,9 +783,9 @@
     "credits": 3,
     "label": "PHYS",
     "id": "135A",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to techniques of modern observational astrophysics at optical and radio wavelengths through hands-on experiments. Intended primarily for juniors and seniors majoring or minoring in astrophysics. Offered in some academic years as single-term course PHYS 135 in fall, depending on astronomical conditions.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "PHYS 133"
   },
   "PHYS 135B": {
@@ -793,9 +793,9 @@
     "credits": 2,
     "label": "PHYS",
     "id": "135B",
-    "genEd": null,
+    "genEd": "null",
     "description": "Introduction to techniques of modern observational astrophysics at optical and radio wavelengths through hands-on experiments. Intended primarily for juniors and seniors majoring or minoring in astrophysics. Offered in some academic years as single-term PHYS\u00a0135 in fall, depending on astronomical conditions.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "PHYS 135A"
   },
   "PHYS 137": {
@@ -803,9 +803,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "137",
-    "genEd": null,
+    "genEd": "null",
     "description": "Application of advanced optical techniques to the study of problems in astrophysics, physics, chemistry, biology, and engineering. Techniques include interferometry, Fourier optics, adaptive optics, optical tweezers, photon correlation spectroscopy, optical pumping, laser spectroscopy, and more.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -823,9 +823,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "138",
-    "genEd": null,
+    "genEd": "null",
     "description": "Application of advanced laboratory techniques to the emerging field of quantum information science. Techniques include laser physics, quantum entanglement, quantum correlations, electron spin resonance, ion trapping; Josephson junctions, and more.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 102",
@@ -838,9 +838,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "139A",
-    "genEd": null,
+    "genEd": "null",
     "description": "Basic principles and mathematical techniques of nonrelativistic quantum mechanics: Schrodinger equation and Dirac notation; one-dimensional systems, including the free particle and harmonic oscillator; three-dimensional problems with spherical symmetry; angular momentum; hydrogen atom; spin; identical particles and degenerate gases.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 102",
@@ -869,9 +869,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "139B",
-    "genEd": null,
+    "genEd": "null",
     "description": "Approximation methods in nonrelativistic quantum mechanics: time-independent perturbation theory (non-degenerate and degenerate) and addition of angular momenta; variational methods; the WKB approximation; time-dependent perturbation theory and radiation theory; scattering theory.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "PHYS 102",
@@ -901,9 +901,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "150",
-    "genEd": null,
+    "genEd": "null",
     "description": "Review of linear algebra. Includes basic concepts in quantum mechanics including quantum states, measurements, operators, entanglement, entanglement entropy, \"no cloning\" theorem, and density matrices; classical gates, reversible computing, and quantum gates; several quantum algorithms including Deutsch's algorithm, Simon's algorithm, Shor's algorithm, and the Grover algorithm; quantum error correction; and quantum key distribution and teleportation.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "116A",
@@ -917,9 +917,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "152",
-    "genEd": null,
+    "genEd": "null",
     "description": "Review of select topics in statistical physics including information theory, entropy, coupled systems, phase transitions, and symmetry breaking. Introduction to multivariate algorithms, with an emphasis on their foundations in statistical physics and classical mechanics. Notebooks, data preparation, cross-validation, supervised and unsupervised learning. Practical considerations for training and optimizing neural networks and related tools. (Formerly offered as Neural Networks, Statistical Physics and Computing.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -943,9 +943,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "156",
-    "genEd": null,
+    "genEd": "null",
     "description": "Quantum mechanics in solid-state materials plays a fundamental role in the development of quantum computation and sustainable technologies, as well as the search for fundamental physics beyond the Standard Model. This course introduces the quantum physics of semiconductors and low-dimensional materials (such as graphene), with emphasis on applications to transistors for logic operations, p-n junctions for photovoltaic cells and particle detection, as well as quantum dots for qubits. (Formerly Applications of Solid State Physics.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "OR": [
         "PHYS 102",
@@ -958,9 +958,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "157",
-    "genEd": null,
+    "genEd": "null",
     "description": "The fundamentals of quantum materials are revamped by incorporating the geometric Berry phase and the topology of quantum wave functions. The traditional solid-state phenomena of superconductivity and magnetism are taught from a cutting-edge topological perspective, to understand phenomena such as the quantum Hall effect and emergent Majorana fermions. Applications of topological quantum materials range from spintronics to quantum information and computation. (Formerly offered as PHYS 155, Solid State Physics.)",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -977,9 +977,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "160",
-    "genEd": null,
+    "genEd": "null",
     "description": "Provides a practical knowledge of analog electronics that experimentalists generally need in research, including basic circuits with bipolar and field-effect transistors, op-amps, comparators, oscillators, and voltage regulators. It assumes no previous knowledge of electronics but includes twice-weekly lectures with some homework assignments, including small circuit simulations done using PSpice. However, with the aid of the instructor and teaching assistant, the students are expected to learn mainly through the construction, debugging, and analysis of small electronics projects.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -1002,9 +1002,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "171",
-    "genEd": null,
+    "genEd": "null",
     "description": "Special relativity is reviewed. Curved space-time, including the metric and geodesics, are illustrated with simple examples. The Einstein equations are solved for cases of high symmetry. Black-hole physics and cosmology are discussed, including recent developments.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         {
@@ -1035,7 +1035,7 @@
     "id": "180",
     "genEd": "PR-E",
     "description": "Physical principles and techniques used in biology: X-ray diffraction; nuclear magnetic resonance; statistics, kinetics, and thermodynamics of macromolecules; viscosity and diffusion; DNA/RNA pairing; electrophoresis; physics of enzymes; biological energy conversion; optical tweezers.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": "PHYS 112"
   },
   "PHYS 182": {
@@ -1043,9 +1043,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "182",
-    "genEd": null,
+    "genEd": "null",
     "description": "Develops the writing skills necessary to prepare professional publications: how to structure a physics article; write for a specific audience with clarity, precision, and concision; and deliver a short informal presentation. Additionally, students become familiar with the peer review process and the ethics of the publication process.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {
       "AND": [
         "WRIT 1",
@@ -1058,9 +1058,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "191",
-    "genEd": null,
+    "genEd": "null",
     "description": "Designed to provide upper-division undergraduates with an opportunity to work with students in lower division courses, leading discussions, reading and marking submissions, and assisting in the planning and teaching of a course. Prerequisite(s): excellent performance in major courses; instructor approval required; enrollment restricted to senior physics majors.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 192": {
@@ -1068,9 +1068,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "192",
-    "genEd": null,
+    "genEd": "null",
     "description": "Teaching of a lower-division seminar under faculty supervision. (See PHYS\u00a042.) Prerequisite(s): upper-division standing; submission of a proposal supported by a faculty member willing to supervise.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 195A": {
@@ -1078,9 +1078,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "195A",
-    "genEd": null,
+    "genEd": "null",
     "description": "Independent research for seniors conducted under the supervision of a faculty mentor. Students develop a written research proposal, thesis outline, and introductory material. Prerequisite(s): Entry Level Writing and Composition requirements. Enrollment is restricted to senior applied physics, physics, and physics (astrophysics) majors.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 195B": {
@@ -1088,9 +1088,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "195B",
-    "genEd": null,
+    "genEd": "null",
     "description": "Independent research for seniors conducted under the supervision of a faculty mentor. Students prepare an oral presentation of their results, and they submit a written senior thesis on their research topic. Prerequisite(s): Entry Level Writing and Composition requirements. Enrollment is restricted to senior applied physics, physics, and physics (astrophysics) majors.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 199": {
@@ -1098,9 +1098,9 @@
     "credits": 5,
     "label": "PHYS",
     "id": "199",
-    "genEd": null,
+    "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   },
   "PHYS 199F": {
@@ -1108,9 +1108,9 @@
     "credits": 2,
     "label": "PHYS",
     "id": "199F",
-    "genEd": null,
+    "genEd": "null",
     "description": "Tutorial",
-    "concurrent": null,
+    "concurrent": "null",
     "prerequisites": {}
   }
 }
