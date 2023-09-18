@@ -32,3 +32,5 @@ flask run --debug
 ```
 
 and in vite.config.js you might need to change the proxy to your own IP address
+
+(updated)
