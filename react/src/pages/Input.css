@@ -1,0 +1,26 @@
+/* Center the parent div horizontally and vertically */
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the authentication elements */
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Optional for text alignment */
+  }
+  
+  /* Add margin and spacing to the elements */
+  .center > * {
+    margin: 10px; /* Adjust the margin as needed for spacing */
+  }
+  
