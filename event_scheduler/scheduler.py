@@ -475,7 +475,7 @@ class Class(object):
         return self.prerequistes
 
 records, summary, keys = driver.execute_query("""
-    MATCH (class {code:""}) 
+    MATCH (class {code:"CSE 101"}) 
     RETURN class.code AS class, class.credits as credits, class.description as description, class.id as id, class.label as label, class.name as name, class.prerequisites as prerequisites
     """,
     database_="neo4j",

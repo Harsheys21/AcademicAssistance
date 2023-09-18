@@ -631,12 +631,8 @@
     "concurrent": "null",
     "prerequisites": {
       "AND": [
-        {
-          "OR": [
-            "MATH  21",
-            "MATH 23B"
-          ]
-        },
+        "MATH  21",
+        "MATH 23B",
         {
           "OR": [
             "MATH 100",
@@ -685,8 +681,8 @@
     "description": "Euclidean, projective, spherical, and hyperbolic (non-Euclidean) geometries. Begins with the thirteen books of Euclid. Surveys the other geometries. Attention paid to constructions and visual intuition as well as logical foundations. Rigid motions and projective transformations covered.",
     "concurrent": "null",
     "prerequisites": {
-      "AND": [
-        "either MATH 100",
+      "OR": [
+        "MATH 100",
         "CSE 101"
       ]
     }
@@ -738,12 +734,6 @@
             "PHYS 5A",
             "PHYS 6A"
           ]
-        },
-        {
-          "AND": [
-            "MATH 21",
-            "MATH 24"
-          ]
         }
       ]
     }
@@ -788,7 +778,6 @@
     "concurrent": "MATH 145L",
     "prerequisites": {
       "AND": [
-        "MATH 100",
         "MATH 21",
         {
           "OR": [
