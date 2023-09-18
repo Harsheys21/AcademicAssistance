@@ -7,7 +7,7 @@ core_not_satisfied = []
 new_course_codes = []
 
 # Open the file using the utf-8 encoding
-with open("./class_parsing/ernest.txt", 'r', encoding='utf-8') as textfile:
+with open("./ernest.txt", 'r', encoding='utf-8') as textfile:
     filetext = textfile.read()
 
 # Convert the content to uppercase
