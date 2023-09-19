@@ -7,7 +7,8 @@
     "genEd": "null",
     "description": "Hands-on introduction to computer engineering practice and research, including computer hardware, robotics, and embedded systems. Encourages interaction with UCSC's School of Engineering community. Designed for students without previous background in computer engineering. (Formerly Computer Engineering 1.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Robotics"
   },
   "ECE 8": {
     "name": "Robot Automation: Intelligence through Feedback Control",
@@ -17,7 +18,8 @@
     "genEd": "MF",
     "description": "Introduction to dynamical systems, feedback control, and robotics. Fundamental concepts in dynamical systems, modeling, stability analysis, robustness to uncertainty, feedback as it occurs naturally, and the design of feedback-control laws to engineer desirable static and dynamic response. Course includes an introduction to MATLAB and programming in MATLAB.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Robotics"
   },
   "ECE 9": {
     "name": "Statics and Mechanics of Materials",
@@ -53,7 +55,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Mechanical Engineering"
   },
   "ECE 10": {
     "name": "Fundamentals of Robot Kinematics and Dynamics",
@@ -73,7 +76,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Robotics"
   },
   "ECE 11": {
     "name": "3D Prototyping",
@@ -83,7 +87,8 @@
     "genEd": "null",
     "description": "Introduces the basics of rapid prototyping for robotics design from limiting stresses to optimal design. Discusses fast prototyping methods, advantages, and disadvantages. Introduces CAD, CAD packages, 3D printing with different materials, and 3D scanning. (Formerly CMPE 11.)",
     "concurrent": "null",
-    "prerequisites": "ECE 9"
+    "prerequisites": "ECE 9",
+    "concentration": "Robotics"
   },
   "ECE 13": {
     "name": "Computer Systems and C Programming",
@@ -103,7 +108,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Embedded Systems"
   },
   "ECE 30": {
     "name": "Engineering Principles of Electronics",
@@ -113,7 +119,8 @@
     "genEd": "SI",
     "description": "Suitable for sophomores pursuing computer science and engineering careers. Aims at deriving basic engineering principles directly from examples relevant to computing and electronics: 1) Newton's Laws and related fundamental mechanics; 2) basic thermodynamics and heat/energy transfer; 3) key electromagnetic principles, including Coulomb's Law, Gauss's Law, and basic circuit analysis using Kirchoff's Laws/Rules; and 4) Ray optics for fiber optic communications and camera electronics.",
     "concurrent": "null",
-    "prerequisites": "MATH 19B"
+    "prerequisites": "MATH 19B",
+    "concentration": "Electrical Engineering"
   },
   "ECE 80B": {
     "name": "Engineering\u00a0Innovations\u00a0for\u00a0Medicine\u00a0and\u00a0Natural\u00a0Sciences",
@@ -123,7 +130,8 @@
     "genEd": "SI",
     "description": "Introduces to a lay audience engineering innovations that have had an impact in medicine and biology. Course is designed for non-engineering majors, or pre-med students, as well as pre-engineering to provide a broad understanding of how technology has improved and keeps on improving healthcare.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Biomedical Engineering"
   },
   "ECE 80G": {
     "name": "Creating and Financing a Sustainable Startup in the Global Economy",
@@ -133,7 +141,8 @@
     "genEd": "CC",
     "description": "Introduces students and prospective entrepreneurs to the ingredients required to successfully create and finance a sustainability-minded startup or nonprofit in the global economy. Emphasis is placed on ethical business practice, tools for understanding markets and supply chains, and building value for all stakeholders, including communities and the environment.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Entrepreneurship"
   },
   "ECE 80H": {
     "name": "Bending the Curve: Solutions to Climate Change",
@@ -143,7 +152,8 @@
     "genEd": "PE-H",
     "description": "Students examine the interconnectedness of natural and social systems as they evaluate, interpret, and debate evidence and explanations of climate change. Includes interviewing family members, friends, and professionals for a variety of divergent views on the climate change debate. Class sessions are devoted to student discussion of the course materials, including readings, take-home assignments and pre-recorded videos. The class culminates with a written proposal and group presentations of ideas for solutions, with the guidance of the instructor, addressing one of the grand challenges presented in the course with the goal of empowering students to emerge as critical thinkers and actors equipped with a solution-based mindset.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Environmental Engineering"
   },
   "ECE 80E": {
     "name": "Engineering Ethics",
@@ -153,7 +163,8 @@
     "genEd": "PE-T",
     "description": "Ethical theories, analysis, and their application to issues in the practice of engineering, such as safety and liability, professional responsibility to clients and employers, codes of ethics, legal obligations, environmental issues, and social issues. Emphasis on developing independent ethical analysis through the use of case studies. (Formerly CMPE 80E.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Ethics in Engineering"
   },
   "ECE 80J": {
     "name": "Renewable Energy Sources, Storage, and Smart Grids",
@@ -163,7 +174,8 @@
     "genEd": "PE-E",
     "description": "Introduces energy sources and storage with special emphasis on renewables as part of smart grids. Fundamental energy-conversion limits based on physics and existing source properties are studied. Various sources, such as solar, wind, hydropower, geothermal, tidal energy, and fuel cells are described. Electric vehicles, sustainable microgrids, and the integration to smart grids are studied. Finally, smart meters, demand response, the energy market, and policy are covered. Students cannot receive credit for this course and course 81J. (Formerly EE 80J.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Renewable Energy"
   },
   "ECE 80S": {
     "name": "Sustainability Engineering and Practice",
@@ -173,7 +185,8 @@
     "genEd": "SR",
     "description": "Topical introduction to principles and practices of sustainability engineering and ecological design with emphasis on implementation in society. Provides an understanding of basic scientific, engineering, and social principles in the design, deployment, and operation of resource-based human systems, and how they can be maintained for this and future generations. No specialized background in engineering, science, or social sciences is assumed. (Formerly EE 80S.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Sustainability Engineering"
   },
   "ECE 80T": {
     "name": "Modern Electronic Technology and How It Works",
@@ -183,7 +196,8 @@
     "genEd": "SI",
     "description": "Basic knowledge of electricity and how things work, how technology evolves, its impact on society and history, and basic technical literacy for the non-specialist. Broad overview of professional aspects of engineering and introduction and overview of basic systems and components. Topics include electrical power, radio, television, radar, computers, robots, telecommunications, and the Internet. (Formerly EE 80T.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Introduction to Engineering"
   },
   "ECE 94": {
     "name": "Group Tutorial",
@@ -193,7 +207,8 @@
     "genEd": "null",
     "description": "A means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Interdisciplinary Studies"
   },
   "ECE 94F": {
     "name": "Group Tutorial",
@@ -203,7 +218,8 @@
     "genEd": "null",
     "description": "A means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Interdisciplinary Studies"
   },
   "ECE 99": {
     "name": "Tutorial",
@@ -213,7 +229,8 @@
     "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Interdisciplinary Studies"
   },
   "ECE 99F": {
     "name": "Tutorial",
@@ -223,7 +240,8 @@
     "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Interdisciplinary Studies"
   },
   "ECE 101": {
     "name": "Introduction to Electronic Circuits",
@@ -236,7 +254,7 @@
     "prerequisites": {
       "AND": [
         {
-          "OR":[
+          "OR": [
             {
               "AND": [
                 "PHYS 5C",
@@ -258,7 +276,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Electrical Engineering"
   },
   "ECE 101L": {
     "name": "Introduction to Electronic Circuits Laboratory",
@@ -293,7 +312,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Electrical Engineering"
   },
   "ECE 102": {
     "name": "Properties of Materials",
@@ -330,7 +350,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Material Science"
   },
   "ECE 102L": {
     "name": "Properties of Materials Laboratory",
@@ -367,7 +388,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Material Science"
   },
   "ECE 103": {
     "name": "Signals and Systems",
@@ -388,7 +410,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Signal Processing"
   },
   "ECE 103L": {
     "name": "Signals and Systems Laboratory",
@@ -409,7 +432,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Signal Processing"
   },
   "ECE 104": {
     "name": "Bioelectronics",
@@ -419,7 +443,8 @@
     "genEd": "null",
     "description": "Covers selected case studies in interfacing electronic devices with biological systems. from Galvani to neuronal stimulation and electroceuticals. These studies include: the squid giant axon, the pace maker, deep brain stimulation, organic bioelectronics, bionanoelectronics and optogenetics, bioenergetics, and bioprotonics electroceuticals. Students are assessed through weekly student papers on case studies and through a final presentation. (Formerly EE 104.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Biomedical Engineering"
   },
   "ECE 115": {
     "name": "Introduction to Solid Mechanics",
@@ -440,7 +465,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Mechanical Engineering"
   },
   "ECE 118": {
     "name": "Introduction to Mechatronics",
@@ -463,7 +489,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Mechatronics"
   },
   "ECE 121": {
     "name": "Microcontroller\u00a0System\u00a0Design",
@@ -483,7 +510,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Embedded Systems"
   },
   "ECE 122A": {
     "name": "Collaborative Sustainability Project Design",
@@ -493,7 +521,8 @@
     "genEd": "null",
     "description": "This course is the first quarter of a three quarter series of courses that together comprise the IDEASS Program (Impact Designs: Engineering and Sustainability through Student Service), which provides students with opportunities to plan, implement, and evaluate interdisciplinary sustainable design projects in the built environment for the Monterey Bay Region. In fall quarter students are introduced to project topics and background information. In collaboration with an outside mentor project teams design, revise, and complete a project plan including project goals and deliverables, timeline of key activities and major milestones, stakeholder map, evaluation plan, and budget (as applicable). Students apply online; selected applicants complete in-person interviews. (Formerly EE 122A.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Sustainability Engineering"
   },
   "ECE 122B": {
     "name": "Collaborative Sustainability Project Implementation",
@@ -503,7 +532,8 @@
     "genEd": "null",
     "description": "The second of a three-quarter sequence that together comprise the IDEASS Program (Impact Designs: Engineering and Sustainability through Student Service) which provides opportunities for students to plan, implement, and evaluate interdisciplinary sustainable-design projects in the built environment for the Monterey Bay Region. In winter quarter, project teams work collaboratively to implement the project plans approved during the fall quarter. Students participate in a weekly seminary series that includes guest lectures and field trips as well as workshops in project management, public speaking, writing skills, and other professional development. Prerequisite(s): ECE 122A. Students apply online; selected applicants complete in-person interviews. Enrollment is restricted to juniors and seniors. (Formerly EE 122B.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Sustainability Engineering"
   },
   "ECE 122C": {
     "name": "Collaborative Sustainability Project Implementation",
@@ -513,7 +543,8 @@
     "genEd": "null",
     "description": "The third of a three-quarter sequence that together comprise the IDEASS Program (Impact Designs: Engineering and Sustainability through Student Service) which provides opportunities for students to plan, implement, and evaluate interdisciplinary sustainable-design projects in the built environment for the Monterey Bay Region. In spring quarter, project teams work collaboratively to continue implementation of project plans approved during the fall quarter, then evaluate projects impacts. Students participate in a weekly seminary series that includes guest lectures and field trips as well as workshops in project management, public speaking, writing skills, and other professional development. Students also work in the community on educational public outreach regarding project impacts. Prerequisite(s): ECE 122A. Students apply online; selected applicants complete in-person interviews. Enrollment is restricted to juniors and seniors. (Formerly EE 122C.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Sustainability Engineering"
   },
   "ECE 129A": {
     "name": "Capstone Project I",
@@ -531,16 +562,16 @@
         {
           "OR": [
             {
-              "AND":[
+              "AND": [
                 "ECE 118",
                 "ECE 121"
               ]
             },
             {
-              "AND":[
+              "AND": [
                 "ECE 171",
                 {
-                  "OR":[
+                  "OR": [
                     "ECE 157",
                     "ECE 173",
                     "ECE 118",
@@ -552,7 +583,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Electrical Engineering"
   },
   "ECE 129B": {
     "name": "Capstone Project II",
@@ -562,7 +594,8 @@
     "genEd": "PR-E",
     "description": "Second of a three-course sequence in which students apply knowledge and skills gained in elective track to complete a major design project. In this second course, students complete the training, research, and procurement for a substantial project and a preliminary implementation.",
     "concurrent": "null",
-    "prerequisites": "ECE 129A"
+    "prerequisites": "ECE 129A",
+    "concentration": "Electrical Engineering"
   },
   "ECE 129C": {
     "name": "Capstone Project III",
@@ -572,7 +605,8 @@
     "genEd": "null",
     "description": "Third of a three-course sequence in which students apply knowledge and skills gained in this elective track to complete a major design project. In this third course, students work in teams to complete the project specified and advance on the results of the work in the first two courses. A formal written report, oral presentation, and demonstration of the successful project to a review panel of engineering faculty is required.",
     "concurrent": "null",
-    "prerequisites": "ECE 129B"
+    "prerequisites": "ECE 129B",
+    "concentration": "Electrical Engineering"
   },
   "ECE 130": {
     "name": "Introduction to Optoelectronics and Photonics",
@@ -601,7 +635,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Photonics"
   },
   "ECE 130L": {
     "name": "Introduction to Optoelectronics Laboratory",
@@ -632,7 +667,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Photonics"
   },
   "ECE 135": {
     "name": "Electromagnetic Fields and Waves",
@@ -655,7 +691,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Electromagnetics"
   },
   "ECE 135L": {
     "name": "Electromagnetic Fields and Waves Laboratory",
@@ -678,7 +715,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Electromagnetics"
   },
   "ECE 136": {
     "name": "Engineering Electromagnetics",
@@ -693,7 +731,8 @@
         "ECE 135",
         "ECE 135L"
       ]
-    }
+    },
+    "concentration": "Electromagnetics"
   },
   "ECE 141": {
     "name": "Feedback Control Systems",
@@ -703,7 +742,8 @@
     "genEd": "null",
     "description": "Analysis and design of continuous linear feedback control systems. Essential principles and advantages of feedback. Design by root locus, frequency response, and state space methods and comparisons of these techniques. Applications. (Formerly CMPE 141 and EE 153.)",
     "concurrent": "null",
-    "prerequisites": "ECE 103"
+    "prerequisites": "ECE 103",
+    "concentration": "Control Systems"
   },
   "ECE 145": {
     "name": "Estimation and Introduction to Control of Stochastic Processes",
@@ -713,7 +753,8 @@
     "genEd": "SR",
     "description": "Provides practical knowledge of Kalman filtering and introduces control theory for stochastic processes. Selected topics include: state-space modeling; discrete- and continuous-time Kalman filter; smoothing; and applications in feedback control. Students learn through hands-on experience. Students cannot receive credit for this course and course 245. Enrollment by permission of instructor. (Formerly CMPE 145.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Control Systems"
   },
   "ECE 149": {
     "name": "Introduction to Cyber-physical Systems",
@@ -742,7 +783,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Cyber-Physical Systems"
   },
   "ECE 151": {
     "name": "Communications Systems",
@@ -764,7 +806,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Communication Systems"
   },
   "ECE 152": {
     "name": "Introduction to Wireless Communications",
@@ -779,7 +822,8 @@
         "CSE 107",
         "ECE 151"
       ]
-    }
+    },
+    "concentration": "Wireless Communication"
   },
   "ECE 153": {
     "name": "Digital Signal Processing",
@@ -789,7 +833,8 @@
     "genEd": "null",
     "description": "Introduction to the principles of signal processing, including discrete-time signals and systems, the z-transform, sampling of continuous-time signals, transform analysis of linear time-invariant systems, structures for discrete-time systems, the discrete Fourier transform, computation of the discrete Fourier transform, and filter design techniques. Taught in conjunction with Electrical Engineering 250. Students cannot receive credit for this course and Electrical Engineering 250. (Formerly EE 153 and CMPE 153.)",
     "concurrent": "null",
-    "prerequisites": "CSE 103"
+    "prerequisites": "CSE 103",
+    "concentration": "Signal Processing"
   },
   "ECE 157": {
     "name": "RF Hardware Design",
@@ -807,7 +852,8 @@
         "ECE 171",
         "ECE 174"
       ]
-    }
+    },
+    "concentration": "RF Systems"
   },
   "ECE 157L": {
     "name": "RF Hardware Design Laboratory",
@@ -825,7 +871,8 @@
         "ECE 171",
         "ECE 174"
       ]
-    }
+    },
+    "concentration": "RF Systems"
   },
   "ECE 163": {
     "name": "Introduction to Small-Scale UAV Theory and Practice",
@@ -853,7 +900,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Robotics"
   },
   "ECE 167": {
     "name": "Sensing and Sensor Technologies",
@@ -874,7 +922,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Sensors and Measurement"
   },
   "ECE 170": {
     "name": "Advanced Power Electronics",
@@ -884,7 +933,8 @@
     "genEd": "null",
     "description": "Advanced topics in power electronics including SCR circuits, modulation techniques, multilevel power converters, active and current-source rectifiers, magnetic circuit design, state-space averaging, power converter controller design and stability. Taught in conjunction with ECE 270. Students cannot receive credit for this course and ECE 270.",
     "concurrent": "null",
-    "prerequisites": "ECE 177"
+    "prerequisites": "ECE 177",
+    "concentration": "Power Electronics"
   },
   "ECE 171": {
     "name": "Analog Electronics",
@@ -899,7 +949,8 @@
         "ECE 101",
         "ECE 101L"
       ]
-    }
+    },
+    "concentration": "Semiconductor Devices"
   },
   "ECE 171L": {
     "name": "Analog Electronics Laboratory",
@@ -914,7 +965,8 @@
         "ECE 101",
         "ECE 101L"
       ]
-    }
+    },
+    "concentration": "Semiconductor Devices"
   },
   "ECE 172": {
     "name": "Advanced Analog Circuits",
@@ -924,7 +976,8 @@
     "genEd": "null",
     "description": "Analog circuit design covering the basic amplifier configurations, current mirrors, differential amplifiers, frequency response, feedback amplifiers, noise, bandgap references, one- and two-stage operational amplifier design, feedback amplifier stability, switched capacitor circuits and optionally the fundamentals of digital-to-analog and analog-to-digital converters. Emphasis throughout will be on the development of approximate and intuitive methods for understanding and designing circuits. Cannot receive credit for this course and course 221. (Formerly EE 172.)",
     "concurrent": "null",
-    "prerequisites": "ECE 171"
+    "prerequisites": "ECE 171",
+    "concentration": "Analog Circuit Design"
   },
   "ECE 173": {
     "name": "High-Speed Digital Design",
@@ -940,7 +993,8 @@
         "ECE 101L",
         "ECE 174"
       ]
-    }
+    },
+    "concentration": "Digital Design"
   },
   "ECE 174": {
     "name": "Introduction to EDA Tools for PCB Design",
@@ -955,7 +1009,8 @@
         "ECE 101",
         "ECE 101L"
       ]
-    }
+    },
+    "concentration": "Printed-Circuit Board Design"
   },
   "ECE 175": {
     "name": "Energy Generation and Control",
@@ -965,7 +1020,8 @@
     "genEd": "null",
     "description": "Introduces electrical energy generation, sensing, and control, emphasizing the emerging smart grid. Topics include 3-phase AC power systems, voltage and transient stability, fault analysis, grid protection, power-flow analysis, economic dispatch, and high voltage DC distribution (HVDC). (Formerly EE 175.)",
     "concurrent": "ECE 175L",
-    "prerequisites": "ECE 101"
+    "prerequisites": "ECE 101",
+    "concentration": "Power Systems"
   },
   "ECE 175L": {
     "name": "Energy Generation and Control Laboratory",
@@ -975,7 +1031,8 @@
     "genEd": "null",
     "description": "Computer analysis and simulation of energy generation, components, power-flow analysis, systems, and control covering topics from course 195. Weekly computer simulations reinforce the concepts introduced in course 175. (Formerly EE 175L.)",
     "concurrent": "ECE 175",
-    "prerequisites": "ECE 101"
+    "prerequisites": "ECE 101",
+    "concentration": "Power Systems"
   },
   "ECE 176": {
     "name": "Energy Conservation and Control",
@@ -990,7 +1047,8 @@
         "ECE 103",
         "ECE 171"
       ]
-    }
+    },
+    "concentration": "Electric Machine Drives"
   },
   "ECE 176L": {
     "name": "Energy Conversion and Control Laboratory",
@@ -1005,7 +1063,8 @@
         "ECE 103",
         "ECE 171"
       ]
-    }
+    },
+    "concentration": "Electric Machine Drives"
   },
   "ECE 177": {
     "name": "Power Electronics",
@@ -1015,7 +1074,8 @@
     "genEd": "null",
     "description": "Switch-mode power converter design and analysis. Non-switching power supplies. Electronic power-factor correction. Soft switching. Power-semiconductor devices. Use in energy conservation, renewable energy, lighting, and power transmission. (Formerly EE 177.)",
     "concurrent": "ECE 177L",
-    "prerequisites": "ECE 103"
+    "prerequisites": "ECE 103",
+    "concentration": "Power Converter Design"
   },
   "ECE 177L": {
     "name": "Power Electronics Laboratory",
@@ -1025,7 +1085,8 @@
     "genEd": "null",
     "description": "Buck, boost, buck-boost, flyback, and forward converter design and control.",
     "concurrent": "ECE 177",
-    "prerequisites": "ECE 103"
+    "prerequisites": "ECE 103",
+    "concentration": "Power Converter Design"
   },
   "ECE 178": {
     "name": "Device Electronics",
@@ -1042,7 +1103,8 @@
         "ECE 171",
         "ECE 171L"
       ]
-    }
+    },
+    "concentration": "Semiconductor Devices"
   },
   "ECE 179": {
     "name": "Decision Analysis in Management",
@@ -1069,7 +1131,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Decision Analysis"
   },
   "ECE 180J": {
     "name": "Advanced Renewable Energy Sources, Storage, and Smart Grids",
@@ -1086,7 +1149,8 @@
         "AM 5",
         "AM 7"
       ]
-    }
+    },
+    "concentration": "Renewable Energy"
   },
   "ECE 181J": {
     "name": "Renewable Energy Sources in Practice",
@@ -1096,7 +1160,8 @@
     "genEd": "null",
     "description": "Provides a comprehensive overview of renewable energy, storage, and smart grids. Fundamental energy-conversion limits based on physics and existing material properties are discussed. Various sources and facilities, such as solar, wind, hydropower, geothermal, tidal energy, and fuel cells are described. Solar- and wind-site assessment, electric vehicles, as well as sustainable microgrids are also discussed. Finally, the latest research on smart grids and smart cities is introduced. Taught in conjunction with course 80J. Students who enroll in this class will learn how to use Matlab to solve engineering problems.(Formerly EE 180J.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Renewable Energy"
   },
   "ECE 183": {
     "name": "Special Topics in Electrical Engineering",
@@ -1106,7 +1171,8 @@
     "genEd": "null",
     "description": "Topics vary with instructor. Sample topics include smart grids, bioelectronics, antennas, etc. Enrollment by instructor permission. Approval of undergraduate adviser required for credit as an upper-division elective. (Formerly EE 183.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Special Topics"
   },
   "ECE 185": {
     "name": "Introduction to the US Electricity Industry",
@@ -1121,7 +1187,8 @@
         "PHYS 5C",
         "PHYS 5N"
       ]
-    }
+    },
+    "concentration": "Electricity Industry"
   },
   "ECE 193": {
     "name": "Field Study",
@@ -1131,7 +1198,8 @@
     "genEd": "null",
     "description": "Provides for individual programs of study with specific academic objectives carried out under the direction of a faculty member of the electrical engineering program and a willing sponsor at the field site and using resources not normally available on campus. Credit is based on the presentation of evidence of achieving the objectives by submitting a written and oral presentation. May not normally be repeated for credit.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 193F": {
     "name": "Field Study",
@@ -1141,7 +1209,8 @@
     "genEd": "null",
     "description": "Provides for individual programs of study with specific academic objectives carried out under the direction of a faculty member of the electrical engineering program and a willing sponsor at the field site and using resources not normally available on campus. Credit is based on the presentation of evidence of achieving the objectives by submitting a written and oral presentation. May not normally be repeated for credit.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 195": {
     "name": "Senior Thesis Research",
@@ -1151,7 +1220,8 @@
     "genEd": "null",
     "description": "Individual directed study for upper-division undergraduates. Students submit petition to sponsoring agency. If using this course to replace the capstone design requirement (ECE 129A, ECE129B, ECE 129C), students must take ECE 129A. Prerequisite(s): satisfaction",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 195F": {
     "name": "Senior Thesis Research",
@@ -1161,7 +1231,8 @@
     "genEd": "null",
     "description": "Prerequisite(s): petition on file with sponsoring agency. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 198": {
     "name": "Individual Study or Research",
@@ -1171,7 +1242,8 @@
     "genEd": "null",
     "description": "Provides for department-sponsored individual study program off campus, for which faculty supervision is not in person, but by correspondence. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 198F": {
     "name": "Independent Field Study",
@@ -1181,7 +1253,8 @@
     "genEd": "null",
     "description": "Provides for department-sponsored individual study program off campus for which faculty supervision is not in person, but by correspondence. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 199": {
     "name": "Tutorial",
@@ -1191,7 +1264,8 @@
     "genEd": "null",
     "description": "Individual directed study for upper-division undergraduates. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   },
   "ECE 199F": {
     "name": "Tutorial",
@@ -1201,6 +1275,7 @@
     "genEd": "null",
     "description": "Individual directed study for upper-division undergraduates. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Individual Study"
   }
 }
