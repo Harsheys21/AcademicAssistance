@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "../components/NavButton.css";
 import { useInput } from "../utils/InputContext";
 import "./Inaccuracies.css";
+import ButtonGroup from "../components/ButtonGroup";
 
 function Inaccuracies(props) {
   let navigate = useNavigate();
@@ -13,6 +14,7 @@ function Inaccuracies(props) {
   const { inputValues, setInputValues } = useInput();
 
   const handleInaccuracySelected = (name, value, index) => {
+    console.log("HANDLE INACCURACY SELECTED");
     console.log("Inaccuracy chosen: ", value);
     // setInputValues((prevInputValues) => ({
     //   ...prevInputValues,
@@ -23,6 +25,7 @@ function Inaccuracies(props) {
       [name]: [...prevInaccuracies[name], value],
       //   [name]: (prev) => ({ ...prev, value }),
     }));
+    console.log("endof HANDLE INACCURACY SELECTED");
   };
 
   //   add to each of these lists upon an item being selected
@@ -33,10 +36,22 @@ function Inaccuracies(props) {
     CORE_NS: [],
   });
 
-  const handleInaccuracies = () => {
+  const handleInaccuracies = (inputValues, inaccuracies) => {
+    console.log("HANDLE INACCURACIES");
     console.log("The selected courses are inaccurate");
+    console.log("curse data", inputValues.course_data);
     // TODO: Here, there needs to be a list comprehension algorithm
-    // that takes the data in inaccuracies
+    // that takes the data in inaccuracies and updates the context by subtracting
+    //  the inaccuracies
+
+    for (const category in inaccuracies) {
+      if (inputValues.course_data.hasOwnProperty(category)) {
+        const item = inaccuracies[category];
+        inputValues.course_data[category] = inputValues.course_data[
+          category
+        ].filter((i) => !item.includes(i));
+      }
+    }
 
     // setInputValues((prevInputValues) => ({
     //   ...prevInputValues,
@@ -45,11 +60,11 @@ function Inaccuracies(props) {
   };
 
   useEffect(() => {
-    console.log("Updated inputValues:", inputValues);
+    console.log("Updated inputValues (useEffect):", inputValues);
   }, [inputValues]);
 
   useEffect(() => {
-    console.log("Updated inaccuruacies:", inaccuracies);
+    console.log("Updated inaccuruacies (useEffect):", inaccuracies);
   }, [inaccuracies]);
 
   return (
@@ -65,84 +80,37 @@ function Inaccuracies(props) {
 
         {/* {props.items.length === 0 && <p>No input found</p>} */}
         <div className="course-groupings">
-          <h5>Core courses:</h5>
-          <div className="button-container">
-            <ul className="list-group">
-              {/* gonna need one of these for every type of inaccuracy */}
-              {inputValues.course_data.CORE_NS.map((item, index) => (
-                <React.Fragment key={index}>
-                  <MajorOption
-                    name="GE_NS"
-                    clickActive={true}
-                    text={item}
-                    onClick={(name, text) => {
-                      //   TODO: handleInaccuracySelected must add selected course to a list or object,
-                      // labeled with it's category
-                      // these lists will contain the classes to remove from the course_data object in the InputContext
-                      handleInaccuracySelected(name, text, index);
-                      // props.onSelectItem(item);
-                    }}
-                  />
-                </React.Fragment>
-              ))}
-            </ul>
-          </div>
-          <h5>GE courses:</h5>
-          <div className="button-container">
-            <ul className="list-group">
-              {/* gonna need one of these for every type of inaccuracy */}
-              {inputValues.course_data.GE_NS.map((item, index) => (
-                <React.Fragment key={index}>
-                  <MajorOption
-                    name="GE_NS"
-                    clickActive={true}
-                    text={item}
-                    onClick={(name, text) => {
-                      //   TODO: handleInaccuracySelected must add selected course to a list or object,
-                      // labeled with it's category
-                      // these lists will contain the classes to remove from the course_data object in the InputContext
-                      handleInaccuracySelected(name, text, index);
-                      // props.onSelectItem(item);
-                    }}
-                  />
-                </React.Fragment>
-              ))}
-            </ul>
-          </div>
+          <ButtonGroup
+            title={"Core division courses not satisfied:"}
+            name={"CORE_NS"}
+            cat={inputValues.course_data.CORE_NS}
+            handleInaccuracySelected={handleInaccuracySelected}
+          />
+          <ButtonGroup
+            title={"GE division courses not satisfied:"}
+            name={"GE_NS"}
+            cat={inputValues.course_data.GE_NS}
+            handleInaccuracySelected={handleInaccuracySelected}
+          />
+          <ButtonGroup
+            title={"Lower division courses not satisfied:"}
+            name={"LOW_NS"}
+            cat={inputValues.course_data.LOW_NS}
+            handleInaccuracySelected={handleInaccuracySelected}
+          />
+          <ButtonGroup
+            title={"Upper division courses not satisfied:"}
+            name={"UP_NS"}
+            cat={inputValues.course_data.UP_NS}
+            handleInaccuracySelected={handleInaccuracySelected}
+          />
 
-          <h5>Lower Division courses:</h5>
-          <ul className="list-group">
-            {inputValues.course_data.LOW_NS.map((item, index) => (
-              <React.Fragment key={index}>
-                <MajorOption
-                  name="UP_NS"
-                  clickActive={true}
-                  text={item}
-                  onClick={(name, text) => {
-                    handleInaccuracySelected(name, text, index);
-                  }}
-                />
-              </React.Fragment>
-            ))}
-          </ul>
-
-          <h5>Upper Division courses:</h5>
-          <ul className="list-group">
-            {inputValues.course_data.UP_NS.map((item, index) => (
-              <React.Fragment key={index}>
-                <MajorOption
-                  name="UP_NS"
-                  clickActive={true}
-                  text={item}
-                  onClick={(name, text) => {
-                    handleInaccuracySelected(name, text, index);
-                  }}
-                />
-              </React.Fragment>
-            ))}
-          </ul>
-
-          <button onClick={handleInaccuracies}>
+          <button
+            onClick={() => {
+              console.log("----BUTTON CLICKED----");
+              handleInaccuracies(inputValues, inaccuracies);
+            }}
+          >
             I have already taken the selected courses
           </button>
         </div>
