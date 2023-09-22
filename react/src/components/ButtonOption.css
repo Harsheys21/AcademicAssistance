@@ -1,0 +1,28 @@
+.majorOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.majorOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+    
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.majorOption:hover {
+    background-color: #be2560;
+    border-radius: 30px;
+    color: #8325be;
+    transition: color 150ms ease-out;
+}
+
+.majorOption--active {
+    color: #8325be;
+}

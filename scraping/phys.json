@@ -7,7 +7,8 @@
     "genEd": "SI",
     "description": "Explores some of the great topics in classical and modern physics, including relativity, and the connections to a broad range of inquiry, from daily life to cosmology. Math, mainly algebra, is used in a way that is completely accessible to everyone. No previous knowledge of physics is necessary.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 1B": {
     "name": "Physics for Everyone",
@@ -17,7 +18,8 @@
     "genEd": "SR",
     "description": "Explores some of the great topics in classical and modern physics, including thermal physics, quantum mechanics, and the constituents of matter, and their connections to a broad range of inquiry, from daily life to particle physics and cosmology. Probabilistic evidence, backgrounds, statistical fluctuations and systematic uncertainties, discovery significance, what we infer, and what can go wrong, are illustrated in some depth. Math is used in a way that is completely accessible to everyone. No previous knowledge of physics or statistics is necessary.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 2": {
     "name": "The Physicist's Toolbox",
@@ -27,7 +29,8 @@
     "genEd": "null",
     "description": "Prepares students for success in subsequent classes in physics and astrophysics. Course is designed for students majoring or considering majoring in physics, applied physics, or astrophysics. Includes overview of physics and astrophysics, and their major tools: experiment, theory, observation, and computation. Provides conceptual overview of the top-level theoretical approaches including classical mechanics, quantum mechanics, and statistical mechanics. Also reviews problem-solving skills for work in subsequent classes, including the physicist's approach to calculus, working intuitively with graphs, solving simultaneous equations, and understanding equations conceptually. Examines the educational path to different physics careers, physics as a collaborative discipline, and effective methods for group work as well as individual study.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 5A": {
     "name": "Introduction to Physics I",
@@ -52,7 +55,8 @@
         "MATH 19A",
         "MATH 20A"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 5B": {
     "name": "Introduction to Physics II",
@@ -73,7 +77,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 5C": {
     "name": "Introduction to Physics III",
@@ -93,7 +98,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 5D": {
     "name": "Introduction to Physics IV",
@@ -134,7 +140,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 5L": {
     "name": "Introduction to Physics I Laboratory",
@@ -144,7 +151,8 @@
     "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a05A. One three-hour laboratory session per week.",
     "concurrent": "PHYS 5A",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 5M": {
     "name": "Introduction to Physics II Laboratory",
@@ -154,7 +162,8 @@
     "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a05B. One three-hour laboratory session per week.",
     "concurrent": "PHYS 5B",
-    "prerequisites": "PHYS 5L"
+    "prerequisites": "PHYS 5L",
+    "concentration": "Physics"
   },
   "PHYS 5N": {
     "name": "Introduction to Physics Laboratory III",
@@ -169,7 +178,8 @@
         "PHYS 5A",
         "PHYS 5L"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 6A": {
     "name": "Introductory Physics I",
@@ -186,7 +196,8 @@
         "MATH 20A",
         "AM 15A"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 6B": {
     "name": "Introductory Physics II",
@@ -223,7 +234,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 6C": {
     "name": "Introductory Physics III",
@@ -260,7 +272,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 6L": {
     "name": "Introductory Physics I Laboratory",
@@ -275,7 +288,8 @@
         "PHYS 7A"
       ]
     },
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 6M": {
     "name": "Introductory Physics II Laboratory",
@@ -289,20 +303,21 @@
       "AND": [
         {
           "OR": [
-            "PHYS 5A", 
+            "PHYS 5A",
             "PHYS 6A",
             "PHYS 7A"
           ]
         },
         {
           "OR": [
-            "PHYS 5L", 
+            "PHYS 5L",
             "PHYS 6L",
             "PHYS 7L"
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 6N": {
     "name": "Introductory Physics III Laboratory",
@@ -327,7 +342,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 7A": {
     "name": "Elementary Physics I",
@@ -349,7 +365,8 @@
         "MATH 20A",
         "AM 15A"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 7B": {
     "name": "Elementary Physics II",
@@ -371,7 +388,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 7L": {
     "name": "Elementary Physics Laboratory",
@@ -381,7 +399,8 @@
     "genEd": "null",
     "description": "Laboratory sequence illustrating topics covered in PHYS\u00a07A. One three-hour laboratory session per week.",
     "concurrent": "PHYS 7A",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 11": {
     "name": "The Physicist in Industry",
@@ -391,7 +410,8 @@
     "genEd": "null",
     "description": "One two-hour meeting per week. Subjects include roles of the physicist in industry, the business environment in a technical company, economic considerations, job hunting, and discussions with physicists with industrial experience. Enrollment by permission of instructor. Priority given to applied physics upper-division students; other majors if space available.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 80A": {
     "name": "Elementary Physics of Energy",
@@ -401,7 +421,8 @@
     "genEd": "PE-E",
     "description": "The physics of energy developed in a course accessible to non-science majors as well as science majors. Fundamental principles and elementary calculations, at the level of basic algebra, developed and applied to the understanding of the physics of energy. Topics include fossil fuels, renewable energy, solar cells and waste energy, waste-energy recovery, nuclear power, and global greenhouse effects. (Formerly offered as PHYS 2.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 80U": {
     "name": "Physics and Psychophysics of Music",
@@ -411,7 +432,8 @@
     "genEd": "MF",
     "description": "Fundamental theory of vibration, sound waves, sound propagation, diffraction, and interference. Free, coupled, and driven oscillations. Resonance phenomena and modes of oscillation. Fourier's theorem. Anatomy and psychophysics of the ear. Musical scales and intervals. Nature of plucked and bowed strings; guitar, violin, piano. Woodwind and brass instruments. Architectural acoustics. High school algebra and basic knowledge of musical notation recommended.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 99": {
     "name": "Tutorial",
@@ -421,7 +443,8 @@
     "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 102": {
     "name": "Modern Physics",
@@ -435,28 +458,29 @@
       "OR": [
         {
           "AND": [
-            "PHYS 5A", 
-            "PHYS 5L", 
-            "PHYS 5B", 
-            "PHYS 5M", 
-            "PHYS 5C", 
+            "PHYS 5A",
+            "PHYS 5L",
+            "PHYS 5B",
+            "PHYS 5M",
+            "PHYS 5C",
             "PHYS 5N",
             "PHYS 5D"
           ]
         },
         {
           "AND": [
-            "PHYS 6A", 
-            "PHYS 6L", 
-            "PHYS 6B", 
-            "PHYS 6M", 
-            "PHYS 6C", 
+            "PHYS 6A",
+            "PHYS 6L",
+            "PHYS 6B",
+            "PHYS 6M",
+            "PHYS 6C",
             "PHYS 6N",
             "PHYS 5D"
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 105": {
     "name": "Mechanics",
@@ -503,7 +527,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 110A": {
     "name": "Electricity, Magnetism, and Optics",
@@ -534,7 +559,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 110B": {
     "name": "Electricity, Magnetism, and Optics",
@@ -554,7 +580,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 112": {
     "name": "Thermodynamics and Statistical Mechanics",
@@ -569,7 +596,8 @@
         "PHYS 5D",
         "MATH 23B"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 115": {
     "name": "Computational Physics",
@@ -595,7 +623,7 @@
                 "MATH 21",
                 "MATH 24"
               ]
-            } 
+            }
           ]
         },
         {
@@ -605,7 +633,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 116A": {
     "name": "Mathematical Methods in Physics",
@@ -615,7 +644,8 @@
     "genEd": "null",
     "description": "Infinite series. Topics in linear algebra including vector spaces, matrices and determinants, systems of linear equations, eigenvalue problems and matrix diagonalization. Ordinary differential equations and Laplace transforms.",
     "concurrent": "null",
-    "prerequisites": "MATH 23A"
+    "prerequisites": "MATH 23A",
+    "concentration": "Physics"
   },
   "PHYS 116C": {
     "name": "Mathematical Methods in Physics",
@@ -635,7 +665,7 @@
                 "MATH 21",
                 "MATH 24"
               ]
-            } 
+            }
           ]
         },
         {
@@ -645,7 +675,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 116D": {
     "name": "Mathematical Methods in Physics",
@@ -665,12 +696,13 @@
                 "MATH 21",
                 "MATH 24"
               ]
-            } 
+            }
           ]
         },
         "PHYS 116C"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 120": {
     "name": "Polymer Physics",
@@ -680,7 +712,8 @@
     "genEd": "null",
     "description": "Statistical properties polymers; scaling behavior, fractal dimensions; random walks, self avoidance; single chains and concentrated solutions; dynamics and topological effects in melts; polymer networks; sol-gel transitions; polymer blends; application to biological systems; computer simulations will demonstrate much of the above. Students cannot receive credit for this course and PHYS\u00a0240.",
     "concurrent": "null",
-    "prerequisites": "PHYS 112"
+    "prerequisites": "PHYS 112",
+    "concentration": "Physics"
   },
   "PHYS 129": {
     "name": "Particle Physics and Astrophysics",
@@ -694,7 +727,7 @@
       "AND": [
         {
           "AND": [
-            "PHYS 5D", 
+            "PHYS 5D",
             "PHYS 102",
             "MATH 23B"
           ]
@@ -706,7 +739,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 130": {
     "name": "Multiwavelength Astronomical Techniques",
@@ -728,7 +762,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 133": {
     "name": "Intermediate Laboratory",
@@ -751,7 +786,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 134": {
     "name": "Physics Advanced Laboratory",
@@ -766,7 +802,8 @@
         "PHYS 133",
         "PHYS 102"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 135": {
     "name": "Astrophysics Advanced Laboratory",
@@ -776,7 +813,8 @@
     "genEd": "null",
     "description": "Introduction to the techniques of modern observational astrophysics at optical and radio wavelengths through hands-on experiments. Offered in some academic years as a multiple-term course: PHYS 135A in fall and PHYS 135B in winter, depending on astronomical conditions.",
     "concurrent": "null",
-    "prerequisites": "PHYS 133"
+    "prerequisites": "PHYS 133",
+    "concentration": "Physics"
   },
   "PHYS 135A": {
     "name": "Astrophysics Advanced Laboratory",
@@ -786,7 +824,8 @@
     "genEd": "null",
     "description": "Introduction to techniques of modern observational astrophysics at optical and radio wavelengths through hands-on experiments. Intended primarily for juniors and seniors majoring or minoring in astrophysics. Offered in some academic years as single-term course PHYS 135 in fall, depending on astronomical conditions.",
     "concurrent": "null",
-    "prerequisites": "PHYS 133"
+    "prerequisites": "PHYS 133",
+    "concentration": "Physics"
   },
   "PHYS 135B": {
     "name": "Astrophysics Advanced  Laboratory",
@@ -796,7 +835,8 @@
     "genEd": "null",
     "description": "Introduction to techniques of modern observational astrophysics at optical and radio wavelengths through hands-on experiments. Intended primarily for juniors and seniors majoring or minoring in astrophysics. Offered in some academic years as single-term PHYS\u00a0135 in fall, depending on astronomical conditions.",
     "concurrent": "null",
-    "prerequisites": "PHYS 135A"
+    "prerequisites": "PHYS 135A",
+    "concentration": "Physics"
   },
   "PHYS 137": {
     "name": "Advanced Optics Laboratory",
@@ -816,7 +856,8 @@
         },
         "PHYS 133"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 138": {
     "name": "Quantum Information Science Laboratory",
@@ -831,7 +872,8 @@
         "PHYS 102",
         "PHYS 133"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 139A": {
     "name": "Quantum Mechanics I",
@@ -862,7 +904,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 139B": {
     "name": "Quantum Mechanics II",
@@ -883,7 +926,7 @@
                 "MATH 21",
                 "MATH 24"
               ]
-            } 
+            }
           ]
         },
         {
@@ -894,7 +937,8 @@
         },
         "PHYS 139A"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 150": {
     "name": "Quantum Computing",
@@ -910,7 +954,8 @@
         "MATH 21",
         "AM 10"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 152": {
     "name": "Physics and Machine Learning",
@@ -936,7 +981,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 156": {
     "name": "Applications of Quantum Materials",
@@ -951,7 +997,8 @@
         "PHYS 102",
         "CHEM 163A"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 157": {
     "name": "Frontier of Quantum Materials",
@@ -970,7 +1017,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 160": {
     "name": "Practical Electronics",
@@ -995,7 +1043,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 171": {
     "name": "General Relativity, Black Holes, and Cosmology",
@@ -1009,7 +1058,7 @@
       "AND": [
         {
           "AND": [
-            "PHYS 105", 
+            "PHYS 105",
             "PHYS 110A",
             "PHYS 110B"
           ]
@@ -1026,7 +1075,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 180": {
     "name": "Biophysics",
@@ -1036,7 +1086,8 @@
     "genEd": "PR-E",
     "description": "Physical principles and techniques used in biology: X-ray diffraction; nuclear magnetic resonance; statistics, kinetics, and thermodynamics of macromolecules; viscosity and diffusion; DNA/RNA pairing; electrophoresis; physics of enzymes; biological energy conversion; optical tweezers.",
     "concurrent": "null",
-    "prerequisites": "PHYS 112"
+    "prerequisites": "PHYS 112",
+    "concentration": "Physics"
   },
   "PHYS 182": {
     "name": "Scientific Communication for Physicists",
@@ -1051,7 +1102,8 @@
         "WRIT 1",
         "PHYS 133"
       ]
-    }
+    },
+    "concentration": "Physics"
   },
   "PHYS 191": {
     "name": "Teaching Practicum",
@@ -1061,7 +1113,8 @@
     "genEd": "null",
     "description": "Designed to provide upper-division undergraduates with an opportunity to work with students in lower division courses, leading discussions, reading and marking submissions, and assisting in the planning and teaching of a course. Prerequisite(s): excellent performance in major courses; instructor approval required; enrollment restricted to senior physics majors.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 192": {
     "name": "Directed Student Teaching",
@@ -1071,7 +1124,8 @@
     "genEd": "null",
     "description": "Teaching of a lower-division seminar under faculty supervision. (See PHYS\u00a042.) Prerequisite(s): upper-division standing; submission of a proposal supported by a faculty member willing to supervise.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 195A": {
     "name": "Senior Thesis I",
@@ -1081,7 +1135,8 @@
     "genEd": "null",
     "description": "Independent research for seniors conducted under the supervision of a faculty mentor. Students develop a written research proposal, thesis outline, and introductory material. Prerequisite(s): Entry Level Writing and Composition requirements. Enrollment is restricted to senior applied physics, physics, and physics (astrophysics) majors.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 195B": {
     "name": "Senior Thesis II",
@@ -1091,7 +1146,8 @@
     "genEd": "null",
     "description": "Independent research for seniors conducted under the supervision of a faculty mentor. Students prepare an oral presentation of their results, and they submit a written senior thesis on their research topic. Prerequisite(s): Entry Level Writing and Composition requirements. Enrollment is restricted to senior applied physics, physics, and physics (astrophysics) majors.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 199": {
     "name": "Tutorial",
@@ -1101,7 +1157,8 @@
     "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   },
   "PHYS 199F": {
     "name": "Tutorial",
@@ -1111,6 +1168,7 @@
     "genEd": "null",
     "description": "Tutorial",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Physics"
   }
 }

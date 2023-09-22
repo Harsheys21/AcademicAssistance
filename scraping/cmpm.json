@@ -7,7 +7,8 @@
     "genEd": "null",
     "description": "Students participate in two exploratory reading groups on topics related to ongoing research activities. Students read a selection of 8-10 papers providing a general overview and introduction to active research areas within each topic. May be repeated for credit. This class can be taken for Pass/No Pass credit only.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 17": {
     "name": "Design Build Experience",
@@ -17,7 +18,8 @@
     "genEd": "PR-E",
     "description": "Introduction to design thinking and the engineering design cycle via a design-build-evaluate-iterate process, resulting in a functional artifact. Students work in groups while learning discipline-specific standards of good engineering practice. Specific project details and disciplines explored vary with instructor. No prerequisites or prior learning required.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Human-Computer Interaction"
   },
   "CMPM 25": {
     "name": "Introduction to 3D Modeling",
@@ -27,7 +29,8 @@
     "genEd": "PR-C",
     "description": "Introduces theory and techniques of 3D computer graphics. Topics include: capabilities of modern graphics hardware; 3D coordinate spaces; modeling with polygons; NURBS and subdivision surfaces; applying textures and materials; lighting; and simple effects. Students develop proficiency in 3D modeling via lectures and assignments focused on the use of a 3D modeling tool.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 26": {
     "name": "Introduction to 3D Animation",
@@ -37,7 +40,8 @@
     "genEd": "PR-C",
     "description": "Introduces theories and techniques of 3D computer animation. Topics include: character animation; rigging; simulation of cloth, liquids, and fire; motion capture; rendering; and editing animated scenes. Students develop proficiency in 3D animation via lectures and assignments focused on the use of a 3D animation tool and use of motion-capture software.",
     "concurrent": "null",
-    "prerequisites": "CMPM 25"
+    "prerequisites": "CMPM 25",
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 27": {
     "name": "Fundamentals of Substance Designer and Painter",
@@ -47,7 +51,8 @@
     "genEd": "null",
     "description": "Introduction to the development of physically based materials in Substance Designer and Substance Painter. These are then applied to a range of character and machine models within either the Blender or Maya 3D modeling applications.",
     "concurrent": "null",
-    "prerequisites": "CMPM 25"
+    "prerequisites": "CMPM 25",
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 35": {
     "name": "Data Structures for Interactive Media",
@@ -57,7 +62,8 @@
     "genEd": "null",
     "description": "Introduction to common data structures, algorithms that operate on them, and techniques for implementation. Uses digital authoring of interactive media as a frame to motivate asymptotic (big-O) analysis of design scalability. Students will program in a strongly typed language.",
     "concurrent": "null",
-    "prerequisites": "CSE 30"
+    "prerequisites": "CSE 30",
+    "concentration": "Software Engineering"
   },
   "CMPM 80A": {
     "name": "Accessible Games",
@@ -67,7 +73,8 @@
     "genEd": "PE-T",
     "description": "Overview of the physical, psychological, cultural, and psychosocial aspects of disability and how they impact game play. Discusses implications for universal and accessible game design.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Game Development"
   },
   "CMPM 80H": {
     "name": "Human-Centered AI",
@@ -77,7 +84,8 @@
     "genEd": "PE-T",
     "description": "As AI technologies start to integrate and permeate our everyday lives, we become aware of how they impact our lives and the biases inherent in these systems. Course introduces Human-Centered AI, investigating humanistic values and issues of a variety of current AI systems, including those in your car, on your phone (e.g., Siri), on public streets (delivery robots), and at different vendors. Introduces various societal, economic, and humanistic issues such as bias, trust, and accountability, and delves into methods that can be used to design more human-centered AI systems.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Artificial Intelligence"
   },
   "CMPM 80I": {
     "name": "Introduction to Human Computer Interaction",
@@ -87,7 +95,8 @@
     "genEd": "PE-T",
     "description": "Introduces students to Human Computer Interaction (HCI) as a field, using their everyday experience with technology as a starting point. Students learn key HCI concepts and concerns in lectures, and try out HCI design techniques in sections.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Human-Computer Interaction"
   },
   "CMPM 80J": {
     "name": "Games as Technical Culture",
@@ -97,7 +106,8 @@
     "genEd": "null",
     "description": "Examines games as technical and cultural artifacts\u2014shaped by society and, in turn, shaping it. Core topics are traced over time, including social, technical, and artistic topics (for example: conceptions of war, platform affordances, and genre evolution).",
     "concurrent": "null",
-    "prerequisites": "WRIT 1"
+    "prerequisites": "WRIT 1",
+    "concentration": "Game Development"
   },
   "CMPM 80K": {
     "name": "Foundations of Video Game Design",
@@ -107,7 +117,8 @@
     "genEd": "IM",
     "description": "Explores how video games (and games broadly) shape experiences and express ideas. Students develop novel games, interpret games, and survey related topics. No programming experience is required. All offerings support students with required synchronous section meetings and optional synchronous events.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Game Development"
   },
   "CMPM 80L": {
     "name": "Entrepreneurial Organization and Leadership",
@@ -117,7 +128,8 @@
     "genEd": "PE-H",
     "description": "Provides a framework for leadership in entrepreneurial organizations. Topics include leading with authenticity, motivation and personality, storytelling, teamwork and management, organizational culture and processes. Learning is integrated with practice through deep engagement with entrepreneurial leaders and a time-intensive entrepreneurial project. (Formerly Technology and Information Management 80L.)",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Leadership and Entrepreneurship"
   },
   "CMPM 94": {
     "name": "Group Tutorial",
@@ -127,7 +139,8 @@
     "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 94F": {
     "name": "Group Tutorial",
@@ -137,7 +150,8 @@
     "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 110": {
     "name": "Writing for Game Technologies",
@@ -147,7 +161,8 @@
     "genEd": "null",
     "description": "Game writers create worlds, characters, and stories\u2014and also craft computational systems so players can experience these fictions interactively. This course covers the fundamentals of authoring fictions and systems that work together toward powerful player experiences. All offerings support students with required synchronous section meetings.",
     "concurrent": "null",
-    "prerequisites": "CMPM 120"
+    "prerequisites": "CMPM 120",
+    "concentration": "Game Development"
   },
   "CMPM 115": {
     "name": "Lead by Design: Experiential Learning Collaborative",
@@ -157,7 +172,8 @@
     "genEd": "PR-E",
     "description": "Students work in teams to develop a template for a 10-week-long engineering design project. Teaches teamwork, leadership skills, inclusive team practices, Agile process, engineering ethics, and identity formation in engineers.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Leadership and Project Management"
   },
   "CMPM 118": {
     "name": "Collaborative Research Experience in Engineering",
@@ -167,7 +183,8 @@
     "genEd": "null",
     "description": "Guides small student teams through the performance of a quarter-long research project. Provides an overview of the process of performing research, research communities, and processes for finding and presenting research results.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Research and Development"
   },
   "CMPM 120": {
     "name": "Game Development Experience",
@@ -188,7 +205,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Game Development"
   },
   "CMPM 121": {
     "name": "Game Development Patterns",
@@ -198,7 +216,8 @@
     "genEd": "null",
     "description": "Advanced game programming focused on software design patterns and refactoring. Introduces classic software design patterns, as well as game programming patterns. Introduces software refactoring, including code smells and widely used refactoring patterns.",
     "concurrent": "null",
-    "prerequisites": "CMPM 120"
+    "prerequisites": "CMPM 120",
+    "concentration": "Game Development"
   },
   "CMPM 122": {
     "name": "Business of Games",
@@ -208,7 +227,8 @@
     "genEd": "null",
     "description": "Ten-week course to provide instruction on important business topics for videogame creators\u2014many related to the games themselves and others for pursuing success in bringing the games to customers: publishing, distribution, marketing, funding, operations, and more.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Game Development"
   },
   "CMPM 123": {
     "name": "Advanced Programming",
@@ -223,7 +243,8 @@
         "CSE 101",
         "CMPM 35"
       ]
-    }
+    },
+    "concentration": "Software Engineering"
   },
   "CMPM 125": {
     "name": "Game Technologies",
@@ -233,7 +254,8 @@
     "genEd": "null",
     "description": "Introduction to construction of games using game engine technology, using a specific game engine as a focus. Covers major game engine features: input, collision, animation, model import, lighting, camera, rendering, textures, particle systems. Introduction to a specific game scripting language, custom game logic, game programming patterns. (Formerly offered as CMPM 121.)",
     "concurrent": "null",
-    "prerequisites": "CMPM 120"
+    "prerequisites": "CMPM 120",
+    "concentration": "Game Development"
   },
   "CMPM 130": {
     "name": "User Interface and User Experience Design",
@@ -243,7 +265,8 @@
     "genEd": "null",
     "description": "Students develop skills and interactive prototypes for addressing three communication challenges: first, software itself communicating with interactors; second, developers of software communicating about the design of the software's interactions and users' experiences; and third, communicating results of design processes.",
     "concurrent": "null",
-    "prerequisites": "WRIT 1"
+    "prerequisites": "WRIT 1",
+    "concentration": "Human-Computer Interaction"
   },
   "CMPM 131": {
     "name": "User Experience for Interactive Media",
@@ -253,7 +276,8 @@
     "genEd": "null",
     "description": "Theories and practices for approaching the design problems of interactive media holistically, beyond usability and accessibility. Includes hands-on learning, application of human-centered design and evaluation skills in group projects, and peer critique.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Human-Computer Interaction"
   },
   "CMPM 132": {
     "name": "Interaction\u00a0Design\u00a0Studio",
@@ -263,7 +287,8 @@
     "genEd": "null",
     "description": "Practice-based interaction design studio course. Students learn about design-led approaches to Human-Computer Interaction through participating in group projects. Course offers introductions to design methods and actionable strategies to do interaction design work and design-led technology research.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Human-Computer Interaction"
   },
   "CMPM 146": {
     "name": "Game AI",
@@ -273,7 +298,8 @@
     "genEd": "null",
     "description": "Examines the use of artificial intelligence (AI) in games. Covers core AI technologies for search, control, and learning, and the application of AI to improve game design, development, and game play. Examines the AI content in multiple commercial games. This is an online class; most lectures are asynchronous. The weekly lab is synchronous, focused on Q&A and group discussion of work in progress.",
     "concurrent": "null",
-    "prerequisites": "CSE 101"
+    "prerequisites": "CSE 101",
+    "concentration": "Artificial Intelligence"
   },
   "CMPM 147": {
     "name": "Generative Design",
@@ -283,7 +309,8 @@
     "genEd": "null",
     "description": "Introduces generative methods for design. Uses algorithmic techniques to generate and evaluate game content (images, sounds, map designs) along with mechanics and progression systems. Search-based and learning-based techniques with connections to artificial intelligence are also covered.",
     "concurrent": "null",
-    "prerequisites": "CMPM 120"
+    "prerequisites": "CMPM 120",
+    "concentration": "Artificial Intelligence"
   },
   "CMPM 148": {
     "name": "Interactive Storytelling",
@@ -298,7 +325,8 @@
         "CSE 101",
         "CMPM 35"
       ]
-    }
+    },
+    "concentration": "Artificial Intelligence"
   },
   "CMPM 150": {
     "name": "Creating Digital Audio",
@@ -308,7 +336,8 @@
     "genEd": "PR-C",
     "description": "Introduces digital sound recording and editing technologies, sound synthesis, and concepts in sound design for media production. Covers the basics of sound capture, microphones, audio manipulation and editing, effects, sound formats, mixing and dynamics, synthesizers, audio software, and game audio.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Sound Design for Media"
   },
   "CMPM 151": {
     "name": "Algorithmic Music for Games",
@@ -328,7 +357,8 @@
         },
         "CSE 11"
       ]
-    }
+    },
+    "concentration": "Sound Design for Media"
   },
   "CMPM 152": {
     "name": "Musical\u00a0Data",
@@ -345,7 +375,8 @@
         "CMPM 150",
         "CMPM 151"
       ]
-    }
+    },
+    "concentration": "Sound Analysis and Modeling"
   },
   "CMPM 163": {
     "name": "Game Graphics and Real-Time Rendering",
@@ -355,7 +386,8 @@
     "genEd": "null",
     "description": "Introduces real-time, hardware-accelerated graphics programming suitable for game development, visual effects, and interactive multimedia projects. Emphasizes  contemporary shader-programming techniques and developing custom effects using game engines and multimedia software.",
     "concurrent": "null",
-    "prerequisites": "CMPM 120"
+    "prerequisites": "CMPM 120",
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 164": {
     "name": "Game Engines",
@@ -374,7 +406,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 164L": {
     "name": "Game Engines Lab",
@@ -393,7 +426,8 @@
           ]
         }
       ]
-    }
+    },
+    "concentration": "Computer Graphics and Visualization"
   },
   "CMPM 169": {
     "name": "Creative Coding",
@@ -409,7 +443,8 @@
         "CMPM 120",
         "CMPM 163"
       ]
-    }
+    },
+    "concentration": "Digital Arts"
   },
   "CMPM 170": {
     "name": "Game Design Studio I",
@@ -422,11 +457,12 @@
     "prerequisites": {
       "AND": [
         "WRIT 1",
-        "CMPM 120", 
+        "CMPM 120",
         "ARTG 120",
         "CSE 111"
       ]
-    }
+    },
+    "concentration": "Game Development"
   },
   "CMPM 171": {
     "name": "Game Design Studio",
@@ -443,7 +479,8 @@
         "CMPM 170",
         "CMPM 176"
       ]
-    }
+    },
+    "concentration": "Game Development"
   },
   "CMPM 172": {
     "name": "Game Production Studio",
@@ -453,7 +490,8 @@
     "genEd": "null",
     "description": "Students work in teams to produce fully functional games based on previously developed game subsets. Focus on production including scaling, long-term player experience, teaching mechanics through interaction, developing multi-stage narratives/scenarios, and varying gameplay as players develop new understandings and abilities. Prerequisite(s): CMPM 171, or by instructor permission. Enrollment is by permission of the instructor. Formerly offered as Game Design Studio III.",
     "concurrent": "null",
-    "prerequisites": "CMPM 171"
+    "prerequisites": "CMPM 171",
+    "concentration": "Game Development"
   },
   "CMPM 176": {
     "name": "Game Systems",
@@ -463,7 +501,8 @@
     "genEd": "null",
     "description": "Presents game design as the interplay of multiple interacting game systems. Surveys various game systems: movement, combat, reward, economic, logistics, quest, information visibility, narrative. Students explore systems via study, design, and play of board, card, and computer games.",
     "concurrent": "null",
-    "prerequisites": "CMPM 80K"
+    "prerequisites": "CMPM 80K",
+    "concentration": "Game Systems"
   },
   "CMPM 177": {
     "name": "Creative Strategies for Designing Interactive Media",
@@ -473,7 +512,8 @@
     "genEd": "null",
     "description": "Surveys tactical, structural, contextual, and other methods to enhance creativity and innovation in the design of games and other interactive media. Investigates strategies for creativity and innovation drawn from diverse fields, including interactive affordances, narrative and poetics, biology, contextual inquiry, and design research. To innovate in a field of fixed genres is challenging: the allure of modeling exemplars is strong. Although imitation can be successful in the marketplace, the most creative action occurs on the leading edge of change. Innovation benefits from strategies and methods that are directly aimed at exploring new perspectives and structures to learn through the process of discovery.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Game Design and Innovation"
   },
   "CMPM 178": {
     "name": "Human-Centered Design Research",
@@ -483,7 +523,8 @@
     "genEd": "PR-C",
     "description": "Students move through a rigorous design-research process involving skills and principles in human-centered design research as well as selected formal research methods. They learn to use tools for ideation, human-centered qualitative research, domestic probes, mock-ups, and prototypes.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "Design Research"
   },
   "CMPM 179": {
     "name": "Game Design Practicum",
@@ -494,11 +535,12 @@
     "description": "Provides the opportunity to practice the creation of novel computer games. Students learn a new game-making technology, then create three games  using this technology.",
     "concurrent": "null",
     "prerequisites": {
-      "AND":[
+      "AND": [
         "CMPM 120",
         "CMPM 80K"
       ]
-    }
+    },
+    "concentration": "Game Development"
   },
   "CMPM 194": {
     "name": "Group Tutorial",
@@ -508,7 +550,8 @@
     "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 194F": {
     "name": "Group Tutorial",
@@ -518,7 +561,8 @@
     "genEd": "null",
     "description": "Provides a means for a small group of students to study a particular topic in consultation with a faculty sponsor. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 195": {
     "name": "Senior Thesis Research",
@@ -528,7 +572,8 @@
     "genEd": "null",
     "description": "Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 195F": {
     "name": "Senior Thesis Research",
@@ -538,7 +583,8 @@
     "genEd": "null",
     "description": "Intended for majors. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 198": {
     "name": "Individual Study or Research",
@@ -548,7 +594,8 @@
     "genEd": "null",
     "description": "Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 198F": {
     "name": "Individual Study or Research",
@@ -558,7 +605,8 @@
     "genEd": "null",
     "description": "Intended for majors. Students submit petition to sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 199": {
     "name": "Tutorial",
@@ -568,7 +616,8 @@
     "genEd": "null",
     "description": "For fourth-year students majoring in computational media. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   },
   "CMPM 199F": {
     "name": "Tutorial",
@@ -578,6 +627,7 @@
     "genEd": "null",
     "description": "For fourth-year students majoring in computational media. Students submit a petition to the sponsoring agency.",
     "concurrent": "null",
-    "prerequisites": {}
+    "prerequisites": {},
+    "concentration": "null"
   }
 }
