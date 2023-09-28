@@ -8,7 +8,7 @@ export function InputProvider({ children }) {
   const [inputValues, setInputValues] = useState({
     email: "",
     grad_quarter: "",
-    grad_date: "",
+    grad_year: "",
     concentration: "",
     course_data: {
       GE_NS: [],

@@ -54,7 +54,7 @@ function Majors(props) {
           <NavButton
             text="Prev"
             className="prev-button"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/grad")}
           />
           <NavButton
             text="Next"

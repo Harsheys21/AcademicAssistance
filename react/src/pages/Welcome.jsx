@@ -15,7 +15,7 @@ const Welcome = () => {
         <NavButton
           text="Next"
           className="next-button"
-          onClick={() => navigate("/concentrations")}
+          onClick={() => navigate("/grad")}
         />
       </div>
     </div>

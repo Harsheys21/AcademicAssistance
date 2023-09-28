@@ -8,14 +8,17 @@ import Dashboard from "./pages/Dashboard";
 import PrivateRoute from "./utils/PrivateRoute";
 import { InputProvider } from "./utils/InputContext";
 import Inaccuracies from "./pages/Inaccuracies";
+import Grad from "./pages/Grad";
 
 function App() {
+  // TODO: Style website with MUI
   return (
     <>
       <InputProvider>
         <Router>
           <Routes>
             <Route path="/" element={<Welcome />} />
+            <Route path="/grad" element={<Grad />} />
             <Route
               path="/concentrations"
               element={
